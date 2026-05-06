@@ -10,8 +10,8 @@ export default function SiteNav() {
   // Anchors point at the homepage so they work from any sub-page;
   // the dedicated pages link via next/link for client-side routing.
   const links: Array<{ href: string; label: string; type: "anchor" | "page" }> = [
-    { href: `${home}#work`,     label: t("work"),     type: "anchor" },
-    { href: `${home}#about`,    label: t("studio"),   type: "anchor" },
+    { href: `${home}/work`,     label: t("work"),     type: "page"   },
+    { href: `${home}/studio`,   label: t("studio"),   type: "page"   },
     { href: `${home}/services`, label: t("services"), type: "page"   },
     { href: `${home}/pricing`,  label: t("pricing"),  type: "page"   },
     { href: `${home}#contact`,  label: t("contact"),  type: "anchor" },

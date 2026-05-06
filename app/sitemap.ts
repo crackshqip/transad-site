@@ -3,10 +3,21 @@ import { SITE_URL } from "./seo";
 import { routing } from "@/i18n/routing";
 
 // Every public, indexable route under a locale prefix.
-const PATHS = ["", "/services", "/pricing", "/imprint", "/privacy", "/terms"] as const;
+const PATHS = [
+  "",
+  "/work",
+  "/studio",
+  "/services",
+  "/pricing",
+  "/imprint",
+  "/privacy",
+  "/terms",
+] as const;
 
 const PRIORITY: Record<string, number> = {
   "": 1.0,
+  "/work": 0.9,
+  "/studio": 0.8,
   "/services": 0.8,
   "/pricing": 0.8,
   "/imprint": 0.3,
@@ -16,6 +27,8 @@ const PRIORITY: Record<string, number> = {
 
 const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]["changeFrequency"]> = {
   "": "monthly",
+  "/work": "monthly",
+  "/studio": "monthly",
   "/services": "monthly",
   "/pricing": "monthly",
   "/imprint": "yearly",

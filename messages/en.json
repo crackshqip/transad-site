@@ -122,9 +122,9 @@
     }
   },
   "footer": {
-    "studioHeading":   "Studio",
+    "studioHeading":   "Pages",
     "studioWork":      "Work",
-    "studioAbout":     "About",
+    "studioStudio":    "Studio",
     "studioServices":  "Services",
     "studioPricing":   "Pricing",
     "contactHeading":  "Contact",
@@ -382,6 +382,77 @@
         ]
       }
     ]
+  },
+  "studioPage": {
+    "eyebrow": "Studio",
+    "headline": "Minimal by intent. Strategic by practice.",
+    "lede": "We design for <em>clarity first</em> — clean identities, strategic campaigns, and refined digital content built around simplicity, purpose, and strong visual direction.",
+    "body1": "Transad works with founders, marketers, and in-house teams who care how their company shows up in the world. Every engagement begins with a question, not a deck.",
+    "body2": "We are six people across two cities, working close to the work — no account managers, no layers. The output is professional, elegant, and consistent across web, social, presentations, and brand materials.",
+    "stats": {
+      "caseStudies":     "Case studies",
+      "studioMembers":   "Studio members",
+      "cities":          "Cities",
+      "yearEstablished": "Year established"
+    },
+    "principles": {
+      "eyebrow": "How we work",
+      "items": [
+        { "title": "Question first",          "body": "Every engagement begins with a brief, not a brand book." },
+        { "title": "No layers",               "body": "You speak directly with the people doing the work." },
+        { "title": "Strategy through design", "body": "Decisions are visible, not buried in slides." },
+        { "title": "Long-term by default",    "body": "We work with brands across years, not sprints." }
+      ]
+    },
+    "team": {
+      "eyebrow": "The team",
+      "members": [
+        { "slug": "mira-lang",     "name": "Mira Lang",     "role": "Founder · Strategy" },
+        { "slug": "jonas-roth",    "name": "Jonas Roth",    "role": "Creative Director" },
+        { "slug": "lea-behrens",   "name": "Lea Behrens",   "role": "Senior Designer" },
+        { "slug": "tobias-kaul",   "name": "Tobias Kaul",   "role": "Brand Designer" },
+        { "slug": "anna-weber",    "name": "Anna Weber",    "role": "Account Lead" },
+        { "slug": "felix-schmid",  "name": "Felix Schmid",  "role": "Motion & Video" }
+      ]
+    },
+    "locations": {
+      "eyebrow": "Studios",
+      "list": [
+        {
+          "slug": "dusseldorf",
+          "city": "Düsseldorf",
+          "address": "[Street and number]\n[ZIP] Düsseldorf\n[Country]",
+          "hours": "Mon – Fri · 09:00 – 18:00"
+        },
+        {
+          "slug": "berlin",
+          "city": "Berlin",
+          "address": "[Street and number]\n[ZIP] Berlin\n[Country]",
+          "hours": "Mon – Fri · 09:00 – 18:00"
+        }
+      ]
+    },
+    "cta": { "title": "Want to work together?", "button": "Get in touch" },
+    "homepageTeaser": "Read more about the studio"
+  },
+  "workPage": {
+    "eyebrow": "Work",
+    "headline": "Selected projects.",
+    "lead": "A small selection of recent identities, campaigns, and digital systems.",
+    "items": [
+      { "slug": "aria-studio",      "title": "Aria Studio",     "outcome": "Identity for a contemporary architecture firm.",        "tag": "Identity",   "year": 2025 },
+      { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
+      { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
+      { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
+      { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social media system for a lighting design studio.",    "tag": "Social",     "year": 2024 },
+      { "slug": "heim-atelier",     "title": "Heim Atelier",    "outcome": "Editorial brochure for an interior design practice.",  "tag": "Editorial",  "year": 2023 }
+    ],
+    "cta": { "title": "Have a project in mind?", "button": "Start a conversation" },
+    "casePlaceholder": {
+      "headline": "Case study coming soon.",
+      "lead":     "We're documenting the work. Detailed case studies will appear here as they're written.",
+      "back":     "Back to all work"
+    }
   },
   "servicesPage": {
     "eyebrow": "Services",

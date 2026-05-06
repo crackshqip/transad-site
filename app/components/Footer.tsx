@@ -23,8 +23,8 @@ export default function Footer() {
         </div>
         <div className="ft-col">
           <h3>{t("studioHeading")}</h3>
-          <a href={`${home}#work`}>{t("studioWork")}</a>
-          <a href={`${home}#about`}>{t("studioAbout")}</a>
+          <Link href={`${home}/work`}>{t("studioWork")}</Link>
+          <Link href={`${home}/studio`}>{t("studioStudio")}</Link>
           <Link href={`${home}/services`}>{t("studioServices")}</Link>
           <Link href={`${home}/pricing`}>{t("studioPricing")}</Link>
         </div>

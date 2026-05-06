@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { hasLocale } from "next-intl";
@@ -54,6 +55,7 @@ export default async function LocaleHome({
 
   const tHero = await getTranslations("hero");
   const tAbout = await getTranslations("about");
+  const tStudioPage = await getTranslations("studioPage");
   const tServices = await getTranslations("services");
   const tWork = await getTranslations("work");
   const tContact = await getTranslations("contact");
@@ -96,34 +98,17 @@ export default async function LocaleHome({
           <div className="section-head">
             <h2>{tAbout("headline")}</h2>
           </div>
-          <div className="about-grid">
-            <div>
-              <p className="lede">
-                {tAbout.rich("lede", {
-                  em: (chunks) => <em>{chunks}</em>,
-                })}
-              </p>
-              <p className="body">{tAbout("body1")}</p>
-              <p className="body">{tAbout("body2")}</p>
-            </div>
-            <div className="about-stats">
-              <div className="stat">
-                <div className="num">12</div>
-                <div className="lbl">{tAbout("stats.caseStudies")}</div>
-              </div>
-              <div className="stat">
-                <div className="num">6</div>
-                <div className="lbl">{tAbout("stats.studioMembers")}</div>
-              </div>
-              <div className="stat">
-                <div className="num">2</div>
-                <div className="lbl">{tAbout("stats.cities")}</div>
-              </div>
-              <div className="stat">
-                <div className="num">19</div>
-                <div className="lbl">{tAbout("stats.yearEstablished")}</div>
-              </div>
-            </div>
+          <div className="about-teaser">
+            <p className="lede">
+              {tAbout.rich("lede", {
+                em: (chunks) => <em>{chunks}</em>,
+              })}
+            </p>
+            <p className="body">{tAbout("body1")}</p>
+            <Link className="btn btn-text" href={`/${locale}/studio`}>
+              <span>{tStudioPage("homepageTeaser")}</span>
+              <span className="arrow" aria-hidden="true">→</span>
+            </Link>
           </div>
         </section>
 

@@ -122,9 +122,9 @@
     }
   },
   "footer": {
-    "studioHeading":   "Studio",
+    "studioHeading":   "Seiten",
     "studioWork":      "Arbeiten",
-    "studioAbout":     "Über uns",
+    "studioStudio":    "Studio",
     "studioServices":  "Leistungen",
     "studioPricing":   "Preise",
     "contactHeading":  "Kontakt",
@@ -382,6 +382,77 @@
         ]
       }
     ]
+  },
+  "studioPage": {
+    "eyebrow": "Studio",
+    "headline": "Minimalistisch im Anspruch. Strategisch in der Umsetzung.",
+    "lede": "Wir gestalten für <em>Klarheit zuerst</em> — saubere Identitäten, strategische Kampagnen und reduzierte digitale Inhalte, getragen von Einfachheit, Sinn und klarer visueller Ausrichtung.",
+    "body1": "Transad arbeitet mit Gründer:innen, Marketing- und In-house-Teams, denen wichtig ist, wie ihr Unternehmen in der Welt erscheint. Jeder Auftrag beginnt mit einer Frage — nicht mit einem Pitchdeck.",
+    "body2": "Wir sind sechs Personen in zwei Städten, eng am Werk — ohne Account-Manager, ohne Zwischenebenen. Das Ergebnis: professionell, elegant und konsistent über Web, Social, Präsentationen und Markenmaterial hinweg.",
+    "stats": {
+      "caseStudies":     "Fallstudien",
+      "studioMembers":   "Studio-Mitglieder",
+      "cities":          "Städte",
+      "yearEstablished": "Gründungsjahr"
+    },
+    "principles": {
+      "eyebrow": "Wie wir arbeiten",
+      "items": [
+        { "title": "Frage zuerst",                "body": "Jeder Auftrag beginnt mit einem Briefing — nicht mit einem Brand Book." },
+        { "title": "Keine Zwischenebenen",        "body": "Sie sprechen direkt mit den Menschen, die die Arbeit machen." },
+        { "title": "Strategie durch Gestaltung",  "body": "Entscheidungen werden sichtbar — nicht in Foliendecks vergraben." },
+        { "title": "Langfristig per Default",     "body": "Wir arbeiten mit Marken über Jahre, nicht über Sprints." }
+      ]
+    },
+    "team": {
+      "eyebrow": "Das Team",
+      "members": [
+        { "slug": "mira-lang",     "name": "Mira Lang",     "role": "Gründerin · Strategie" },
+        { "slug": "jonas-roth",    "name": "Jonas Roth",    "role": "Creative Director" },
+        { "slug": "lea-behrens",   "name": "Lea Behrens",   "role": "Senior Designerin" },
+        { "slug": "tobias-kaul",   "name": "Tobias Kaul",   "role": "Brand Designer" },
+        { "slug": "anna-weber",    "name": "Anna Weber",    "role": "Account Lead" },
+        { "slug": "felix-schmid",  "name": "Felix Schmid",  "role": "Motion & Video" }
+      ]
+    },
+    "locations": {
+      "eyebrow": "Standorte",
+      "list": [
+        {
+          "slug": "dusseldorf",
+          "city": "Düsseldorf",
+          "address": "[Straße und Hausnummer]\n[PLZ] Düsseldorf\n[Land]",
+          "hours": "Mo – Fr · 09:00 – 18:00"
+        },
+        {
+          "slug": "berlin",
+          "city": "Berlin",
+          "address": "[Straße und Hausnummer]\n[PLZ] Berlin\n[Land]",
+          "hours": "Mo – Fr · 09:00 – 18:00"
+        }
+      ]
+    },
+    "cta": { "title": "Lust auf eine Zusammenarbeit?", "button": "Kontakt aufnehmen" },
+    "homepageTeaser": "Mehr zum Studio lesen"
+  },
+  "workPage": {
+    "eyebrow": "Arbeiten",
+    "headline": "Ausgewählte Projekte.",
+    "lead": "Eine kleine Auswahl aktueller Identitäten, Kampagnen und digitaler Systeme.",
+    "items": [
+      { "slug": "aria-studio",      "title": "Aria Studio",     "outcome": "Identität für ein zeitgenössisches Architekturbüro.",         "tag": "Identität",  "year": 2025 },
+      { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Verpackungssystem für eine Specialty-Rösterei.",              "tag": "Verpackung", "year": 2025 },
+      { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
+      { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
+      { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social-Media-System für ein Lichtdesign-Studio.",             "tag": "Social",     "year": 2024 },
+      { "slug": "heim-atelier",     "title": "Heim Atelier",    "outcome": "Editorial-Broschüre für ein Interieur-Atelier.",              "tag": "Editorial",  "year": 2023 }
+    ],
+    "cta": { "title": "Ein Projekt im Sinn?", "button": "Gespräch beginnen" },
+    "casePlaceholder": {
+      "headline": "Fallstudie folgt in Kürze.",
+      "lead":     "Wir dokumentieren die Arbeit. Ausführliche Fallstudien erscheinen hier, sobald sie geschrieben sind.",
+      "back":     "Zurück zu allen Arbeiten"
+    }
   },
   "servicesPage": {
     "eyebrow": "Leistungen",
