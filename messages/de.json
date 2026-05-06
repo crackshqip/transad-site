@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "work": "Arbeiten",
+    "studio": "Studio",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "cta": "Kontakt aufnehmen",
+    "locations": "DÜS · BER",
+    "languageLabel": "Sprache",
+    "homeLabel": "Transad — Startseite"
+  },
+  "hero": {
+    "eyebrow": "Studio-Index",
+    "headline": "Klarheit, <em>sichtbar gemacht.</em>",
+    "lead": "Transad ist eine minimalistische Agentur für Marketing und Branding. Wir helfen modernen Unternehmen, klar, konsistent und mit visueller Wirkung zu kommunizieren.",
+    "ctaPrimary": "Ausgewählte Arbeiten ansehen",
+    "ctaSecondary": "Kontakt aufnehmen",
+    "meta": {
+      "founded":     { "label": "Gegründet",   "value": "2019, Düsseldorf" },
+      "studios":     { "label": "Standorte",   "value": "Düsseldorf · Berlin" },
+      "practice":    { "label": "Schwerpunkt", "value": "Identität, Kampagne, Digital" },
+      "engagements": { "label": "Projekte",    "value": "Sechs pro Jahr" }
+    }
+  },
+  "about": {
+    "eyebrow": "Studio",
+    "headline": "Minimalistisch im Anspruch. Strategisch in der Umsetzung.",
+    "lede": "Wir gestalten für <em>Klarheit zuerst</em> — saubere Identitäten, strategische Kampagnen und reduzierte digitale Inhalte, getragen von Einfachheit, Sinn und klarer visueller Ausrichtung.",
+    "body1": "Transad arbeitet mit Gründer:innen, Marketing- und In-house-Teams, denen wichtig ist, wie ihr Unternehmen in der Welt erscheint. Jeder Auftrag beginnt mit einer Frage — nicht mit einem Pitchdeck.",
+    "body2": "Wir sind sechs Personen in zwei Städten, eng am Werk — ohne Account-Manager, ohne Zwischenebenen. Das Ergebnis: professionell, elegant und konsistent über Web, Social, Präsentationen und Markenmaterial hinweg.",
+    "stats": {
+      "caseStudies":     "Fallstudien",
+      "studioMembers":   "Studio-Mitglieder",
+      "cities":          "Städte",
+      "yearEstablished": "Gründungsjahr"
+    }
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "headline": "Was wir machen — und die Regeln dahinter.",
+    "items": {
+      "identity": {
+        "title": "Saubere Identitäten",
+        "body":  "Marken, Wortmarken und die Systeme, die sie zusammenhalten — entwickelt für Klarheit und Konsistenz auf jeder Fläche, auf der ein Unternehmen erscheint.",
+        "tags":  ["Naming", "Logo", "Typo-System", "Guidelines"]
+      },
+      "campaigns": {
+        "title": "Strategische Kampagnen",
+        "body":  "Launch-Kreation, Paid und Editorial — entwickelt um eine klare Idee, gestaltet auf visuelle Wirkung und gebaut zum Skalieren.",
+        "tags":  ["Strategie", "Konzept", "Art Direction", "Paid"]
+      },
+      "digital": {
+        "title": "Reduzierte digitale Inhalte",
+        "body":  "Marketing-Sites, Social-Systeme und Präsentationsvorlagen — mit denselben minimalen Layouts und derselben klaren Typografie an jedem Touchpoint.",
+        "tags":  ["Web", "Social", "Decks", "Editorial"]
+      },
+      "direction": {
+        "title": "Visuelle Leitung",
+        "body":  "Laufende Art Direction für interne Teams — damit die Arbeit auch nach dem Launch elegant, professionell und markenkonform bleibt.",
+        "tags":  ["Art Direction", "Guidelines", "Reviews", "Templates"]
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Ausgewählte Arbeiten",
+    "headline": "Aktuelle Identitäten und Kampagnen.",
+    "indexCta": "Vollständigen Index anfragen",
+    "openLabel": "Fallstudie öffnen: {title}",
+    "projects": {
+      "voss":       { "title": "Voss & Co.",            "kind": "Identität · Markensystem" },
+      "fieldnotes": { "title": "Field Notes, Vol. III", "kind": "Kampagne · Print & Digital" },
+      "luma":       { "title": "Luma Diagnostics",      "kind": "Identität · Healthcare" },
+      "meridian":   { "title": "Meridian Coffee",       "kind": "Verpackung · Retail" },
+      "obverse":    { "title": "Obverse Magazine",      "kind": "Editorial · Art Direction" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "headline": "Erzählen Sie uns von Ihrem Projekt.",
+    "intro": "Wir nehmen pro Jahr nur wenige Projekte an. Je kürzer und konkreter Ihre Nachricht, desto schneller können wir antworten.",
+    "channels": {
+      "emailLabel":   "E-Mail",
+      "phoneLabel":   "Telefon",
+      "studiosLabel": "Standorte",
+      "studiosValue": "Düsseldorf · Berlin"
+    },
+    "form": {
+      "nameLabel":          "Name",
+      "namePlaceholder":    "Ihr Name",
+      "emailLabel":         "E-Mail",
+      "emailPlaceholder":   "sie@unternehmen.de",
+      "companyLabel":       "Unternehmen",
+      "companyPlaceholder": "Optional",
+      "projectLabel":       "Projekt",
+      "projectPlaceholder": "Ein paar Zeilen zum Projekt, Zeitplan und Budget.",
+      "submit":             "Anfrage senden",
+      "submitting":         "Wird gesendet…",
+      "disclaimer":         "Wir antworten innerhalb von zwei Werktagen.",
+      "confirmation":       "Nachricht erhalten. Wir melden uns innerhalb von zwei Werktagen.",
+      "errorGeneric":       "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie direkt an hi@transad.studio.",
+      "errorValidation":    "Bitte prüfen Sie die Eingaben und versuchen Sie es erneut."
+    }
+  },
+  "cookies": {
+    "title": "Wir verwenden Cookies",
+    "description": "Standardmäßig setzen wir nur technisch notwendige Cookies. Mit Ihrer Einwilligung verwenden wir zusätzlich Analyse- oder Marketing-Cookies, um die Seite zu verbessern und das richtige Publikum zu erreichen. Sie können Ihre Auswahl jederzeit ändern.",
+    "acceptAll": "Alle akzeptieren",
+    "rejectAll": "Alle ablehnen",
+    "managePreferences": "Einstellungen verwalten",
+    "save": "Auswahl speichern",
+    "cancel": "Abbrechen",
+    "preferencesTitle": "Cookie-Einstellungen",
+    "categories": {
+      "necessaryTitle": "Technisch notwendig",
+      "necessaryDescription": "Erforderlich für den Betrieb der Seite — Sprachauswahl, Sicherheit und Cookie-Einstellungen. Kann nicht deaktiviert werden.",
+      "necessaryStatus": "Immer aktiv",
+      "analyticsTitle": "Analyse",
+      "analyticsDescription": "Helfen uns zu verstehen, wie Besucher die Seite nutzen — aggregiert, ohne Cross-Site-Tracking.",
+      "marketingTitle": "Marketing",
+      "marketingDescription": "Zur Messung von Kampagnen-Performance und zur Auslieferung relevanter Inhalte. Keine Weitergabe an Dritte."
+    }
+  },
+  "footer": {
+    "studioHeading":   "Studio",
+    "studioWork":      "Arbeiten",
+    "studioAbout":     "Über uns",
+    "studioServices":  "Leistungen",
+    "studioPricing":   "Preise",
+    "contactHeading":  "Kontakt",
+    "studiosHeading":  "Standorte",
+    "legalHeading":    "Rechtliches",
+    "legalImprint":    "Impressum",
+    "legalPrivacy":    "Datenschutz",
+    "legalTerms":      "AGB",
+    "rights":          "© Transad 2026 · Alle Rechte vorbehalten"
+  },
+  "imprint": {
+    "eyebrow":     "Impressum",
+    "headline":    "Impressum",
+    "lead":        "Angaben gemäß § 5 TMG / § 5 DDG.",
+    "lastUpdated": "Stand: 6. Mai 2026",
+    "sections": [
+      {
+        "title": "Unternehmensangaben",
+        "paragraphs": [
+          "[Firmenname]\n[Straße und Hausnummer]\n[PLZ] [Stadt]\n[Land]",
+          "Vertreten durch: [Name der Geschäftsführung]"
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "paragraphs": [
+          "Telefon: [+49 …]\nE-Mail: hi@transad.studio"
+        ]
+      },
+      {
+        "title": "Handelsregister",
+        "paragraphs": [
+          "Registergericht: [z. B. Amtsgericht Düsseldorf]\nRegisternummer: [HRB …]"
+        ]
+      },
+      {
+        "title": "Umsatzsteuer-Identifikationsnummer",
+        "paragraphs": [
+          "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\n[DE…]"
+        ]
+      },
+      {
+        "title": "Inhaltlich verantwortlich",
+        "paragraphs": [
+          "Inhaltlich verantwortlich gemäß § 18 Abs. 2 MStV:\n[Name]\n[Adresse]"
+        ]
+      },
+      {
+        "title": "EU-Streitschlichtung",
+        "paragraphs": [
+          "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben im Kontaktbereich."
+        ]
+      },
+      {
+        "title": "Verbraucherstreitbeilegung",
+        "paragraphs": [
+          "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+        ]
+      },
+      {
+        "title": "Haftung für Inhalte",
+        "paragraphs": [
+          "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+          "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich."
+        ]
+      },
+      {
+        "title": "Haftung für Links",
+        "paragraphs": [
+          "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.",
+          "Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar."
+        ]
+      },
+      {
+        "title": "Urheberrecht",
+        "paragraphs": [
+          "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.",
+          "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow":     "Datenschutz",
+    "headline":    "Datenschutzerklärung",
+    "lead":        "Wie wir mit personenbezogenen Daten auf dieser Website umgehen. Konform mit der EU-Datenschutz-Grundverordnung (DSGVO).",
+    "lastUpdated": "Stand: 6. Mai 2026",
+    "sections": [
+      {
+        "title": "Verantwortlicher",
+        "paragraphs": [
+          "Verantwortlicher im Sinne des Art. 4 Abs. 7 DSGVO ist:\n[Firmenname]\n[Adresse]\nE-Mail: hi@transad.studio"
+        ]
+      },
+      {
+        "title": "Geltungsbereich",
+        "paragraphs": [
+          "Diese Datenschutzerklärung gilt für alle Daten, die wir verarbeiten, wenn Sie transad.studio besuchen oder mit uns über diese Website in Kontakt treten. Sie gilt nicht für verlinkte Angebote Dritter, auf die wir keinen Einfluss haben."
+        ]
+      },
+      {
+        "title": "Welche Daten wir erheben und warum",
+        "paragraphs": [
+          "Wir verarbeiten zwei Kategorien personenbezogener Daten: Daten, die Sie aktiv übermitteln (z. B. über das Kontaktformular), und Daten, die Ihr Browser beim Aufruf einer Seite automatisch überträgt (z. B. IP-Adresse, User-Agent, Zeitstempel)."
+        ]
+      },
+      {
+        "title": "Rechtsgrundlage",
+        "paragraphs": [
+          "Wir verarbeiten Daten auf folgenden Rechtsgrundlagen gemäß Art. 6 Abs. 1 DSGVO: mit Ihrer Einwilligung (lit. a), zur Vertragserfüllung oder Vertragsanbahnung (lit. b), zur Erfüllung rechtlicher Verpflichtungen (lit. c) und zur Wahrung unserer berechtigten Interessen am Betrieb einer sicheren, funktionalen Website (lit. f)."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "Diese Website setzt keine Marketing- oder Analyse-Cookies. Technisch notwendige Cookies können verwendet werden, um Ihre Sprachauswahl zu speichern. Für diese technischen Cookies ist kein Einwilligungsbanner erforderlich."
+        ]
+      },
+      {
+        "title": "Kontaktformular",
+        "paragraphs": [
+          "Wenn Sie uns über das Kontaktformular eine Nachricht senden, erhalten wir Ihren Namen, Ihre E-Mail-Adresse, ggf. den Namen Ihres Unternehmens und den Inhalt Ihrer Nachricht. Diese Daten verwenden wir ausschließlich zur Beantwortung Ihrer Anfrage. Die Speicherung erfolgt so lange, wie es die daraus entstehende Geschäftsbeziehung erfordert — zuzüglich gesetzlicher Aufbewahrungsfristen."
+        ]
+      },
+      {
+        "title": "Hosting und Server-Logs",
+        "paragraphs": [
+          "Diese Website wird von [Hosting-Anbieter] gehostet. Der Anbieter verarbeitet Logdateien mit Ihrer IP-Adresse, dem Browsertyp, der angeforderten URL und dem Zeitstempel. Logs werden zu Sicherheits- und Betriebszwecken (Art. 6 Abs. 1 lit. f DSGVO) für [N] Tage aufbewahrt."
+        ]
+      },
+      {
+        "title": "Analyse",
+        "paragraphs": [
+          "[Wir setzen keine Analyse-Tools ein.] / [Wir verwenden [Analyse-Anbieter] mit IP-Anonymisierung und ohne Cookies. Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO — unser berechtigtes Interesse an aggregierter Nutzungsanalyse.]"
+        ]
+      },
+      {
+        "title": "Dienstleister",
+        "paragraphs": [
+          "Wir nutzen [E-Mail-Dienstleister — z. B. Resend] zur Zustellung der über das Kontaktformular gesendeten Nachrichten. Personenbezogene Daten werden nur insoweit übermittelt, als zur Zustellung erforderlich."
+        ]
+      },
+      {
+        "title": "Speicherdauer",
+        "paragraphs": [
+          "Wir speichern personenbezogene Daten nur so lange, wie es für die angegebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben. Nach Wegfall des Zwecks werden die Daten gelöscht, sofern keine gesetzlichen Aufbewahrungsfristen (z. B. aus dem Steuerrecht) entgegenstehen."
+        ]
+      },
+      {
+        "title": "Ihre Rechte",
+        "paragraphs": [
+          "Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:"
+        ],
+        "list": [
+          "Recht auf Auskunft (Art. 15 DSGVO)",
+          "Recht auf Berichtigung (Art. 16 DSGVO)",
+          "Recht auf Löschung (Art. 17 DSGVO)",
+          "Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+          "Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+          "Widerspruchsrecht (Art. 21 DSGVO)",
+          "Recht auf jederzeitigen Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)"
+        ]
+      },
+      {
+        "title": "Beschwerderecht",
+        "paragraphs": [
+          "Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren — in der Regel bei der Datenschutzbehörde Ihres Bundeslandes, in unserem Fall in der Regel bei der [Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen]."
+        ]
+      },
+      {
+        "title": "Änderungen dieser Erklärung",
+        "paragraphs": [
+          "Wir aktualisieren diese Datenschutzerklärung gelegentlich, um rechtliche oder betriebliche Änderungen abzubilden. Es gilt jeweils die oben datierte Fassung."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "eyebrow":     "AGB",
+    "headline":    "Allgemeine Geschäftsbedingungen",
+    "lead":        "Allgemeine Bedingungen für die Zusammenarbeit zwischen [Firmenname] und unseren Kund:innen.",
+    "lastUpdated": "Stand: 6. Mai 2026",
+    "sections": [
+      {
+        "title": "Geltungsbereich",
+        "paragraphs": [
+          "Diese Allgemeinen Geschäftsbedingungen („AGB\") gelten für sämtliche Aufträge zwischen [Firmenname] („wir\", „uns\") und unseren Kund:innen („Sie\", „Auftraggeber\") über Design-, Branding- und Marketingleistungen. Entgegenstehende Bedingungen des Auftraggebers werden nicht anerkannt, es sei denn, ihrer Geltung wird ausdrücklich schriftlich zugestimmt."
+        ]
+      },
+      {
+        "title": "Leistungen",
+        "paragraphs": [
+          "Der Leistungsumfang jedes Auftrags ergibt sich aus dem jeweiligen Angebot, Leistungsschein oder der Auftragsbestätigung („SOW\"). Bei Widersprüchen zwischen SOW und diesen AGB hat der SOW Vorrang."
+        ]
+      },
+      {
+        "title": "Vertragsschluss",
+        "paragraphs": [
+          "Ein Vertrag kommt zustande, wenn Sie unser schriftliches Angebot schriftlich (einschließlich per E-Mail) annehmen oder wir mit Ihrer ausdrücklichen Zustimmung mit der Leistungserbringung beginnen."
+        ]
+      },
+      {
+        "title": "Vergütung und Zahlung",
+        "paragraphs": [
+          "Vergütung, Zahlungsmeilensteine und Zahlungsbedingungen ergeben sich aus dem SOW. Soweit nicht abweichend vereinbart, sind Rechnungen innerhalb von 14 Tagen nach Erhalt netto ohne Abzug zur Zahlung fällig. Wir behalten uns vor, bei Zahlungsverzug Verzugszinsen in gesetzlicher Höhe zu berechnen."
+        ]
+      },
+      {
+        "title": "Mitwirkung",
+        "paragraphs": [
+          "Eine termingerechte Leistungserbringung setzt Ihre Mitwirkung voraus. Sie verpflichten sich, Briefings, Materialien, Freigaben und Feedback innerhalb der im SOW vereinbarten Fristen bereitzustellen. Verzögerungen auf Ihrer Seite können die Projektlaufzeiten entsprechend verschieben."
+        ]
+      },
+      {
+        "title": "Lieferung",
+        "paragraphs": [
+          "Liefertermine ohne ausdrückliche Verbindlichkeit gelten als Richtwerte. Verbindliche Termine bedürfen der schriftlichen Vereinbarung im SOW."
+        ]
+      },
+      {
+        "title": "Nutzungsrechte und geistiges Eigentum",
+        "paragraphs": [
+          "Mit vollständiger Zahlung aller im SOW vereinbarten Vergütungen erhalten Sie die Nutzungsrechte an den vereinbarten Ergebnissen im im SOW festgelegten Umfang und Gebiet. Arbeitsdateien, Quellmaterialien und nicht ausgewählte Konzepte verbleiben in unserem Eigentum, sofern nicht ausdrücklich übertragen.",
+          "Wir behalten uns das Recht vor, abgeschlossene Arbeiten in unserem Portfolio, in Fallstudien und im Marketing zu zeigen — sofern nicht schriftlich anders vereinbart."
+        ]
+      },
+      {
+        "title": "Vertraulichkeit",
+        "paragraphs": [
+          "Beide Parteien behandeln vertrauliche Informationen, die sie von der jeweils anderen Partei erhalten, vertraulich und geben sie ohne vorherige schriftliche Zustimmung nicht an Dritte weiter, es sei denn, dies ist gesetzlich vorgeschrieben."
+        ]
+      },
+      {
+        "title": "Beendigung",
+        "paragraphs": [
+          "Aufträge können jederzeit aus wichtigem Grund gekündigt werden. Eine ordentliche Kündigung richtet sich nach dem SOW; fehlt eine ausdrückliche Regelung, kann jede Partei mit einer Frist von [N] Wochen schriftlich kündigen. Bis zum Beendigungstermin erbrachte Leistungen sind zu vergüten."
+        ]
+      },
+      {
+        "title": "Haftung",
+        "paragraphs": [
+          "Wir haften unbeschränkt für Schäden aus Vorsatz oder grober Fahrlässigkeit. Für Schäden aus einfacher Fahrlässigkeit haften wir nur in Höhe des typischen, vorhersehbaren Schadens und begrenzt auf die Höhe der nach dem jeweiligen SOW gezahlten Vergütung. Die Haftung nach dem Produkthaftungsgesetz sowie für Schäden an Leben, Körper oder Gesundheit bleibt unberührt."
+        ]
+      },
+      {
+        "title": "Datenschutz",
+        "paragraphs": [
+          "Beide Parteien beachten die geltenden datenschutzrechtlichen Vorgaben. Die Datenverarbeitung auf Seiten der Agentur ist in unserer Datenschutzerklärung beschrieben."
+        ]
+      },
+      {
+        "title": "Schlussbestimmungen",
+        "paragraphs": [
+          "Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Gerichtsstand ist [Stadt], soweit gesetzlich zulässig. Sollten einzelne Bestimmungen dieser AGB unwirksam oder undurchführbar sein, bleiben die übrigen Bestimmungen in vollem Umfang wirksam."
+        ]
+      }
+    ]
+  },
+  "servicesPage": {
+    "eyebrow": "Leistungen",
+    "headline": "Vier Disziplinen, <em>eine Richtung.</em>",
+    "lead": "Jeder Auftrag verbindet vier Disziplinen. Die Gewichtung folgt dem Briefing — der Anspruch bleibt gleich.",
+    "items": {
+      "social": {
+        "title": "Social Media Marketing",
+        "headline": "Konsistent präsent. <em>Unverkennbar Sie.</em>",
+        "body": "Wir führen Kanäle als redaktionelle Systeme, nicht als Feeds. Inhalte werden in Plänen kuratiert, planmäßig produziert, monatlich freigegeben und an den Gesprächen ausgerichtet, die sie auslösen.",
+        "deliverables": [
+          "Kanalbetreuung auf Instagram, Facebook, LinkedIn, TikTok",
+          "Redaktionsplanung mit monatlichen Freigabezyklen",
+          "Eigenproduktion von Inhalten für Social und Web",
+          "Community Management — werktags oder rund um die Uhr",
+          "Redaktionsplanung und Kampagnenorchestrierung"
+        ]
+      },
+      "content": {
+        "title": "Content-Produktion",
+        "headline": "Inhalte machen — <em>und in Bewegung bringen.</em>",
+        "body": "Fotografie, Text, Layout und Motion entstehen in einem Studio. Das Ergebnis bleibt über alle Flächen hinweg konsistent, weil es aus einer Hand kommt.",
+        "deliverables": [
+          "Grafikdesign und Editorial-Layout",
+          "Deutschsprachiges Copywriting und Lektorat",
+          "Videoschnitt, Untertitel und Motion Graphics",
+          "Fotodirektion, Retusche und Stock-Kuration",
+          "Ad-Creatives — statisch und animiert",
+          "Markenkonforme Templates für interne Teams"
+        ]
+      },
+      "advertising": {
+        "title": "Online Advertising",
+        "headline": "Bewusst investieren. <em>Ehrlich messen.</em>",
+        "body": "Paid Media von den Menschen, die auch die Kreation entwickelt haben. Wir testen, rotieren und berichten an den Kennzahlen, die Ihr Geschäft tatsächlich bewegen — keine Vanity-Dashboards.",
+        "deliverables": [
+          "Meta Ads — Facebook und Instagram",
+          "Google Search, Display und YouTube",
+          "TikTok, LinkedIn und plattformspezifische Kampagnen",
+          "Budget-Management von €500 bis €5.000+",
+          "Performance-Creative-Rotation und A/B-Testing",
+          "Retargeting, Awareness und Conversion-Funnels"
+        ]
+      },
+      "strategy": {
+        "title": "Strategie & Reporting",
+        "headline": "Monatlicher Takt, <em>kein Quartals-Review.</em>",
+        "body": "Strategie-Calls, KPI-Dashboards und wöchentliche Reports, eng am Werk gebaut — damit die nächste Entscheidung offensichtlich ist. Wir steuern Beziehungen nicht aus der Distanz.",
+        "deliverables": [
+          "Monatliche Strategie-Calls und Quartals-Reviews",
+          "Performance-Reports — wöchentlich oder monatlich",
+          "Live-KPI-Dashboards, zugeschnitten auf das Briefing",
+          "Dediziertes Account-Management",
+          "Zielsetzung, Attribution und Forecasting"
+        ]
+      }
+    },
+    "deliverablesLabel": "Was Sie erhalten",
+    "cta": {
+      "title": "Bereit zu starten?",
+      "button": "Pakete ansehen"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "headline": "Drei Pakete, <em>ein Ziel.</em>",
+    "lead": "Wählen Sie den Einstiegspunkt, der zu Ihrer aktuellen Phase passt. Jedes Paket wächst mit Ihrem Unternehmen — ohne Neubau, ohne Überraschungen.",
+    "perMonth": "/ Monat",
+    "idealForLabel": "Ideal für",
+    "packages": {
+      "starter": {
+        "eyebrow": "Paket I · Starter",
+        "title": "Präsenz <em>aufbauen.</em>",
+        "description": "Der Einstieg in professionelles digitales Marketing. Wir bauen Ihre Social-Media-Präsenz auf, produzieren Inhalte konsistent und schalten Ihre ersten gezielten Anzeigen — damit Ihr Publikum Sie findet.",
+        "price": "€799",
+        "terms": "+ €150 Setup · 3 Monate Mindestlaufzeit",
+        "idealFor": "KMU mit unter 20 Mitarbeitenden, lokale Dienstleister und Unternehmen, die mit Social Media gerade erst beginnen.",
+        "categories": [
+          {
+            "title": "Social Media Marketing",
+            "items": [
+              "Betreuung von 2 Kanälen: Instagram + Facebook",
+              "12 Inhalte für Social Media und Web",
+              "Redaktionsplan mit monatlicher Freigabe",
+              "Basis-Community-Management (Mo–Fr)"
+            ]
+          },
+          {
+            "title": "Content Creation",
+            "items": [
+              "Grafikdesign & Copywriting (deutschsprachig)",
+              "Stockfoto-Kuration aus Premium-Bibliotheken",
+              "Bild- und Videobearbeitung"
+            ]
+          },
+          {
+            "title": "Online Advertising",
+            "items": [
+              "Meta Ads (Facebook + Instagram)",
+              "Budget-Management bis €500 / Monat inklusive",
+              "Retargeting- & Awareness-Kampagnen"
+            ]
+          },
+          {
+            "title": "Strategie & Reporting",
+            "items": [
+              "Monatlicher Performance-Report",
+              "1 Strategie-Call pro Monat (30 Min.)"
+            ]
+          }
+        ]
+      },
+      "growth": {
+        "eyebrow": "Paket II · Growth · Meistgewählt",
+        "title": "Kunden <em>gewinnen.</em>",
+        "description": "Das vollständige Performance-Paket. Dediziertes Content-Team, Multi-Channel-Ads, Landingpage-Optimierung und wöchentliches Reporting. Der Punkt, an dem Marketing zum Umsatztreiber wird.",
+        "price": "€1.499",
+        "terms": "+ €250 Setup · 3 Monate Mindestlaufzeit",
+        "idealFor": "Etablierte KMU mit 20–150 Mitarbeitenden, E-Commerce-Shops und Dienstleister, die Leads und Umsatz aus Paid Media skalieren wollen.",
+        "categories": [
+          {
+            "title": "Social Media Marketing",
+            "items": [
+              "2 Kanäle: Instagram + Facebook",
+              "24 Inhalte für Social Media und Web",
+              "Redaktionsplan mit monatlicher Freigabe",
+              "Basis-Community-Management (Mo–Fr)"
+            ]
+          },
+          {
+            "title": "Inhaltsbearbeitung & Animation",
+            "items": [
+              "Content-Konzepte, Kampagnenideen & Redaktionsplanung",
+              "Videoschnitt, Untertitel, Motion Graphics & Ad-Creatives aus bestehendem Material",
+              "2 Blogartikel / SEO-Texte pro Monat"
+            ]
+          },
+          {
+            "title": "Online Advertising",
+            "items": [
+              "Meta + Google Ads (Search · Display · YouTube)",
+              "TikTok- und LinkedIn-Kampagnen",
+              "Budget-Management bis €2.000 / Monat"
+            ]
+          },
+          {
+            "title": "Strategie & Web",
+            "items": [
+              "Landingpage-Design & laufendes A/B-Testing",
+              "Dedizierter Account Manager · 2 Calls / Monat",
+              "Wöchentlicher Report + Live-Dashboard"
+            ]
+          }
+        ]
+      },
+      "scale": {
+        "eyebrow": "Paket III · Scale",
+        "title": "Märkte <em>führen.</em>",
+        "description": "Eine umfassende Marketing-Partnerschaft. Strategie, Creative-Produktion, Paid Media, CRM und Reporting aus einer Hand. Ihr externes Marketing-Team — so skalierbar wie eine interne Abteilung.",
+        "price": "€2.499",
+        "terms": "+ €450 Setup · 12 Monate Mindestlaufzeit",
+        "idealFor": "Ambitionierte Marken, B2C-Brands, B2B-Unternehmen im Expansionsmodus und Unternehmen, die ihre gesamte Marketing-Funktion auslagern wollen.",
+        "categories": [
+          {
+            "title": "Social Media Marketing",
+            "items": [
+              "Alle relevanten Kanäle",
+              "Unbegrenzter Post-Output · 24/7 Community Management",
+              "Videoschnitt, Untertitel, Motion Graphics & Ad-Creatives",
+              "8 SEO-Artikel pro Monat · Content-Hub"
+            ]
+          },
+          {
+            "title": "Online Advertising",
+            "items": [
+              "Alle Plattformen: Meta · Google · TikTok · LinkedIn · YouTube",
+              "Budget-Management €5.000+ / Monat inklusive",
+              "Performance-Creative-Rotation (10+ Varianten / Monat)"
+            ]
+          },
+          {
+            "title": "Wachstums-Kanäle",
+            "items": [
+              "E-Mail-Marketing, Funnels & CRM-Integration",
+              "Influencer- und Kollaborations-Outreach",
+              "Vollständige Website- und Landingpage-Betreuung"
+            ]
+          },
+          {
+            "title": "Strategie & Reporting",
+            "items": [
+              "Dediziertes Team · tägliche Kommunikation",
+              "Wöchentliche Strategie-Calls · Custom KPI-Dashboard"
+            ]
+          }
+        ]
+      }
+    },
+    "cta": {
+      "title": "Unsicher, welches Paket passt?",
+      "button": "Mit uns sprechen"
+    }
+  }
+}

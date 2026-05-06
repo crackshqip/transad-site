@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "work": "Work",
+    "studio": "Studio",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Get in touch",
+    "locations": "DÜS · BER",
+    "languageLabel": "Language",
+    "homeLabel": "Transad — home"
+  },
+  "hero": {
+    "eyebrow": "Studio index",
+    "headline": "Clarity, <em>made visible.</em>",
+    "lead": "Transad is a minimal marketing and branding agency. We help modern businesses communicate with clarity, consistency, and visual impact.",
+    "ctaPrimary": "View selected work",
+    "ctaSecondary": "Get in touch",
+    "meta": {
+      "founded":     { "label": "Founded",     "value": "2019, Düsseldorf" },
+      "studios":     { "label": "Studios",     "value": "Düsseldorf · Berlin" },
+      "practice":    { "label": "Practice",    "value": "Identity, Campaign, Digital" },
+      "engagements": { "label": "Engagements", "value": "Six per year" }
+    }
+  },
+  "about": {
+    "eyebrow": "Studio",
+    "headline": "Minimal by intent. Strategic by practice.",
+    "lede": "We design for <em>clarity first</em> — clean identities, strategic campaigns, and refined digital content built around simplicity, purpose, and strong visual direction.",
+    "body1": "Transad works with founders, marketers, and in-house teams who care how their company shows up in the world. Every engagement begins with a question, not a deck.",
+    "body2": "We are six people across two cities, working close to the work — no account managers, no layers. The output is professional, elegant, and consistent across web, social, presentations, and brand materials.",
+    "stats": {
+      "caseStudies":     "Case studies",
+      "studioMembers":   "Studio members",
+      "cities":          "Cities",
+      "yearEstablished": "Year established"
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "headline": "What we make, and the rules behind it.",
+    "items": {
+      "identity": {
+        "title": "Clean identities",
+        "body":  "Marks, wordmarks, and the systems that hold them together — built for clarity and consistency across every surface a business shows up on.",
+        "tags":  ["Naming", "Logo", "Type system", "Guidelines"]
+      },
+      "campaigns": {
+        "title": "Strategic campaigns",
+        "body":  "Launch creative, paid, and editorial campaigns built around a single idea — designed for visual impact, then engineered to scale.",
+        "tags":  ["Strategy", "Concept", "Art direction", "Paid"]
+      },
+      "digital": {
+        "title": "Refined digital content",
+        "body":  "Marketing sites, social systems, and presentation kits with the same minimal layouts and strong typography running through every touchpoint.",
+        "tags":  ["Web", "Social", "Decks", "Editorial"]
+      },
+      "direction": {
+        "title": "Visual direction",
+        "body":  "Ongoing art direction for in-house teams — keeping the work elegant, professional, and on-brand long after the launch.",
+        "tags":  ["Art direction", "Guidelines", "Reviews", "Templates"]
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Selected work",
+    "headline": "Recent identities and campaigns.",
+    "indexCta": "Request the full index",
+    "openLabel": "Open case study: {title}",
+    "projects": {
+      "voss":       { "title": "Voss & Co.",            "kind": "Identity · Brand system" },
+      "fieldnotes": { "title": "Field Notes, vol. III", "kind": "Campaign · Print & digital" },
+      "luma":       { "title": "Luma Diagnostics",      "kind": "Identity · Healthcare" },
+      "meridian":   { "title": "Meridian Coffee",       "kind": "Packaging · Retail" },
+      "obverse":    { "title": "Obverse Magazine",      "kind": "Editorial · Art direction" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "headline": "Tell us what you're working on.",
+    "intro": "We take on a small number of projects each year. The shorter and more specific your note, the faster we can reply.",
+    "channels": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "studiosLabel": "Studios",
+      "studiosValue": "Düsseldorf · Berlin"
+    },
+    "form": {
+      "nameLabel":          "Name",
+      "namePlaceholder":    "Your name",
+      "emailLabel":         "Email",
+      "emailPlaceholder":   "you@company.com",
+      "companyLabel":       "Company",
+      "companyPlaceholder": "Optional",
+      "projectLabel":       "Project",
+      "projectPlaceholder": "A few lines about the project, the timeline, and the budget.",
+      "submit":             "Send enquiry",
+      "submitting":         "Sending…",
+      "disclaimer":         "We reply within two working days.",
+      "confirmation":       "Note received. We'll reply within two working days.",
+      "errorGeneric":       "Something went wrong. Please try again, or email hi@transad.studio directly.",
+      "errorValidation":    "Please check the fields and try again."
+    }
+  },
+  "cookies": {
+    "title": "We use cookies",
+    "description": "We use only essential cookies by default. With your consent, we may also use analytics or marketing cookies to improve the site and reach the right audience. You can change your choice at any time.",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject all",
+    "managePreferences": "Manage preferences",
+    "save": "Save preferences",
+    "cancel": "Cancel",
+    "preferencesTitle": "Cookie preferences",
+    "categories": {
+      "necessaryTitle": "Strictly necessary",
+      "necessaryDescription": "Required for the site to function — language preference, security, and consent state. Cannot be disabled.",
+      "necessaryStatus": "Always on",
+      "analyticsTitle": "Analytics",
+      "analyticsDescription": "Help us understand how visitors use the site, in aggregate. No cross-site tracking.",
+      "marketingTitle": "Marketing",
+      "marketingDescription": "Used to measure campaign performance and serve relevant content. No data sold to third parties."
+    }
+  },
+  "footer": {
+    "studioHeading":   "Studio",
+    "studioWork":      "Work",
+    "studioAbout":     "About",
+    "studioServices":  "Services",
+    "studioPricing":   "Pricing",
+    "contactHeading":  "Contact",
+    "studiosHeading":  "Studios",
+    "legalHeading":    "Legal",
+    "legalImprint":    "Imprint",
+    "legalPrivacy":    "Privacy",
+    "legalTerms":      "Terms",
+    "rights":          "© Transad 2026 · All rights reserved"
+  },
+  "imprint": {
+    "eyebrow":     "Imprint",
+    "headline":    "Imprint",
+    "lead":        "Information pursuant to Section 5 TMG / Section 5 DDG.",
+    "lastUpdated": "Last updated: 6 May 2026",
+    "sections": [
+      {
+        "title": "Company information",
+        "paragraphs": [
+          "[Company Name]\n[Street and number]\n[ZIP] [City]\n[Country]",
+          "Represented by: [Managing Director Name]"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Phone: [+49 ...]\nEmail: hi@transad.studio"
+        ]
+      },
+      {
+        "title": "Commercial register",
+        "paragraphs": [
+          "Register court: [e.g. Amtsgericht Düsseldorf]\nRegistration number: [HRB ...]"
+        ]
+      },
+      {
+        "title": "VAT identification number",
+        "paragraphs": [
+          "VAT identification number pursuant to Section 27 a of the German VAT Act:\n[DE...]"
+        ]
+      },
+      {
+        "title": "Responsible for content",
+        "paragraphs": [
+          "Responsible for content according to Section 18 (2) MStV:\n[Name]\n[Address]"
+        ]
+      },
+      {
+        "title": "EU dispute resolution",
+        "paragraphs": [
+          "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/. You can find our email address in the contact section above."
+        ]
+      },
+      {
+        "title": "Consumer dispute resolution",
+        "paragraphs": [
+          "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+        ]
+      },
+      {
+        "title": "Liability for content",
+        "paragraphs": [
+          "As a service provider, we are responsible for our own content on these pages in accordance with Section 7 (1) TMG. According to Sections 8 to 10 TMG, however, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+          "Obligations to remove or block the use of information under general laws remain unaffected. Liability in this respect is only possible from the time of knowledge of a specific infringement."
+        ]
+      },
+      {
+        "title": "Liability for links",
+        "paragraphs": [
+          "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content.",
+          "The respective provider or operator of the linked pages is always responsible for the content. Linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognisable at the time of linking."
+        ]
+      },
+      {
+        "title": "Copyright",
+        "paragraphs": [
+          "The content and works on these pages created by the site operators are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator.",
+          "Insofar as the content on this site was not created by the operator, the copyrights of third parties are observed. Should you nevertheless become aware of a copyright infringement, please inform us. Upon notification of violations, we will remove such content immediately."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow":     "Privacy",
+    "headline":    "Privacy policy",
+    "lead":        "How we handle personal data on this website. Compliant with the EU General Data Protection Regulation (GDPR).",
+    "lastUpdated": "Last updated: 6 May 2026",
+    "sections": [
+      {
+        "title": "Controller",
+        "paragraphs": [
+          "Controller within the meaning of Art. 4 (7) GDPR is:\n[Company Name]\n[Address]\nEmail: hi@transad.studio"
+        ]
+      },
+      {
+        "title": "Scope",
+        "paragraphs": [
+          "This privacy policy applies to all data we process when you visit transad.studio or interact with us through this site. It does not cover services operated by third parties that we link to but do not control."
+        ]
+      },
+      {
+        "title": "What we collect and why",
+        "paragraphs": [
+          "We process two categories of personal data: data you actively provide (e.g. via the contact form) and data automatically transmitted by your browser when you load a page (e.g. IP address, user agent, request timestamp)."
+        ]
+      },
+      {
+        "title": "Legal basis",
+        "paragraphs": [
+          "We process data on the following legal bases under Art. 6 (1) GDPR: with your consent (lit. a), to perform a contract or take pre-contractual steps (lit. b), to comply with legal obligations (lit. c), and to safeguard our legitimate interests in operating a secure, functional website (lit. f)."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "This site does not set marketing or analytics cookies. Strictly necessary cookies may be used to remember your language preference. No consent banner is required for these technical cookies."
+        ]
+      },
+      {
+        "title": "Contact form",
+        "paragraphs": [
+          "When you send us a message via the contact form, we receive your name, email address, optional company name, and the contents of your message. We use this data solely to respond to your enquiry. The data is stored for as long as the resulting business relationship requires, plus any statutory retention periods."
+        ]
+      },
+      {
+        "title": "Hosting and server logs",
+        "paragraphs": [
+          "This site is hosted by [Hosting Provider]. The hosting provider processes log files containing your IP address, browser type, request URL, and timestamp. Logs are kept for [N] days for security and operational purposes (Art. 6 (1) lit. f GDPR)."
+        ]
+      },
+      {
+        "title": "Analytics",
+        "paragraphs": [
+          "[We do not use analytics tools.] / [We use [Analytics Provider] with IP anonymisation and without cookies. The data is processed on the basis of Art. 6 (1) lit. f GDPR — our legitimate interest in understanding aggregate site usage.]"
+        ]
+      },
+      {
+        "title": "Third-party services",
+        "paragraphs": [
+          "We use [Email Service Provider — e.g. Resend] to deliver emails sent through the contact form. Personal data is transmitted only insofar as necessary to deliver the message."
+        ]
+      },
+      {
+        "title": "Data retention",
+        "paragraphs": [
+          "We retain personal data only as long as necessary for the stated purposes or as required by law. Once the purpose is fulfilled, the data is deleted unless statutory retention periods (e.g. tax law) apply."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "Under the GDPR, you have the following rights regarding your personal data:"
+        ],
+        "list": [
+          "Right of access (Art. 15 GDPR)",
+          "Right to rectification (Art. 16 GDPR)",
+          "Right to erasure (Art. 17 GDPR)",
+          "Right to restriction of processing (Art. 18 GDPR)",
+          "Right to data portability (Art. 20 GDPR)",
+          "Right to object (Art. 21 GDPR)",
+          "Right to withdraw consent at any time (Art. 7 (3) GDPR)"
+        ]
+      },
+      {
+        "title": "Right to lodge a complaint",
+        "paragraphs": [
+          "You have the right to lodge a complaint with a supervisory authority — typically the data-protection authority of your federal state, or in our case the [Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen]."
+        ]
+      },
+      {
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this privacy policy from time to time to reflect legal or operational changes. The current version always governs and is dated above."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "eyebrow":     "Terms",
+    "headline":    "Terms of service",
+    "lead":        "General terms governing engagements between [Company Name] and our clients.",
+    "lastUpdated": "Last updated: 6 May 2026",
+    "sections": [
+      {
+        "title": "Scope",
+        "paragraphs": [
+          "These terms (the \"Terms\") govern all engagements between [Company Name] (\"we\", \"us\") and our clients (\"you\", \"Client\") for design, branding, and marketing services. Conflicting client terms are not accepted unless explicitly agreed in writing."
+        ]
+      },
+      {
+        "title": "Services",
+        "paragraphs": [
+          "The scope of services for each engagement is defined in the relevant proposal, statement of work, or order confirmation (\"SOW\"). Where the SOW and these Terms conflict, the SOW prevails."
+        ]
+      },
+      {
+        "title": "Conclusion of contract",
+        "paragraphs": [
+          "A contract is concluded when you accept our written proposal in writing (including by email) or when we begin performing services with your express agreement."
+        ]
+      },
+      {
+        "title": "Pricing and payment",
+        "paragraphs": [
+          "Fees, milestones, and payment terms are defined in the SOW. Unless otherwise agreed, invoices are due within 14 days of receipt, net, without deduction. We reserve the right to charge interest on overdue amounts at the statutory rate."
+        ]
+      },
+      {
+        "title": "Cooperation",
+        "paragraphs": [
+          "Timely delivery depends on your cooperation. You agree to provide briefs, materials, approvals, and feedback within the timelines defined in the SOW. Delays on your side may shift project timelines accordingly."
+        ]
+      },
+      {
+        "title": "Delivery",
+        "paragraphs": [
+          "Delivery dates given without an explicit binding commitment are estimates. Binding deadlines must be agreed in writing in the SOW."
+        ]
+      },
+      {
+        "title": "Intellectual property and rights of use",
+        "paragraphs": [
+          "Upon full payment of all fees due under the relevant SOW, you receive the rights of use to the agreed deliverables for the scope and territory specified in the SOW. Working files, source materials, and unselected concepts remain our property unless explicitly transferred.",
+          "We retain the right to reference completed work in our portfolio, case studies, and marketing — unless otherwise agreed in writing."
+        ]
+      },
+      {
+        "title": "Confidentiality",
+        "paragraphs": [
+          "Each party will treat confidential information received from the other party as confidential and will not disclose it to third parties without prior written consent, except as required by law."
+        ]
+      },
+      {
+        "title": "Termination",
+        "paragraphs": [
+          "Engagements may be terminated for cause at any time. Termination for convenience is governed by the SOW; in the absence of a specific clause, either party may terminate with [N] weeks' written notice. Fees for work performed up to the termination date remain payable."
+        ]
+      },
+      {
+        "title": "Liability",
+        "paragraphs": [
+          "We are liable without limitation for damages caused by intent or gross negligence. For damages caused by simple negligence, our liability is limited to typical, foreseeable damages and capped at the total fees paid under the relevant SOW. Liability under the German Product Liability Act (Produkthaftungsgesetz) and for injury to life, body, or health remains unaffected."
+        ]
+      },
+      {
+        "title": "Data protection",
+        "paragraphs": [
+          "Both parties comply with applicable data protection laws. Personal data processing on the agency side is described in our privacy policy."
+        ]
+      },
+      {
+        "title": "Final provisions",
+        "paragraphs": [
+          "German law applies, excluding the UN Convention on Contracts for the International Sale of Goods. Place of jurisdiction is [City], to the extent permitted by law. Should any provision of these Terms be invalid or unenforceable, the remaining provisions remain in full force and effect."
+        ]
+      }
+    ]
+  },
+  "servicesPage": {
+    "eyebrow": "Services",
+    "headline": "Four disciplines, <em>one direction.</em>",
+    "lead": "Each engagement combines four disciplines. The mix shifts with the brief; the standard does not.",
+    "items": {
+      "social": {
+        "title": "Social media marketing",
+        "headline": "Show up consistently. <em>Sound like you.</em>",
+        "body": "We run channels as editorial systems, not feeds. Content is planned in calendars, produced on schedule, approved monthly, and tuned by the conversation it generates.",
+        "deliverables": [
+          "Channel management across Instagram, Facebook, LinkedIn, TikTok",
+          "Editorial calendars with monthly approval cycles",
+          "Original content production for social and web",
+          "Community management — weekday or 24/7",
+          "Editorial planning and campaign orchestration"
+        ]
+      },
+      "content": {
+        "title": "Content creation & production",
+        "headline": "Make the work, then <em>make it move.</em>",
+        "body": "Photography, copy, layout, and motion produced inside one studio. The result is consistent across surfaces because it was made by the same hands.",
+        "deliverables": [
+          "Graphic design and editorial layout",
+          "German-language copywriting and editing",
+          "Video editing, subtitles, and motion graphics",
+          "Photo direction, retouching, and stock curation",
+          "Ad creative — static and animated",
+          "Brand-aligned templates for in-house teams"
+        ]
+      },
+      "advertising": {
+        "title": "Online advertising",
+        "headline": "Spend deliberately. <em>Measure honestly.</em>",
+        "body": "Paid media run by the people who built the creative. We test, rotate, and report against the metrics that move your business — not vanity dashboards.",
+        "deliverables": [
+          "Meta Ads — Facebook and Instagram",
+          "Google Search, Display, and YouTube",
+          "TikTok, LinkedIn, and platform-specific campaigns",
+          "Budget management from €500 to €5,000+",
+          "Performance creative rotation and A/B testing",
+          "Retargeting, awareness, and conversion funnels"
+        ]
+      },
+      "strategy": {
+        "title": "Strategy & reporting",
+        "headline": "A monthly cadence, <em>not a quarterly review.</em>",
+        "body": "Strategy calls, KPI dashboards, and weekly reports built around the work — so the next decision is obvious. We don't manage relationships from a distance.",
+        "deliverables": [
+          "Monthly strategy calls and quarterly reviews",
+          "Performance reports — weekly or monthly cadence",
+          "Live KPI dashboards tailored to the brief",
+          "Dedicated account management",
+          "Goal-setting, attribution modelling, and forecasting"
+        ]
+      }
+    },
+    "deliverablesLabel": "What you get",
+    "cta": {
+      "title": "Ready to start?",
+      "button": "See our packages"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "headline": "Three packages, <em>one outcome.</em>",
+    "lead": "Pick the entry point that matches where you are. Each package scales with your growth — no rebuilds, no surprises.",
+    "perMonth": "/ month",
+    "idealForLabel": "Ideal for",
+    "packages": {
+      "starter": {
+        "eyebrow": "Package I · Starter",
+        "title": "Build <em>presence.</em>",
+        "description": "The entry point into professional digital marketing. We set up your social media presence, produce content consistently, and run your first targeted ads — so your audience finds you.",
+        "price": "€799",
+        "terms": "+ €150 setup · 3 month minimum term",
+        "idealFor": "SMEs with fewer than 20 employees, local service providers, and companies just starting out with social media.",
+        "categories": [
+          {
+            "title": "Social media marketing",
+            "items": [
+              "Manages 2 channels: Instagram + Facebook",
+              "12 pieces of content for social media and the web",
+              "Editorial calendar with monthly approval",
+              "Basic community management (Mon–Fri)"
+            ]
+          },
+          {
+            "title": "Content creation",
+            "items": [
+              "Graphic design & copywriting (German-speaking)",
+              "Stock photo curation from premium libraries",
+              "Photo and video editing"
+            ]
+          },
+          {
+            "title": "Online advertising",
+            "items": [
+              "Meta Ads (Facebook + Instagram)",
+              "Budget management up to €500 / month included",
+              "Retargeting & awareness campaigns"
+            ]
+          },
+          {
+            "title": "Strategy & reporting",
+            "items": [
+              "Monthly performance report",
+              "1 strategy call per month (30 min.)"
+            ]
+          }
+        ]
+      },
+      "growth": {
+        "eyebrow": "Package II · Growth · Most chosen",
+        "title": "Win <em>customers.</em>",
+        "description": "The complete performance package. Dedicated content team, multi-channel ads, landing-page optimisation, and weekly reporting. The point at which marketing becomes a revenue driver.",
+        "price": "€1,499",
+        "terms": "+ €250 setup · 3 month minimum term",
+        "idealFor": "Established SMEs with 20–150 employees, e-commerce shops, and service providers who want to scale leads and revenue from paid media.",
+        "categories": [
+          {
+            "title": "Social media marketing",
+            "items": [
+              "2 channels: Instagram + Facebook",
+              "24 pieces of content for social media and the web",
+              "Editorial calendar with monthly approval",
+              "Basic community management (Mon–Fri)"
+            ]
+          },
+          {
+            "title": "Content editing & animation",
+            "items": [
+              "Content concepts, campaign ideas & editorial planning",
+              "Video editing, subtitles, motion graphics & ad creatives from existing material",
+              "2 blog articles / SEO texts per month"
+            ]
+          },
+          {
+            "title": "Online advertising",
+            "items": [
+              "Meta + Google Ads (Search · Display · YouTube)",
+              "TikTok and LinkedIn campaigns",
+              "Budget management up to €2,000 / month"
+            ]
+          },
+          {
+            "title": "Strategy & web",
+            "items": [
+              "Landing-page design & ongoing A/B testing",
+              "Dedicated account manager · 2 calls / month",
+              "Weekly report + live dashboard"
+            ]
+          }
+        ]
+      },
+      "scale": {
+        "eyebrow": "Package III · Scale",
+        "title": "Market <em>leadership.</em>",
+        "description": "A comprehensive marketing partnership. Strategy, creative production, paid media, CRM, and reporting all from one source. Your external marketing team — as scalable as an internal department.",
+        "price": "€2,499",
+        "terms": "+ €450 setup · 12 month minimum term",
+        "idealFor": "Ambitious brands, B2C names, B2B companies in expansion mode, and companies that want to outsource their entire marketing function.",
+        "categories": [
+          {
+            "title": "Social media marketing",
+            "items": [
+              "All relevant channels",
+              "Unlimited post output · 24/7 community management",
+              "Video editing, subtitles, motion graphics & ad creatives",
+              "8 SEO articles per month · content hub"
+            ]
+          },
+          {
+            "title": "Online advertising",
+            "items": [
+              "All platforms: Meta · Google · TikTok · LinkedIn · YouTube",
+              "Budget management €5,000+ / month included",
+              "Performance creative rotation (10+ variations / month)"
+            ]
+          },
+          {
+            "title": "Growth channels",
+            "items": [
+              "Email marketing, funnels & CRM integration",
+              "Influencer and collaboration outreach",
+              "Complete website and landing-page support"
+            ]
+          },
+          {
+            "title": "Strategy & reporting",
+            "items": [
+              "Dedicated team · daily communication",
+              "Weekly strategy calls · custom KPI dashboard"
+            ]
+          }
+        ]
+      }
+    },
+    "cta": {
+      "title": "Not sure which package fits?",
+      "button": "Talk to us"
+    }
+  }
+}
