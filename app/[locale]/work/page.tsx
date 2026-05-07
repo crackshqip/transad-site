@@ -23,7 +23,14 @@ const SEO_BY_LOCALE: Record<string, { title: string; description: string }> = {
   },
 };
 
-type Item = { slug: string; title: string; outcome: string; tag: string; year: number };
+type Item = {
+  slug: string;
+  title: string;
+  outcome: string;
+  tag: string;
+  year: number | string;
+  cardImage?: string;
+};
 
 export async function generateMetadata({
   params,
@@ -67,7 +74,7 @@ export default async function WorkIndex({
               >
                 <div className="work-card-photo">
                   <Image
-                    src={`/images/work/${item.slug}.jpg`}
+                    src={item.cardImage ?? `/images/work/${item.slug}.jpg`}
                     alt={item.title}
                     width={1600}
                     height={1200}

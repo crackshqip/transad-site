@@ -452,18 +452,87 @@
     "headline": "Selected projects.",
     "lead": "A small selection of recent identities, campaigns, and digital systems.",
     "items": [
-      { "slug": "aria-studio",      "title": "Aria Studio",     "outcome": "Identity for a contemporary architecture firm.",        "tag": "Identity",   "year": 2025 },
+      { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "A modern direct-to-consumer baby brand built into a 5× revenue business.","tag": "E-commerce", "year": "2023 — Present", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
       { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social media system for a lighting design studio.",    "tag": "Social",     "year": 2024 },
-      { "slug": "heim-atelier",     "title": "Heim Atelier",    "outcome": "Editorial brochure for an interior design practice.",  "tag": "Editorial",  "year": 2023 }
+      { "slug": "heim-atelier",     "title": "Heim Atelier",    "outcome": "Editorial brochure for an interior design practice.",  "tag": "Editorial",  "year": 2023 },
+      { "slug": "aria-studio",      "title": "Aria Studio",     "outcome": "Identity for a contemporary architecture firm.",        "tag": "Identity",   "year": 2025 }
     ],
     "cta": { "title": "Have a project in mind?", "button": "Start a conversation" },
     "casePlaceholder": {
       "headline": "Case study coming soon.",
       "lead":     "We're documenting the work. Detailed case studies will appear here as they're written.",
       "back":     "Back to all work"
+    },
+    "caseStudies": {
+      "hello-baby-box": {
+        "eyebrow": "Work / 01 — Identity · Website · Social · Campaigns",
+        "title": "Hello Baby Box",
+        "outcome": "A modern direct-to-consumer baby brand built from a single Shopify store into a 5× revenue business.",
+        "meta": [
+          { "label": "Client",   "value": "Hello Baby Box" },
+          { "label": "Industry", "value": "Baby & Family E-commerce" },
+          { "label": "Years",    "value": "2023 — Present" },
+          { "label": "Services", "value": "Shopify Design, Content, Performance Ads" }
+        ],
+        "hero": {
+          "src": "/images/work/hello-baby-box/01-hero-portrait.jpg",
+          "alt": "A mother holding a newborn wrapped in a pink Hello Baby Box wrap, with the brand badge visible."
+        },
+        "brief": {
+          "eyebrow": "The brief",
+          "body":    "Hello Baby Box came to us as a young direct-to-consumer baby brand with a strong product but no clear digital identity, a basic Shopify store, and inconsistent marketing. The founders needed a partner who could turn the brand into a recognizable presence — not just run ads, but build the entire commercial engine around it."
+        },
+        "approach": {
+          "eyebrow": "The approach",
+          "body":    "We started with the Shopify experience: a quieter, more confident store design that lets product photography and parent-focused copy carry the brand. We then layered on a sustained content program — monthly editorial photography, a recognizable social grid, and performance creative that runs continuously across Meta. Every asset reinforces the same calm, considered tone."
+        },
+        "stats": [
+          { "num": "5×", "lbl": "Revenue growth over 3 years" },
+          { "num": "3",  "lbl": "Years as retained partner" },
+          { "num": "4",  "lbl": "Channels running in sync" }
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
+            "alt":     "Hello Baby Box homepage shown on a laptop in a soft natural-lit setting.",
+            "caption": "Shopify storefront — redesigned 2023",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
+            "alt":     "Hello Baby Box mobile product listing page on iPhone.",
+            "caption": "Mobile commerce — 70% of traffic",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
+            "alt":     "Three Hello Baby Box social media posts in sequence.",
+            "caption": "Social content — monthly editorial calendar",
+            "style":   "fullbleed"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Results",
+          "headline": "From a single Shopify store to a 5× revenue business in three years.",
+          "bullets": [
+            "5× revenue growth between 2023 and 2025",
+            "Continuous performance creative across Meta (Facebook + Instagram)",
+            "A recognizable social presence with consistent monthly editorial output",
+            "A retained partnership now entering its fourth year"
+          ]
+        },
+        "navigation": {
+          "back": "Back to all work",
+          "next": "Next case study"
+        },
+        "cta": {
+          "title":  "Have a project in mind?",
+          "button": "Start a conversation"
+        }
+      }
     }
   },
   "servicesPage": {

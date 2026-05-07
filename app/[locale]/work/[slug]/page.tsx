@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -9,10 +10,35 @@ import Footer from "@/app/components/Footer";
 import { routing } from "@/i18n/routing";
 import { buildMetadata } from "@/app/seo";
 
-type Item = { slug: string; title: string; outcome: string; tag: string; year: number };
+type Item = {
+  slug: string;
+  title: string;
+  outcome: string;
+  tag: string;
+  year: number | string;
+  cardImage?: string;
+};
 
-// Re-use the EN list to enumerate valid slugs at build time. The page itself
-// reads the active-locale title for display.
+type CaseStudyContent = {
+  eyebrow: string;
+  title: string;
+  outcome: string;
+  meta: { label: string; value: string }[];
+  hero: { src: string; alt: string };
+  brief: { eyebrow: string; body: string };
+  approach: { eyebrow: string; body: string };
+  stats: { num: string; lbl: string }[];
+  showcase: {
+    src: string;
+    alt: string;
+    caption: string;
+    style?: "contained" | "fullbleed";
+  }[];
+  results: { eyebrow: string; headline: string; bullets: string[] };
+  navigation: { back: string; next: string };
+  cta: { title: string; button: string };
+};
+
 import enMessages from "@/messages/en.json";
 const VALID_SLUGS = (enMessages.workPage.items as Item[]).map((i) => i.slug);
 
@@ -36,19 +62,18 @@ export async function generateMetadata({
   const item = items.find((i) => i.slug === slug);
   if (!item) return {};
 
-  const titleByLocale: Record<string, string> = {
-    en: `${item.title} — Transad`,
-    de: `${item.title} — Transad`,
-  };
+  const studies = t.raw("caseStudies") as Record<string, CaseStudyContent> | undefined;
+  const study = studies?.[slug];
+
   return buildMetadata({
     locale,
     path: `/work/${slug}`,
-    title: titleByLocale[locale],
-    description: item.outcome,
+    title: `${item.title} — Transad`,
+    description: study?.outcome ?? item.outcome,
   });
 }
 
-export default async function CaseStudyPlaceholder({
+export default async function CaseStudyPage({
   params,
 }: {
   params: Promise<{ locale: string; slug: string }>;
@@ -62,25 +87,159 @@ export default async function CaseStudyPlaceholder({
   const items = t.raw("items") as Item[];
   const item = items.find((i) => i.slug === slug)!;
 
+  const studies = t.raw("caseStudies") as Record<string, CaseStudyContent> | undefined;
+  const study = studies?.[slug];
+
+  if (!study) {
+    return (
+      <>
+        <SiteNav />
+        <main>
+          <section className="page-intro container">
+            <Eyebrow accent>
+              {item.tag} · {item.year}
+            </Eyebrow>
+            <h1 className="display">{item.title}</h1>
+            <p className="lead">{item.outcome}</p>
+          </section>
+
+          <section className="container">
+            <div className="case-placeholder">
+              <h2>{t("casePlaceholder.headline")}</h2>
+              <p>{t("casePlaceholder.lead")}</p>
+              <Link className="btn btn-text" href={`/${locale}/work`}>
+                <span>← {t("casePlaceholder.back")}</span>
+              </Link>
+            </div>
+          </section>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
+  const currentIndex = items.findIndex((i) => i.slug === slug);
+  const nextItem = items[(currentIndex + 1) % items.length];
+
   return (
     <>
       <SiteNav />
       <main>
-        <section className="page-intro container">
-          <Eyebrow accent>{item.tag} · {item.year}</Eyebrow>
-          <h1 className="display">{item.title}</h1>
-          <p className="lead">{item.outcome}</p>
-        </section>
+        <article className="case">
+          <header className="case-hero container">
+            <div className="case-hero-eyebrow">{study.eyebrow}</div>
+            <h1 className="case-hero-title">{study.title}</h1>
+            <p className="case-hero-outcome">{study.outcome}</p>
 
-        <section className="container">
-          <div className="case-placeholder">
-            <h2>{t("casePlaceholder.headline")}</h2>
-            <p>{t("casePlaceholder.lead")}</p>
-            <Link className="btn btn-text" href={`/${locale}/work`}>
-              <span>← {t("casePlaceholder.back")}</span>
+            <dl className="case-meta-strip">
+              {study.meta.map((m) => (
+                <div className="case-meta-cell" key={m.label}>
+                  <dt className="case-meta-label">{m.label}</dt>
+                  <dd className="case-meta-value">{m.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </header>
+
+          <figure className="case-hero-image">
+            <Image
+              src={study.hero.src}
+              alt={study.hero.alt}
+              width={2400}
+              height={1600}
+              priority
+              sizes="100vw"
+            />
+          </figure>
+
+          <section className="case-intro container">
+            <div className="case-intro-grid">
+              <div className="case-intro-col">
+                <div className="case-intro-eyebrow">{study.brief.eyebrow}</div>
+                <p className="case-intro-body">{study.brief.body}</p>
+              </div>
+              <div className="case-intro-col">
+                <div className="case-intro-eyebrow">{study.approach.eyebrow}</div>
+                <p className="case-intro-body">{study.approach.body}</p>
+              </div>
+            </div>
+
+            <div className="case-stats">
+              {study.stats.map((s, i) => (
+                <div className="case-stat" key={i}>
+                  <div className="case-stat-num">{s.num}</div>
+                  <div className="case-stat-lbl">{s.lbl}</div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-showcase">
+            {study.showcase.map((img, i) => {
+              const isFull = img.style === "fullbleed";
+              return (
+                <figure
+                  className={`case-show ${isFull ? "case-show-full" : "case-show-contained"}`}
+                  key={i}
+                >
+                  <div className="case-show-frame">
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      width={2400}
+                      height={1600}
+                      sizes={isFull ? "100vw" : "(max-width: 1200px) 92vw, 1080px"}
+                    />
+                  </div>
+                  {img.caption && (
+                    <figcaption className="case-show-caption">
+                      {img.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              );
+            })}
+          </section>
+
+          <section className="case-results container">
+            <div className="case-results-eyebrow">{study.results.eyebrow}</div>
+            <h2 className="case-results-headline">{study.results.headline}</h2>
+            <ul className="case-results-list">
+              {study.results.bullets.map((b, i) => (
+                <li key={i}>{b}</li>
+              ))}
+            </ul>
+          </section>
+
+          <nav className="case-nav container">
+            <Link className="case-nav-back" href={`/${locale}/work`}>
+              <span aria-hidden="true">←</span>
+              <span>{study.navigation.back}</span>
             </Link>
-          </div>
-        </section>
+            <Link
+              className="case-nav-next"
+              href={`/${locale}/work/${nextItem.slug}`}
+            >
+              <span>{study.navigation.next}</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </nav>
+
+          <section className="container">
+            <div className="cta-strip">
+              <h2>{study.cta.title}</h2>
+              <Link
+                className="btn btn-primary btn-lg"
+                href={`/${locale}#contact`}
+              >
+                <span>{study.cta.button}</span>
+                <span className="arrow" aria-hidden="true">
+                  →
+                </span>
+              </Link>
+            </div>
+          </section>
+        </article>
       </main>
       <Footer />
     </>
