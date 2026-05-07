@@ -37,6 +37,8 @@ export default function Footer() {
           <h3>{t("studiosHeading")}</h3>
           <span>Stuttgart</span>
           <span>Leeds</span>
+          <span>Prishtina</span>
+          <span>Vilnius</span>
         </div>
         <div className="ft-col">
           <h3>{t("legalHeading")}</h3>

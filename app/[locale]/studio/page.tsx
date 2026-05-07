@@ -14,12 +14,12 @@ const SEO_BY_LOCALE: Record<string, { title: string; description: string }> = {
   en: {
     title: "Studio — Transad",
     description:
-      "A small, deliberate practice in Stuttgart and Leeds. Six people, four principles, twelve case studies.",
+      "A small, deliberate practice with four offices across Europe. Six people, four principles, twelve case studies.",
   },
   de: {
     title: "Studio — Transad",
     description:
-      "Ein kleines, bewusstes Studio in Stuttgart und Leeds. Sechs Personen, vier Prinzipien, zwölf Fallstudien.",
+      "Ein kleines, bewusstes Studio mit vier Standorten in Europa. Sechs Personen, vier Prinzipien, zwölf Fallstudien.",
   },
 };
 
@@ -77,7 +77,7 @@ export default async function StudioPage({
                 <div className="lbl">{t("stats.studioMembers")}</div>
               </div>
               <div className="stat">
-                <div className="num">2</div>
+                <div className="num">4</div>
                 <div className="lbl">{t("stats.cities")}</div>
               </div>
               <div className="stat">

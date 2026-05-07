@@ -6,7 +6,7 @@
     "pricing": "Pricing",
     "contact": "Contact",
     "cta": "Get in touch",
-    "locations": "STG · LDS",
+    "locations": "STG · LDS · PRN · VNO",
     "languageLabel": "Language",
     "homeLabel": "Transad — home"
   },
@@ -18,7 +18,7 @@
     "ctaSecondary": "Get in touch",
     "meta": {
       "founded":     { "label": "Founded",     "value": "2019, Stuttgart" },
-      "studios":     { "label": "Studios",     "value": "Stuttgart · Leeds" },
+      "studios":     { "label": "Studios",     "value": "Stuttgart · Leeds · Prishtina · Vilnius" },
       "practice":    { "label": "Practice",    "value": "Identity, Campaign, Digital" },
       "engagements": { "label": "Engagements", "value": "Six per year" }
     }
@@ -83,7 +83,7 @@
       "emailLabel": "Email",
       "phoneLabel": "Phone",
       "studiosLabel": "Studios",
-      "studiosValue": "Stuttgart · Leeds"
+      "studiosValue": "Stuttgart · Leeds · Prishtina · Vilnius"
     },
     "form": {
       "nameLabel":          "Name",
@@ -428,6 +428,18 @@
           "slug": "leeds",
           "city": "Leeds",
           "address": "Branch Office – 4 The Boulevard\nLeeds LS10 1PZ, UK",
+          "hours": "Mon – Fri · 09:00 – 18:00"
+        },
+        {
+          "slug": "prishtina",
+          "city": "Prishtina",
+          "address": "Malush Kosova nr. 383\n10000 Prishtinë, Kosovo",
+          "hours": "Mon – Fri · 09:00 – 18:00"
+        },
+        {
+          "slug": "vilnius",
+          "city": "Vilnius",
+          "address": "Head Office – Konstitucijos Prospektas 12\nVilnius, Lithuania",
           "hours": "Mon – Fri · 09:00 – 18:00"
         }
       ]
