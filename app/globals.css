@@ -304,15 +304,17 @@ img, svg { display: block; max-width: 100%; }
 }
 .nav-hamburger:hover { color: var(--accent); }
 
-/* ---------- Mobile overlay menu ---------- */
+/* ---------- Mobile overlay menu ----------
+   Portaled to <body> by MobileMenu.tsx so it escapes the nav's
+   backdrop-filter containing block. position:fixed + inset:0 fills
+   the entire viewport; z-index:9999 sits above the cookie banner. */
 .mobile-menu {
   position: fixed;
   inset: 0;
-  z-index: 100;
-  background: var(--bg);
+  z-index: 9999;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
-  padding: 14px var(--container-pad) 32px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-8px);
@@ -330,19 +332,20 @@ img, svg { display: block; max-width: 100%; }
     transform 320ms var(--ease-emphasis),
     visibility 0s linear 0s;
 }
+
 .mobile-menu-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 48px;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 14px;
+  height: 64px;
+  padding: 0 var(--container-pad);
+  flex-shrink: 0;
 }
 .mobile-menu-eyebrow {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-500);
 }
@@ -350,43 +353,51 @@ img, svg { display: block; max-width: 100%; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   background: transparent;
   border: 0;
-  margin: 0 -10px 0 0;
-  color: var(--ink-900);
+  margin-right: -10px;
+  color: var(--accent);
   cursor: pointer;
   transition: color var(--dur-fast) var(--ease-standard);
 }
 .nav-close:hover,
-.nav-close:focus-visible { color: var(--accent); }
+.nav-close:focus-visible { color: var(--accent-hover); }
 
-.mobile-menu-links {
+.mobile-menu-divider {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.mobile-menu-body {
   flex: 1;
   display: flex;
-  align-items: center;
-  padding: var(--space-7) 0;
+  flex-direction: column;
+  padding: var(--space-7) var(--container-pad) var(--space-7);
+  min-height: 0;
 }
+
 .mobile-menu-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  width: 100%;
 }
 .mobile-menu-links a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  min-height: 56px;
   font-family: var(--font-sans);
   font-weight: var(--fw-semibold);
-  font-size: clamp(40px, 9vw, 64px);
-  line-height: 1.05;
+  font-size: clamp(36px, 8vw, 48px);
+  line-height: 1.1;
   letter-spacing: -0.04em;
   color: var(--ink-900);
   text-decoration: none;
-  padding: 6px 0;
   transition: color var(--dur-fast) var(--ease-standard);
 }
 .mobile-menu-links a:hover,
@@ -411,29 +422,21 @@ img, svg { display: block; max-width: 100%; }
 .mobile-menu.is-open .mobile-menu-links li:nth-child(4) { transition-delay: 180ms; }
 .mobile-menu.is-open .mobile-menu-links li:nth-child(5) { transition-delay: 220ms; }
 
-.mobile-menu-foot {
-  border-top: 1px solid var(--border);
-  padding-top: 20px;
+.mobile-menu-lang {
+  margin-top: var(--space-6);
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: flex-start;
 }
+.mobile-menu-lang .lang-switcher { font-size: 12px; }
+.mobile-menu-lang .lang-switcher a { padding: 8px 0; }
+
 .mobile-menu-cta {
+  margin-top: auto;
   width: 100%;
   justify-content: space-between;
   padding: 18px 22px;
   font-size: 17px;
   line-height: 24px;
-}
-.mobile-menu-lang {
-  display: flex;
-  justify-content: flex-start;
-}
-.mobile-menu-lang .lang-switcher {
-  font-size: 12px;
-}
-.mobile-menu-lang .lang-switcher a {
-  padding: 8px 0;
 }
 
 @media (min-width: 769px) {

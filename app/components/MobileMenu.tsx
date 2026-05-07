@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LangSwitcher from "./LangSwitcher";
@@ -19,9 +20,12 @@ type Props = {
 
 export default function MobileMenu({ links, cta, labels }: Props) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const triggerRef = useRef<HTMLButtonElement | null>(null);
   const closeRef = useRef<HTMLButtonElement | null>(null);
   const pathname = usePathname();
+
+  useEffect(() => setMounted(true), []);
 
   useEffect(() => {
     setOpen(false);
@@ -47,55 +51,44 @@ export default function MobileMenu({ links, cta, labels }: Props) {
     };
   }, [open]);
 
-  return (
-    <>
-      <button
-        ref={triggerRef}
-        type="button"
-        className="nav-hamburger"
-        aria-label={labels.open}
-        aria-expanded={open}
-        aria-controls="mobile-menu"
-        onClick={() => setOpen(true)}
-      >
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
-      </button>
-
-      <div
-        id="mobile-menu"
-        className={`mobile-menu${open ? " is-open" : ""}`}
-        role="dialog"
-        aria-modal="true"
-        aria-label={labels.menu}
-        aria-hidden={!open}
-      >
-        <div className="mobile-menu-bar">
-          <span className="mobile-menu-eyebrow">{labels.menu}</span>
-          <button
-            ref={closeRef}
-            type="button"
-            className="nav-close"
-            aria-label={labels.close}
-            onClick={() => setOpen(false)}
+  const overlay = (
+    <div
+      id="mobile-menu"
+      className={`mobile-menu${open ? " is-open" : ""}`}
+      role="dialog"
+      aria-modal="true"
+      aria-label={labels.menu}
+      aria-hidden={!open}
+    >
+      <div className="mobile-menu-bar">
+        <span className="mobile-menu-eyebrow">{labels.menu}</span>
+        <button
+          ref={closeRef}
+          type="button"
+          className="nav-close"
+          aria-label={labels.close}
+          onClick={() => setOpen(false)}
+        >
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            aria-hidden="true"
           >
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              aria-hidden="true"
-            >
-              <path
-                d="M3 3 L17 17 M17 3 L3 17"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="square"
-              />
-            </svg>
-          </button>
-        </div>
+            <path
+              d="M3 3 L19 19 M19 3 L3 19"
+              stroke="currentColor"
+              strokeWidth="1.75"
+              strokeLinecap="square"
+            />
+          </svg>
+        </button>
+      </div>
 
+      <hr className="mobile-menu-divider" />
+
+      <div className="mobile-menu-body">
         <nav className="mobile-menu-links" aria-label="Mobile primary">
           <ul>
             {links.map((l) => (
@@ -114,20 +107,37 @@ export default function MobileMenu({ links, cta, labels }: Props) {
           </ul>
         </nav>
 
-        <div className="mobile-menu-foot">
-          <a
-            className="btn btn-primary btn-lg mobile-menu-cta"
-            href={cta.href}
-            onClick={() => setOpen(false)}
-          >
-            <span>{cta.label}</span>
-            <span className="arrow" aria-hidden="true">→</span>
-          </a>
-          <div className="mobile-menu-lang">
-            <LangSwitcher />
-          </div>
+        <div className="mobile-menu-lang">
+          <LangSwitcher />
         </div>
+
+        <a
+          className="btn btn-primary btn-lg mobile-menu-cta"
+          href={cta.href}
+          onClick={() => setOpen(false)}
+        >
+          <span>{cta.label}</span>
+          <span className="arrow" aria-hidden="true">→</span>
+        </a>
       </div>
+    </div>
+  );
+
+  return (
+    <>
+      <button
+        ref={triggerRef}
+        type="button"
+        className="nav-hamburger"
+        aria-label={labels.open}
+        aria-expanded={open}
+        aria-controls="mobile-menu"
+        onClick={() => setOpen(true)}
+      >
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+      </button>
+      {mounted ? createPortal(overlay, document.body) : null}
     </>
   );
 }
