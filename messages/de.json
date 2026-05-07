@@ -6,7 +6,7 @@
     "pricing": "Preise",
     "contact": "Kontakt",
     "cta": "Kontakt aufnehmen",
-    "locations": "STG · BER",
+    "locations": "STG · LDS",
     "languageLabel": "Sprache",
     "homeLabel": "Transad — Startseite"
   },
@@ -18,7 +18,7 @@
     "ctaSecondary": "Kontakt aufnehmen",
     "meta": {
       "founded":     { "label": "Gegründet",   "value": "2019, Stuttgart" },
-      "studios":     { "label": "Standorte",   "value": "Stuttgart · Berlin" },
+      "studios":     { "label": "Standorte",   "value": "Stuttgart · Leeds" },
       "practice":    { "label": "Schwerpunkt", "value": "Identität, Kampagne, Digital" },
       "engagements": { "label": "Projekte",    "value": "Sechs pro Jahr" }
     }
@@ -83,7 +83,7 @@
       "emailLabel":   "E-Mail",
       "phoneLabel":   "Telefon",
       "studiosLabel": "Standorte",
-      "studiosValue": "Stuttgart · Berlin"
+      "studiosValue": "Stuttgart · Leeds"
     },
     "form": {
       "nameLabel":          "Name",
@@ -425,9 +425,9 @@
           "hours": "Mo – Fr · 09:00 – 18:00"
         },
         {
-          "slug": "berlin",
-          "city": "Berlin",
-          "address": "[Straße und Hausnummer]\n[PLZ] Berlin\n[Land]",
+          "slug": "leeds",
+          "city": "Leeds",
+          "address": "Branch Office – 4 The Boulevard\nLeeds LS10 1PZ, UK",
           "hours": "Mo – Fr · 09:00 – 18:00"
         }
       ]
