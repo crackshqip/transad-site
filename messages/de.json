@@ -8,7 +8,10 @@
     "cta": "Kontakt aufnehmen",
     "locations": "STG · LDS · PRN · VNO",
     "languageLabel": "Sprache",
-    "homeLabel": "Transad — Startseite"
+    "homeLabel": "Transad — Startseite",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "menuLabel": "Menü"
   },
   "hero": {
     "eyebrow": "Index",

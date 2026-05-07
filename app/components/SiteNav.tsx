@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import LangSwitcher from "./LangSwitcher";
+import MobileMenu from "./MobileMenu";
 
 export default function SiteNav() {
   const t = useTranslations("nav");
@@ -42,6 +43,14 @@ export default function SiteNav() {
       <div className="nav-right">
         <LangSwitcher />
         <span className="loc-meta">{t("locations")}</span>
+        <MobileMenu
+          links={links}
+          labels={{
+            open: t("menuOpen"),
+            close: t("menuClose"),
+            menu: t("menuLabel"),
+          }}
+        />
         <a className="btn btn-dark btn-sm" href={`${home}#contact`}>
           <span>{t("cta")}</span>
           <span className="arrow" aria-hidden="true">→</span>
