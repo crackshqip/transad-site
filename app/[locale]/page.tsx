@@ -12,12 +12,12 @@ import { buildMetadata } from "@/app/seo";
 
 const SEO_BY_LOCALE: Record<string, { title: string; description: string }> = {
   en: {
-    title: "Transad — Clarity, made visible.",
+    title: "Transad — Clarity. Made visible.",
     description:
       "Transad is a minimal marketing and branding agency. We help modern businesses communicate with clarity, consistency, and visual impact.",
   },
   de: {
-    title: "Transad — Klarheit, sichtbar gemacht.",
+    title: "Transad — Klarheit. Sichtbar gemacht.",
     description:
       "Transad ist eine minimalistische Agentur für Marketing und Branding. Wir helfen modernen Unternehmen, klar und konsistent zu kommunizieren.",
   },
@@ -79,9 +79,9 @@ export default async function LocaleHome({
               <span>{tHero("ctaPrimary")}</span>
               <span className="arrow" aria-hidden="true">→</span>
             </a>
-            <a className="btn btn-ghost btn-lg" href="#contact">
+            <Link className="btn btn-ghost btn-lg" href={`/${locale}/studio`}>
               {tHero("ctaSecondary")}
-            </a>
+            </Link>
           </div>
           <dl className="hero-meta">
             {(["founded", "studios", "practice", "engagements"] as const).map((k) => (
