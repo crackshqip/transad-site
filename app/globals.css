@@ -1350,72 +1350,36 @@ img, svg { display: block; max-width: 100%; }
 .case-showcase {
   display: flex;
   flex-direction: column;
-  /* Mobile-first vertical rhythm: tight on phones, generous on desktop. */
-  gap: 48px;
-  padding-block: 48px;
+  gap: var(--space-9);
+  padding-block: var(--space-8) var(--space-9);
 }
-@media (min-width: 640px) {
-  .case-showcase { gap: 80px; padding-block: 80px; }
-}
-@media (min-width: 1024px) {
-  .case-showcase { gap: 128px; padding-block: 128px; }
-}
-
 .case-show {
   margin: 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.case-show-contained {
-  /* Inset moved off the frame so aspect-ratio applies to the visible
-     image, not the padded box. */
-  max-width: var(--container-max);
-  margin: 0 auto;
-  width: 100%;
-  padding-left: var(--container-pad);
-  padding-right: var(--container-pad);
-}
 .case-show-frame {
   background: var(--neutral-100);
   overflow: hidden;
   width: 100%;
-  /* Art-direction via aspect-ratio. Mobile = portrait fills the screen,
-     tablet eases to landscape, desktop returns to wide cinematic. */
-  aspect-ratio: 4 / 5;
 }
 .case-show-frame img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   display: block;
 }
-@media (min-width: 640px) {
-  .case-show-frame { aspect-ratio: 3 / 2; }
+.case-show-contained .case-show-frame {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding-left: var(--container-pad);
+  padding-right: var(--container-pad);
+  background: transparent;
 }
-@media (min-width: 768px) {
-  .case-show-frame { aspect-ratio: 16 / 9; }
+.case-show-contained .case-show-frame img {
+  background: var(--neutral-100);
 }
-
-/* Variant: phone-center — for "three phones in a row" mockups, mobile crops
-   to a single phone (portrait 9/16). Tablet/desktop revert to standard. */
-.case-show.is-phone-center .case-show-frame { aspect-ratio: 9 / 16; }
-@media (min-width: 640px) {
-  .case-show.is-phone-center .case-show-frame { aspect-ratio: 3 / 2; }
-}
-@media (min-width: 768px) {
-  .case-show.is-phone-center .case-show-frame { aspect-ratio: 16 / 9; }
-}
-
-/* Variant: screen-bias — for laptop-in-scene mockups where the screen sits
-   in the upper portion. Center-crop biases up so the screen stays in view
-   when the aspect ratio is portrait. Reverts to true center on desktop. */
-.case-show.is-screen-bias .case-show-frame img { object-position: center 35%; }
-@media (min-width: 768px) {
-  .case-show.is-screen-bias .case-show-frame img { object-position: center; }
-}
-
+.case-show-full .case-show-frame { max-width: 100%; }
 .case-show-caption {
   font-family: var(--font-mono);
   font-size: 10px;
@@ -1427,7 +1391,6 @@ img, svg { display: block; max-width: 100%; }
   margin-top: 8px;
   padding: 0 var(--container-pad);
 }
-.case-show-contained .case-show-caption { padding: 0; }
 
 .case-results {
   padding-block: var(--space-9) var(--space-8);

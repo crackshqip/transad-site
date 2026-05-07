@@ -503,8 +503,7 @@
             "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
             "alt":     "Hello Baby Box homepage shown on a laptop in a soft natural-lit setting.",
             "caption": "Shopify storefront — redesigned 2023",
-            "style":   "contained",
-            "focal":   "screen-bias"
+            "style":   "contained"
           },
           {
             "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
@@ -516,8 +515,7 @@
             "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
             "alt":     "Three Hello Baby Box social media posts in sequence.",
             "caption": "Social content — monthly editorial calendar",
-            "style":   "fullbleed",
-            "focal":   "phone-center"
+            "style":   "fullbleed"
           }
         ],
         "results": {
@@ -577,8 +575,7 @@
             "src":     "/images/work/treventi/04-laptop-hero.jpg",
             "alt":     "Treventi homepage hero on desktop with the manufacturing story.",
             "caption": "Website — desktop experience",
-            "style":   "contained",
-            "focal":   "screen-bias"
+            "style":   "contained"
           },
           {
             "src":     "/images/work/treventi/02-laptop-process.jpg",
@@ -590,8 +587,7 @@
             "src":     "/images/work/treventi/03-mobile-trio.jpg",
             "alt":     "Treventi mobile experience — homepage, founders page, and red navigation menu.",
             "caption": "Mobile experience — responsive from launch",
-            "style":   "contained",
-            "focal":   "phone-center"
+            "style":   "contained"
           },
           {
             "src":     "/images/work/treventi/05-social-grid.jpg",
@@ -603,8 +599,7 @@
             "src":     "/images/work/treventi/06-facebook-ads.jpg",
             "alt":     "Three Facebook ad creatives for Treventi shown on iPhones.",
             "caption": "Performance campaigns — Meta ads across Kosovo",
-            "style":   "contained",
-            "focal":   "phone-center"
+            "style":   "contained"
           }
         ],
         "results": {

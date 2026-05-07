@@ -33,7 +33,6 @@ type CaseStudyContent = {
     alt: string;
     caption: string;
     style?: "contained" | "fullbleed";
-    focal?: "phone-center" | "screen-bias";
   }[];
   results: { eyebrow: string; headline: string; bullets: string[] };
   navigation: { back: string; next: string };
@@ -152,7 +151,7 @@ export default async function CaseStudyPage({
               width={2400}
               height={1600}
               priority
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1200px"
+              sizes="100vw"
             />
           </figure>
 
@@ -181,10 +180,9 @@ export default async function CaseStudyPage({
           <section className="case-showcase">
             {study.showcase.map((img, i) => {
               const isFull = img.style === "fullbleed";
-              const focalClass = img.focal ? ` is-${img.focal}` : "";
               return (
                 <figure
-                  className={`case-show ${isFull ? "case-show-full" : "case-show-contained"}${focalClass}`}
+                  className={`case-show ${isFull ? "case-show-full" : "case-show-contained"}`}
                   key={i}
                 >
                   <div className="case-show-frame">
@@ -193,7 +191,7 @@ export default async function CaseStudyPage({
                       alt={img.alt}
                       width={2400}
                       height={1600}
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1200px"
+                      sizes={isFull ? "100vw" : "(max-width: 1200px) 92vw, 1080px"}
                     />
                   </div>
                   {img.caption && (
