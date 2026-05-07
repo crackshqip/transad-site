@@ -75,7 +75,7 @@ export default async function LocaleHome({
           </h1>
           <p className="lead">{tHero("lead")}</p>
           <div className="hero-actions">
-            <a className="btn btn-primary btn-lg" href="#work">
+            <a className="btn btn-dark btn-lg" href="#work">
               <span>{tHero("ctaPrimary")}</span>
               <span className="arrow" aria-hidden="true">→</span>
             </a>
