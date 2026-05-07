@@ -118,8 +118,11 @@ export default async function CaseStudyPage({
     );
   }
 
-  const currentIndex = items.findIndex((i) => i.slug === slug);
-  const nextItem = items[(currentIndex + 1) % items.length];
+  // "Next case study" cycles through items that have rich content only —
+  // skipping placeholder slugs so the link always lands on a real case study.
+  const studyItems = items.filter((i) => Boolean(studies?.[i.slug]));
+  const currentStudyIndex = studyItems.findIndex((i) => i.slug === slug);
+  const nextItem = studyItems[(currentStudyIndex + 1) % studyItems.length];
 
   return (
     <>

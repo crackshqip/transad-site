@@ -456,6 +456,7 @@
     "lead": "Eine kleine Auswahl aktueller Identitäten, Kampagnen und digitaler Systeme.",
     "items": [
       { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "Eine moderne Direct-to-Consumer-Babymarke — gewachsen zum Unternehmen mit fünffachem Umsatz.","tag": "E-Commerce", "year": "2023 — heute", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
+      { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "Vom regionalen Händler zum anerkannten lokalen Hersteller — durch drei Jahre Markenpräsenz.","tag": "Branding & Herstellung", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Verpackungssystem für eine Specialty-Rösterei.",              "tag": "Verpackung", "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
@@ -525,6 +526,90 @@
             "Durchgängige Performance-Creatives bei Meta (Facebook + Instagram)",
             "Wiedererkennbare Social-Präsenz mit verlässlichem monatlichem Editorial-Output",
             "Eine Partnerschaft, die nun in ihr viertes Jahr geht"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "treventi": {
+        "eyebrow": "Arbeiten / 02 — Branding · Website · Social · Kampagnen",
+        "title": "Treventi Doors",
+        "outcome": "Von einem regionalen Türhändler zu einem anerkannten lokalen Hersteller — getragen von drei Jahren konsequenter Markenpräsenz.",
+        "meta": [
+          { "label": "Kunde",      "value": "Treventi Doors" },
+          { "label": "Branche",    "value": "Innentüren · Herstellung" },
+          { "label": "Jahre",      "value": "2022 — 2024" },
+          { "label": "Leistungen", "value": "Markenbekanntheit, Website, Social, Kampagnen, Engagement" }
+        ],
+        "hero": {
+          "src": "/images/work/treventi/04-laptop-hero.jpg",
+          "alt": "Die Treventi-Website auf einem Laptop, mit dem Marken-Claim „Crafting Quality. Building Possibilities.\" über einer Handwerksszene."
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "Treventi startete als regionaler Händler importierter Innentüren im Kosovo — mit fundiertem Produktwissen, aber begrenzter Markenbekanntheit außerhalb des direkten Einzugsgebiets. Mit dem Schritt der Gründer in die eigene Herstellung brauchte es eine Markenpräsenz, die diesem Anspruch entspricht — eine, die Treventi als qualitätsgetriebenen Namen positioniert, den Kund:innen aktiv wählen, nicht nur am Verkaufsort entdecken."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Wir haben die Marke rund um den Gedanken der Handwerkskunst neu aufgebaut — und jedes Kommunikationselement in den Menschen, Prozessen und Produkten hinter den Türen verankert. Eine neue Website rückt die Herstellungsgeschichte mit Editorial-Fotografie und einem ruhigen, durchdachten Ton in den Vordergrund. Ein durchgängiges Social-Programm läuft auf Facebook und Instagram mit hochwertigen Creatives. Performance-Kampagnen schaffen Bekanntheit in den großen Städten Kosovos, gestützt von Retargeting und engagement-orientierten Inhalten."
+        },
+        "stats": [
+          { "num": "3", "lbl": "Jahre als betreuter Partner" },
+          { "num": "6", "lbl": "Städte erreicht im Kosovo" },
+          { "num": "1", "lbl": "Vom Händler zum Hersteller" }
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/treventi/01-map-expansion.jpg",
+            "alt":     "Eine Karte des Kosovo, die Treventis Wachstum von einem einzelnen Standort in Pristina zu einem Netz über Prizren, Peja, Drenas, Ferizaj und einer Produktionsstätte zeigt.",
+            "caption": "Wachstum im Kosovo — vom einzelnen Geschäft zum lokalen Hersteller",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/treventi/04-laptop-hero.jpg",
+            "alt":     "Die Treventi-Homepage auf dem Desktop mit der Herstellungsgeschichte.",
+            "caption": "Website — Desktop-Erlebnis",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/treventi/02-laptop-process.jpg",
+            "alt":     "Editorial-Abschnitt der Treventi-Website mit dem Türherstellungsprozess.",
+            "caption": "Herstellungsgeschichte — Editorial-Inhalte",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/treventi/03-mobile-trio.jpg",
+            "alt":     "Treventi-Mobile-Erlebnis — Homepage, Gründerseite und rotes Navigationsmenü.",
+            "caption": "Mobile-Erlebnis — von Anfang an responsiv",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/treventi/05-social-grid.jpg",
+            "alt":     "Ein Raster von Treventi-Social-Media-Beiträgen in Rot und Weiß, mit Lifestyle-Fotografie und Produktaufnahmen.",
+            "caption": "Social Content — kontinuierlicher Editorial-Output",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/treventi/06-facebook-ads.jpg",
+            "alt":     "Drei Facebook-Werbeanzeigen für Treventi auf iPhones.",
+            "caption": "Performance-Kampagnen — Meta-Anzeigen im Kosovo",
+            "style":   "contained"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Ergebnisse",
+          "headline": "Ein regionaler Händler — neu positioniert als anerkannter lokaler Hersteller.",
+          "bullets": [
+            "Dreijährige Partnerschaft über Marke, Content und Performance hinweg",
+            "Markenpräsenz von einer Stadt auf sechs im Kosovo erweitert",
+            "Erfolgreicher Wechsel der Erzählung — vom Händler zum lokalen Hersteller",
+            "Kontinuierliche Social- und Anzeigen-Creatives über drei Jahre durchgehalten"
           ]
         },
         "navigation": {
