@@ -6,7 +6,7 @@
     "pricing": "Pricing",
     "contact": "Contact",
     "cta": "Get in touch",
-    "locations": "DÜS · BER",
+    "locations": "STG · BER",
     "languageLabel": "Language",
     "homeLabel": "Transad — home"
   },
@@ -17,8 +17,8 @@
     "ctaPrimary": "View selected work",
     "ctaSecondary": "Get in touch",
     "meta": {
-      "founded":     { "label": "Founded",     "value": "2019, Düsseldorf" },
-      "studios":     { "label": "Studios",     "value": "Düsseldorf · Berlin" },
+      "founded":     { "label": "Founded",     "value": "2019, Stuttgart" },
+      "studios":     { "label": "Studios",     "value": "Stuttgart · Berlin" },
       "practice":    { "label": "Practice",    "value": "Identity, Campaign, Digital" },
       "engagements": { "label": "Engagements", "value": "Six per year" }
     }
@@ -83,7 +83,7 @@
       "emailLabel": "Email",
       "phoneLabel": "Phone",
       "studiosLabel": "Studios",
-      "studiosValue": "Düsseldorf · Berlin"
+      "studiosValue": "Stuttgart · Berlin"
     },
     "form": {
       "nameLabel":          "Name",
@@ -419,8 +419,8 @@
       "eyebrow": "Studios",
       "list": [
         {
-          "slug": "dusseldorf",
-          "city": "Düsseldorf",
+          "slug": "stuttgart",
+          "city": "Stuttgart",
           "address": "Rotenbühlpl. 49/8\n70178 Stuttgart",
           "hours": "Mon – Fri · 09:00 – 18:00"
         },
