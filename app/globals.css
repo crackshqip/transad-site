@@ -126,14 +126,14 @@
   /* Mobile-first padding scale. Drives .container, .site-nav, .site-footer,
      and case study captions/frames — everything that reads --container-pad
      gets the same step-up at 640px and 1024px. */
-  --container-pad: 24px;
+  --container-pad: 32px;
 }
 
 @media (min-width: 640px) {
-  :root { --container-pad: 32px; }
+  :root { --container-pad: 40px; }
 }
 @media (min-width: 1024px) {
-  :root { --container-pad: 48px; }
+  :root { --container-pad: 56px; }
 }
 
 /* ---------- Reset ---------- */
