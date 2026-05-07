@@ -415,13 +415,24 @@ img, svg { display: block; max-width: 100%; }
   border-top: 1px solid var(--border);
   padding-top: 20px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.mobile-menu-cta {
+  width: 100%;
+  justify-content: space-between;
+  padding: 18px 22px;
+  font-size: 17px;
+  line-height: 24px;
+}
+.mobile-menu-lang {
+  display: flex;
   justify-content: flex-start;
 }
-.mobile-menu-foot .lang-switcher {
+.mobile-menu-lang .lang-switcher {
   font-size: 12px;
 }
-.mobile-menu-foot .lang-switcher a {
+.mobile-menu-lang .lang-switcher a {
   padding: 8px 0;
 }
 
@@ -1960,7 +1971,8 @@ img, svg { display: block; max-width: 100%; }
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .nav-right .loc-meta { display: none; }
-  .nav-right { gap: 10px; }
+  .nav-right .nav-cta { display: none; }
+  .nav-right { gap: 20px; }
   .nav-hamburger { display: inline-flex; }
 }
 

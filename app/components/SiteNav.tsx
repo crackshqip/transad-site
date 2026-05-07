@@ -45,13 +45,14 @@ export default function SiteNav() {
         <span className="loc-meta">{t("locations")}</span>
         <MobileMenu
           links={links}
+          cta={{ href: `${home}#contact`, label: t("cta") }}
           labels={{
             open: t("menuOpen"),
             close: t("menuClose"),
             menu: t("menuLabel"),
           }}
         />
-        <a className="btn btn-dark btn-sm" href={`${home}#contact`}>
+        <a className="btn btn-dark btn-sm nav-cta" href={`${home}#contact`}>
           <span>{t("cta")}</span>
           <span className="arrow" aria-hidden="true">→</span>
         </a>

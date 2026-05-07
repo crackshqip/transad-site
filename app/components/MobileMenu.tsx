@@ -9,6 +9,7 @@ type LinkSpec = { href: string; label: string; type: "anchor" | "page" };
 
 type Props = {
   links: LinkSpec[];
+  cta: { href: string; label: string };
   labels: {
     open: string;
     close: string;
@@ -16,7 +17,7 @@ type Props = {
   };
 };
 
-export default function MobileMenu({ links, labels }: Props) {
+export default function MobileMenu({ links, cta, labels }: Props) {
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement | null>(null);
   const closeRef = useRef<HTMLButtonElement | null>(null);
@@ -114,7 +115,17 @@ export default function MobileMenu({ links, labels }: Props) {
         </nav>
 
         <div className="mobile-menu-foot">
-          <LangSwitcher />
+          <a
+            className="btn btn-primary btn-lg mobile-menu-cta"
+            href={cta.href}
+            onClick={() => setOpen(false)}
+          >
+            <span>{cta.label}</span>
+            <span className="arrow" aria-hidden="true">→</span>
+          </a>
+          <div className="mobile-menu-lang">
+            <LangSwitcher />
+          </div>
         </div>
       </div>
     </>
