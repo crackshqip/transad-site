@@ -123,7 +123,17 @@
 
   /* ---------- Layout ---------- */
   --container-max: 1200px;
-  --container-pad: 32px;
+  /* Mobile-first padding scale. Drives .container, .site-nav, .site-footer,
+     and case study captions/frames — everything that reads --container-pad
+     gets the same step-up at 640px and 1024px. */
+  --container-pad: 24px;
+}
+
+@media (min-width: 640px) {
+  :root { --container-pad: 32px; }
+}
+@media (min-width: 1024px) {
+  :root { --container-pad: 48px; }
 }
 
 /* ---------- Reset ---------- */
@@ -1794,7 +1804,6 @@ img, svg { display: block; max-width: 100%; }
 }
 
 @media (max-width: 640px) {
-  :root { --container-pad: 20px; }
   .nav-links { display: none; }
   .nav-right .loc-meta { display: none; }
   .hero { padding: var(--space-6) 0 var(--space-7); }
