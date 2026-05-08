@@ -74,41 +74,39 @@ export default async function PricingPage({
                   className={`pkg${isFeatured ? " pkg-featured" : ""}`}
                   aria-label={t(`packages.${id}.eyebrow`)}
                 >
-                  <div className="pkg-head">
-                    <div className="pkg-eyebrow">{t(`packages.${id}.eyebrow`)}</div>
-                    <h2 className="pkg-title">
-                      {t.rich(`packages.${id}.title`, {
-                        em: (chunks) => <em>{chunks}</em>,
-                      })}
-                    </h2>
-                    <p className="pkg-desc">{t(`packages.${id}.description`)}</p>
-                  </div>
+                  <span className="pkg-eyebrow">
+                    {t(`packages.${id}.eyebrow`)}
+                  </span>
+                  <h2 className="pkg-title">
+                    {t.rich(`packages.${id}.title`, {
+                      em: (chunks) => <em>{chunks}</em>,
+                    })}
+                  </h2>
+                  <p className="pkg-desc">{t(`packages.${id}.description`)}</p>
 
-                  <div className="pkg-pricing">
-                    <div className="pkg-price">
-                      <span>{t(`packages.${id}.price`)}</span>
-                      <span className="per">{t("perMonth")}</span>
-                    </div>
-                    <div className="pkg-terms">{t(`packages.${id}.terms`)}</div>
+                  <div className="pkg-price">
+                    <span className="pkg-price-amount">
+                      {t(`packages.${id}.price`)}
+                    </span>
+                    <span className="per">{t("perMonth")}</span>
                   </div>
+                  <div className="pkg-terms">{t(`packages.${id}.terms`)}</div>
 
                   <div className="pkg-ideal">
                     <span className="lbl">{t("idealForLabel")}</span>
                     <p>{t(`packages.${id}.idealFor`)}</p>
                   </div>
 
-                  <div className="pkg-categories">
-                    {categories.map((cat) => (
-                      <div className="pkg-category" key={cat.title}>
-                        <h3>{cat.title}</h3>
-                        <ul>
-                          {cat.items.map((item) => (
-                            <li key={item}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
+                  {categories.map((cat) => (
+                    <div className="pkg-category" key={cat.title}>
+                      <h3>{cat.title}</h3>
+                      <ul>
+                        {cat.items.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
                 </article>
               );
             })}

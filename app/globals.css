@@ -1584,28 +1584,39 @@ img, svg { display: block; max-width: 100%; }
   margin: 24px 0 0;
 }
 
-/* ---------- Pricing grid ---------- */
+/* ---------- Pricing grid ----------
+   Each package card flattens its content into 10 rows that participate
+   in the parent grid via `grid-template-rows: subgrid`. Result: the
+   eyebrow, title, description, price, terms, IDEAL FOR block, and each
+   of the four category sections all sit on a shared horizontal track
+   across the three cards — even when content lengths differ.
+
+   Mobile (<=960px) drops the grid and lets each card stack as flex. */
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  /* 10 rows: eyebrow, title, desc, price, terms, ideal, cat×4. */
+  grid-template-rows: repeat(10, auto);
+  column-gap: 24px;
+  row-gap: 0;
   margin: var(--space-8) 0 var(--space-9);
-  align-items: stretch;
 }
 .pkg {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: 1 / -1;
   background: var(--bg-raised);
   border: 1px solid var(--border);
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+  padding: 48px;
 }
 .pkg-featured {
   background: var(--neutral-700);
   border-color: var(--neutral-700);
   color: #fff;
 }
-.pkg-head { display: flex; flex-direction: column; gap: 16px; }
+
+/* Row 1 — eyebrow. text-wrap: balance keeps "MOST CHOSEN" tag from
+   leaving an awkward orphan when it wraps to two lines. */
 .pkg-eyebrow {
   font-family: var(--font-mono);
   font-size: 11px;
@@ -1613,48 +1624,57 @@ img, svg { display: block; max-width: 100%; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
+  line-height: 1.4;
+  text-wrap: balance;
 }
+
+/* Row 2 — title. 16px below eyebrow. */
 .pkg-title {
+  margin: 16px 0 0;
   font-family: var(--font-sans);
   font-weight: var(--fw-semibold);
   font-size: var(--fs-5xl);
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--ink-900);
-  margin: 0;
   text-wrap: balance;
 }
 .pkg-title em { font-style: normal; color: var(--accent); }
 .pkg-featured .pkg-title { color: #fff; }
+
+/* Row 3 — description. 16px below title. */
 .pkg-desc {
+  margin: 16px 0 0;
   font-family: var(--font-sans);
   font-size: var(--fs-base);
   line-height: var(--lh-base);
   color: var(--ink-700);
-  margin: 0;
   text-wrap: pretty;
 }
 .pkg-featured .pkg-desc { color: rgba(255, 255, 255, 0.78); }
-.pkg-pricing {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+
+/* Row 4 — price. 48px below description, top divider as the section rule. */
+.pkg-price {
+  margin-top: 48px;
   padding-top: 24px;
   border-top: 1px solid var(--border);
-}
-.pkg-featured .pkg-pricing { border-top-color: var(--border-inverse); }
-.pkg-price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
   font-family: var(--font-sans);
   font-weight: var(--fw-semibold);
   font-size: var(--fs-7xl);
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--ink-900);
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
 }
-.pkg-featured .pkg-price { color: #fff; }
+.pkg-featured .pkg-price {
+  border-top-color: var(--border-inverse);
+  color: #fff;
+}
+.pkg-price-amount { display: inline-block; }
 .pkg-price .per {
   font-size: var(--fs-base);
   font-weight: var(--fw-regular);
@@ -1662,22 +1682,32 @@ img, svg { display: block; max-width: 100%; }
   color: var(--ink-500);
 }
 .pkg-featured .pkg-price .per { color: rgba(255, 255, 255, 0.5); }
+
+/* Row 5 — setup + minimum term. 8px below price.
+   Slightly tighter letter-spacing + nowrap so the line stays single-row
+   on desktop. Mobile relaxes nowrap (see media query). */
 .pkg-terms {
+  margin-top: 8px;
   font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 500;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-500);
+  white-space: nowrap;
 }
 .pkg-featured .pkg-terms { color: rgba(255, 255, 255, 0.5); }
+
+/* Row 6 — IDEAL FOR. 40px below terms. */
 .pkg-ideal {
+  margin-top: 40px;
   background: rgba(0, 5, 29, 0.04);
   border-left: 2px solid var(--accent);
-  padding: 16px 18px;
+  border-radius: 0;
+  padding: 20px 20px 20px 24px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
 }
 .pkg-featured .pkg-ideal {
   background: transparent;
@@ -1694,30 +1724,34 @@ img, svg { display: block; max-width: 100%; }
 }
 .pkg-featured .pkg-ideal .lbl { color: rgba(255, 255, 255, 0.5); }
 .pkg-ideal p {
+  margin: 0;
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
   line-height: var(--lh-sm);
   color: var(--ink-700);
-  margin: 0;
   text-wrap: pretty;
 }
 .pkg-featured .pkg-ideal p { color: rgba(255, 255, 255, 0.78); }
-.pkg-categories {
+
+/* Rows 7–10 — categories. First category sits 56px below IDEAL FOR;
+   subsequent categories are 40px apart for consistent rhythm. */
+.pkg-category {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  margin-top: auto;
+  gap: 16px;
 }
+.pkg-ideal + .pkg-category { margin-top: 56px; }
 .pkg-category h3 {
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
   font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-500);
-  margin: 0 0 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--border);
 }
 .pkg-featured .pkg-category h3 {
   color: rgba(255, 255, 255, 0.5);
@@ -1729,12 +1763,12 @@ img, svg { display: block; max-width: 100%; }
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 .pkg-category li {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
-  line-height: var(--lh-sm);
+  line-height: 1.5;
   color: var(--ink-900);
   padding-left: 18px;
   position: relative;
@@ -1749,6 +1783,26 @@ img, svg { display: block; max-width: 100%; }
 }
 /* Em-dash markers bumped 0.4 → 0.55 (3.81:1 → 6.20:1 on #131313). */
 .pkg-featured .pkg-category li::before { color: rgba(255, 255, 255, 0.55); }
+
+/* Mobile — drop the subgrid and let each card stack on its own.
+   Card-internal section spacing uses the mobile values from the spec. */
+@media (max-width: 960px) {
+  .pricing-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .pkg {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+  }
+  .pkg-price { margin-top: 32px; flex-wrap: wrap; white-space: normal; }
+  .pkg-terms { white-space: normal; }
+  .pkg-ideal { margin-top: 28px; }
+  .pkg-ideal + .pkg-category { margin-top: 40px; }
+  .pkg-category { margin-top: 32px; }
+}
 
 /* ---------- Services-page service block ---------- */
 .service-block {
@@ -2029,7 +2083,6 @@ img, svg { display: block; max-width: 100%; }
   .work-row { grid-template-columns: 40px 1fr 24px; gap: 16px; }
   .wr-meta, .wr-year { display: none; }
   .wr-title { font-size: var(--fs-2xl); line-height: var(--lh-2xl); }
-  .pricing-grid { grid-template-columns: 1fr; gap: 16px; }
   .service-block { grid-template-columns: 1fr; gap: 32px; }
   .cta-strip { flex-direction: column; align-items: flex-start; }
   .studio-hero-grid { grid-template-columns: 1fr; gap: 48px; }
