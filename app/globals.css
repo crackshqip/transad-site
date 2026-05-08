@@ -1380,6 +1380,47 @@ img, svg { display: block; max-width: 100%; }
   background: var(--neutral-100);
 }
 .case-show-full .case-show-frame { max-width: 100%; }
+
+/* ---------- Pair group ----------
+   Two consecutive showcase images tagged pair: true render here.
+   Mobile: stacked single column with the same rhythm as single blocks.
+   Tablet/desktop: side-by-side grid, top-aligned, tighter inner gap. */
+.case-show-pair {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  width: 100%;
+  padding-left: var(--container-pad);
+  padding-right: var(--container-pad);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-9);
+}
+@media (min-width: 768px) {
+  .case-show-pair {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+}
+.case-show-paired {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+.case-show-paired .case-show-frame {
+  background: var(--neutral-100);
+  overflow: hidden;
+  width: 100%;
+}
+.case-show-paired .case-show-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Caption already sits inside the padded pair wrapper — no extra inset. */
+.case-show-paired .case-show-caption { padding: 0; }
 .case-show-caption {
   font-family: var(--font-mono);
   font-size: 10px;

@@ -19,6 +19,35 @@ type Item = {
   cardImage?: string;
 };
 
+type ShowcaseItem = {
+  src: string;
+  alt: string;
+  caption: string;
+  style?: "contained" | "fullbleed";
+  pair?: boolean;
+};
+
+type ShowcaseGroup =
+  | { type: "single"; img: ShowcaseItem }
+  | { type: "pair"; images: [ShowcaseItem, ShowcaseItem] };
+
+function groupShowcase(items: ShowcaseItem[]): ShowcaseGroup[] {
+  const groups: ShowcaseGroup[] = [];
+  let i = 0;
+  while (i < items.length) {
+    const img = items[i];
+    const next = items[i + 1];
+    if (img.pair && next?.pair) {
+      groups.push({ type: "pair", images: [img, next] });
+      i += 2;
+    } else {
+      groups.push({ type: "single", img });
+      i += 1;
+    }
+  }
+  return groups;
+}
+
 type CaseStudyContent = {
   eyebrow: string;
   title: string;
@@ -28,12 +57,7 @@ type CaseStudyContent = {
   brief: { eyebrow: string; body: string };
   approach: { eyebrow: string; body: string };
   stats: { num: string; lbl: string }[];
-  showcase: {
-    src: string;
-    alt: string;
-    caption: string;
-    style?: "contained" | "fullbleed";
-  }[];
+  showcase: ShowcaseItem[];
   results: { eyebrow: string; headline: string; bullets: string[] };
   navigation: { back: string; next: string };
   cta: { title: string; button: string };
@@ -178,7 +202,32 @@ export default async function CaseStudyPage({
           </section>
 
           <section className="case-showcase">
-            {study.showcase.map((img, i) => {
+            {groupShowcase(study.showcase).map((group, i) => {
+              if (group.type === "pair") {
+                return (
+                  <div className="case-show-pair" key={i}>
+                    {group.images.map((img, j) => (
+                      <figure className="case-show case-show-paired" key={j}>
+                        <div className="case-show-frame">
+                          <Image
+                            src={img.src}
+                            alt={img.alt}
+                            width={2400}
+                            height={1600}
+                            sizes="(max-width: 768px) 92vw, (max-width: 1200px) 46vw, 540px"
+                          />
+                        </div>
+                        {img.caption && (
+                          <figcaption className="case-show-caption">
+                            {img.caption}
+                          </figcaption>
+                        )}
+                      </figure>
+                    ))}
+                  </div>
+                );
+              }
+              const img = group.img;
               const isFull = img.style === "fullbleed";
               return (
                 <figure

@@ -503,13 +503,15 @@
             "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
             "alt":     "Die Hello Baby Box-Homepage auf einem Laptop in weichem Tageslicht.",
             "caption": "Shopify-Store — Neugestaltung 2023",
-            "style":   "contained"
+            "style":   "contained",
+            "pair":    true
           },
           {
             "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
             "alt":     "Die mobile Produktseite von Hello Baby Box auf einem iPhone.",
             "caption": "Mobile Commerce — 70 % des Traffics",
-            "style":   "contained"
+            "style":   "contained",
+            "pair":    true
           },
           {
             "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
@@ -575,13 +577,15 @@
             "src":     "/images/work/treventi/04-laptop-hero.jpg",
             "alt":     "Die Treventi-Homepage auf dem Desktop mit der Herstellungsgeschichte.",
             "caption": "Website — Desktop-Erlebnis",
-            "style":   "contained"
+            "style":   "contained",
+            "pair":    true
           },
           {
             "src":     "/images/work/treventi/02-laptop-process.jpg",
             "alt":     "Editorial-Abschnitt der Treventi-Website mit dem Türherstellungsprozess.",
             "caption": "Herstellungsgeschichte — Editorial-Inhalte",
-            "style":   "contained"
+            "style":   "contained",
+            "pair":    true
           },
           {
             "src":     "/images/work/treventi/03-mobile-trio.jpg",
