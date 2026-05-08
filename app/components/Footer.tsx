@@ -30,8 +30,8 @@ export default function Footer() {
         </div>
         <div className="ft-col">
           <h3>{t("contactHeading")}</h3>
-          <a href="mailto:hi@transad.studio">hi@transad.studio</a>
-          <a href="tel:+492110000">+49 211 0000</a>
+          <a href="mailto:info@transadgroup.com">info@transadgroup.com</a>
+          <a href="tel:+497110000000">+49 711 0000000</a>
         </div>
         <div className="ft-col">
           <h3>{t("studiosHeading")}</h3>
