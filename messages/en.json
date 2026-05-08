@@ -458,6 +458,7 @@
       { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "A modern direct-to-consumer baby brand built into a 5× revenue business.","tag": "E-commerce", "year": "2023 — Present", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "From regional retailer to recognized local manufacturer through three years of brand presence.","tag": "Branding & Manufacturing", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Lifted ROAS from 4× to 9.5× while scaling ad spend 17× — more than double the industry benchmark for beauty e-commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
+      { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "A nationwide public health campaign on smoking, nutrition, and cardiovascular care — placed across underground stations, bus shelters, and street-level OOH.","tag": "Public Health · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
@@ -689,6 +690,90 @@
             "2,779 website purchases attributed to Meta campaigns",
             "66,000+ link clicks driven across Facebook and Instagram",
             "Continuous creative rotation: launch campaigns, ingredient education, gift-card promotions, and seasonal pushes"
+          ]
+        },
+        "navigation": {
+          "back": "Back to all work",
+          "next": "Next case study"
+        },
+        "cta": {
+          "title":  "Have a project in mind?",
+          "button": "Start a conversation"
+        }
+      },
+      "aqh": {
+        "eyebrow": "Work / 04 — Campaign · OOH · Art Direction · Public Health",
+        "title": "AQH — Accessible Quality Healthcare",
+        "outcome": "A nationwide public health campaign on smoking, nutrition, and cardiovascular care — placed across underground stations, bus shelters, and street-level OOH.",
+        "meta": [
+          { "label": "Client",   "value": "AQH (Accessible Quality Healthcare)" },
+          { "label": "Industry", "value": "Public Health · NGO" },
+          { "label": "Sector",   "value": "SDC project implemented by Swiss TPH" },
+          { "label": "Services", "value": "Campaign, Art Direction, OOH, Print" }
+        ],
+        "hero": {
+          "src": "/images/work/aqh/01-billboard-underground.jpg",
+          "alt": "A large underground station billboard for AQH showing a young boy wearing an oxygen mask, with the headline 'Stop smoking, protect the health of your loved ones.'"
+        },
+        "brief": {
+          "eyebrow": "The brief",
+          "body":    "AQH is a Swiss-funded public health initiative — an SDC project implemented by Swiss TPH — focused on improving access to quality healthcare and prevention. The brief was to develop a nationwide awareness campaign across multiple public health themes: secondhand smoke, cardiovascular disease, hypertension, and family wellbeing, executed across high-impact OOH formats and supporting print."
+        },
+        "approach": {
+          "eyebrow": "The approach",
+          "body":    "We approached this as serious editorial work, not soft NGO communication. The campaign uses arresting photography and direct, single-sentence headlines that respect the audience's intelligence. A flat, bold colour system — derived from a set of pillar icons covering different aspects of health — gives each message a distinct identity while keeping the overall campaign coherent. Across underground billboards, bus shelters, building-side posters, and pocket print, the visual logic stays consistent: one image, one message, one colour cue."
+        },
+        "pillars": [
+          "Smoking & secondhand smoke",
+          "Hypertension & nutrition",
+          "Cardiovascular health & activity"
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/aqh/01-billboard-underground.jpg",
+            "alt":     "AQH underground station billboard photographed in situ — a child in an oxygen mask with the headline 'Stop smoking, protect the health of your loved ones.'",
+            "caption": "Underground billboard — stop smoking campaign",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/02-bus-shelter-night.jpg",
+            "alt":     "AQH bus shelter poster at night — the same secondhand smoke campaign placed at street level.",
+            "caption": "Bus shelter — night placement",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/03-poster-pair.jpg",
+            "alt":     "Two paired campaign posters — one with the boy in the oxygen mask, one in solid red with the headline 'Take care of your family.'",
+            "caption": "Paired posters — image & type executions",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/aqh/04-hipertension-billboard.jpg",
+            "alt":     "A street-level building billboard showing a grandfather and grandchild gardening together, with the headline 'Eating healthy and spending time with your loved ones helps hypertension.'",
+            "caption": "Hypertension campaign — street placement",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/05-poster-grid.jpg",
+            "alt":     "Multiple AQH campaign posters in red, purple, blue and green — each addressing a different health theme.",
+            "caption": "Colour-coded campaign system across health pillars",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/06-pillar-icons.jpg",
+            "alt":     "Eight coloured circular icons representing the AQH health pillars — heart rate, heart, walking, cycling, strength, nutrition, swimming, hiking.",
+            "caption": "Health pillar icon system",
+            "style":   "contained"
+          }
+        ],
+        "results": {
+          "eyebrow":  "About the campaign",
+          "headline": "A nationwide public health campaign placed across high-traffic OOH formats.",
+          "bullets": [
+            "Multi-theme campaign covering smoking, hypertension, and cardiovascular health",
+            "Executed across underground billboards, bus shelters, building-side posters, and supporting print",
+            "Unified by a colour-coded pillar system that links each message to its health theme",
+            "Delivered for AQH, an SDC-funded project implemented by Swiss TPH"
           ]
         },
         "navigation": {

@@ -28,7 +28,7 @@ type Item = {
   title: string;
   outcome: string;
   tag: string;
-  year: number | string;
+  year?: number | string;
   cardImage?: string;
 };
 
@@ -83,7 +83,9 @@ export default async function WorkIndex({
                 </div>
                 <div className="work-card-meta">
                   <h2 className="work-card-title">{item.title}</h2>
-                  <span className="work-card-year">{item.year}</span>
+                  {item.year != null && (
+                    <span className="work-card-year">{item.year}</span>
+                  )}
                   <p className="work-card-outcome">{item.outcome}</p>
                 </div>
                 <span className="work-card-tag">{item.tag}</span>

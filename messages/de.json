@@ -458,6 +458,7 @@
       { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "Eine moderne Direct-to-Consumer-Babymarke — gewachsen zum Unternehmen mit fünffachem Umsatz.","tag": "E-Commerce", "year": "2023 — heute", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "Vom regionalen Händler zum anerkannten lokalen Hersteller — durch drei Jahre Markenpräsenz.","tag": "Branding & Herstellung", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "ROAS von 4× auf 9,5× gehoben, bei 17-facher Skalierung des Werbespend — mehr als das Doppelte des Branchen-Benchmarks für Beauty-E-Commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
+      { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Verpackungssystem für eine Specialty-Rösterei.",              "tag": "Verpackung", "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
@@ -689,6 +690,90 @@
             "2.779 Website-Käufe, Meta-Kampagnen zugeordnet",
             "Über 66.000 Link-Klicks auf Facebook und Instagram generiert",
             "Kontinuierliche Creative-Rotation: Launch-Kampagnen, Inhaltsstoff-Aufklärung, Geschenkkarten-Aktionen und saisonale Pushes"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "aqh": {
+        "eyebrow": "Arbeiten / 04 — Kampagne · OOH · Art Direction · Gesundheitswesen",
+        "title": "AQH — Accessible Quality Healthcare",
+        "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.",
+        "meta": [
+          { "label": "Kunde",      "value": "AQH (Accessible Quality Healthcare)" },
+          { "label": "Branche",    "value": "Öffentliches Gesundheitswesen · NGO" },
+          { "label": "Bereich",    "value": "SDC-Projekt umgesetzt durch Swiss TPH" },
+          { "label": "Leistungen", "value": "Kampagne, Art Direction, OOH, Print" }
+        ],
+        "hero": {
+          "src": "/images/work/aqh/01-billboard-underground.jpg",
+          "alt": "Ein großes U-Bahn-Plakat für AQH zeigt einen Jungen mit Sauerstoffmaske, mit der Headline „Hör auf zu rauchen, schütze die Gesundheit deiner Lieben.\""
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "AQH ist eine schweizfinanzierte Initiative für öffentliche Gesundheit — ein SDC-Projekt, umgesetzt durch Swiss TPH — mit Fokus auf besseren Zugang zu Gesundheitsversorgung und Prävention. Das Briefing: eine landesweite Aufklärungskampagne über mehrere Gesundheitsthemen — Passivrauch, Herz-Kreislauf-Erkrankungen, Bluthochdruck und Familienwohl — umgesetzt auf hochwirksamen OOH-Formaten und ergänzendem Print."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Wir haben diese Arbeit als ernsthafte editoriale Kampagne behandelt — nicht als weiche NGO-Kommunikation. Die Kampagne setzt auf prägnante Fotografie und direkte, einsätzige Headlines, die das Publikum ernst nehmen. Ein flaches, kräftiges Farbsystem — abgeleitet aus einem Set von Säulen-Icons zu verschiedenen Aspekten der Gesundheit — gibt jeder Botschaft eine eigenständige Identität und hält die Kampagne als Ganzes kohärent. Über U-Bahn-Plakate, Wartehäuschen, Gebäudeplakate und Pocket-Print bleibt die visuelle Logik konstant: ein Bild, eine Botschaft, ein Farbcode."
+        },
+        "pillars": [
+          "Rauchen & Passivrauch",
+          "Bluthochdruck & Ernährung",
+          "Herz-Kreislauf & Bewegung"
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/aqh/01-billboard-underground.jpg",
+            "alt":     "AQH-Plakat in einer U-Bahn-Station, in situ fotografiert — ein Kind mit Sauerstoffmaske und der Headline „Hör auf zu rauchen, schütze die Gesundheit deiner Lieben.\"",
+            "caption": "U-Bahn-Plakat — Stop-Smoking-Kampagne",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/02-bus-shelter-night.jpg",
+            "alt":     "AQH-Wartehäuschen-Poster bei Nacht — dieselbe Passivrauch-Kampagne auf Straßenebene.",
+            "caption": "Wartehäuschen — Platzierung bei Nacht",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/03-poster-pair.jpg",
+            "alt":     "Zwei aufeinander abgestimmte Kampagnenposter — eines mit dem Jungen mit Sauerstoffmaske, eines in Rot mit der Headline „Pass auf deine Familie auf.\"",
+            "caption": "Posterpaar — Bild- und Typo-Ausführungen",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/aqh/04-hipertension-billboard.jpg",
+            "alt":     "Ein straßenseitiges Gebäudeplakat zeigt Großvater und Enkel beim gemeinsamen Gärtnern, mit der Headline „Gesund essen und Zeit mit den Lieben verbringen hilft gegen Bluthochdruck.\"",
+            "caption": "Bluthochdruck-Kampagne — Straßenplatzierung",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/05-poster-grid.jpg",
+            "alt":     "Mehrere AQH-Kampagnenposter in Rot, Lila, Blau und Grün — jedes adressiert ein anderes Gesundheitsthema.",
+            "caption": "Farbcodiertes Kampagnensystem über alle Gesundheitssäulen",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/aqh/06-pillar-icons.jpg",
+            "alt":     "Acht farbige kreisförmige Icons für die AQH-Gesundheitssäulen — Herzfrequenz, Herz, Gehen, Radfahren, Kraft, Ernährung, Schwimmen, Wandern.",
+            "caption": "Gesundheits-Säulen-Icon-System",
+            "style":   "contained"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Über die Kampagne",
+          "headline": "Eine landesweite Kampagne für öffentliche Gesundheit, platziert auf hochfrequenten OOH-Formaten.",
+          "bullets": [
+            "Themenübergreifende Kampagne zu Rauchen, Bluthochdruck und Herz-Kreislauf-Gesundheit",
+            "Umgesetzt auf U-Bahn-Plakaten, Wartehäuschen, Gebäudeplakaten und ergänzendem Print",
+            "Vereint durch ein farbcodiertes Säulen-System, das jede Botschaft mit ihrem Gesundheitsthema verknüpft",
+            "Umgesetzt für AQH, ein von SDC gefördertes Projekt der Swiss TPH"
           ]
         },
         "navigation": {

@@ -15,7 +15,7 @@ type Item = {
   title: string;
   outcome: string;
   tag: string;
-  year: number | string;
+  year?: number | string;
   cardImage?: string;
 };
 
@@ -56,8 +56,11 @@ type CaseStudyContent = {
   hero: { src: string; alt: string };
   brief: { eyebrow: string; body: string };
   approach: { eyebrow: string; body: string };
-  stats: { num: string; lbl: string }[];
+  stats?: { num: string; lbl: string }[];
   statsNote?: string;
+  /* Optional alternative to stats: a small mono-caps pillar/topic row.
+     When pillars is set, it renders in place of the stats row. */
+  pillars?: string[];
   showcase: ShowcaseItem[];
   results: { eyebrow: string; headline: string; bullets: string[] };
   navigation: { back: string; next: string };
@@ -122,7 +125,8 @@ export default async function CaseStudyPage({
         <main>
           <section className="page-intro container">
             <Eyebrow accent>
-              {item.tag} · {item.year}
+              {item.tag}
+              {item.year ? ` · ${item.year}` : ""}
             </Eyebrow>
             <h1 className="display">{item.title}</h1>
             <p className="lead">{item.outcome}</p>
@@ -192,17 +196,29 @@ export default async function CaseStudyPage({
               </div>
             </div>
 
-            {study.statsNote && (
-              <div className="case-stats-note">{study.statsNote}</div>
-            )}
-            <div className="case-stats">
-              {study.stats.map((s, i) => (
-                <div className="case-stat" key={i}>
-                  <div className="case-stat-num">{s.num}</div>
-                  <div className="case-stat-lbl">{s.lbl}</div>
+            {study.pillars ? (
+              <div className="case-pillars">
+                {study.pillars.map((p, i) => (
+                  <div className="case-pillar" key={i}>
+                    {p}
+                  </div>
+                ))}
+              </div>
+            ) : study.stats ? (
+              <>
+                {study.statsNote && (
+                  <div className="case-stats-note">{study.statsNote}</div>
+                )}
+                <div className="case-stats">
+                  {study.stats.map((s, i) => (
+                    <div className="case-stat" key={i}>
+                      <div className="case-stat-num">{s.num}</div>
+                      <div className="case-stat-lbl">{s.lbl}</div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </>
+            ) : null}
           </section>
 
           <section className="case-showcase">

@@ -1346,6 +1346,29 @@ img, svg { display: block; max-width: 100%; }
   padding-top: 0;
   border-top: 0;
 }
+
+/* ---------- Campaign pillars (alternative to stats row) ----------
+   Used when a case study has no quantitative stats but wants to surface
+   3 thematic pillars in the same slot. Each pillar gets an accent rule
+   above the mono-caps label so it reads as a categorical marker. */
+.case-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: var(--space-8);
+  padding-top: var(--space-7);
+  border-top: 1px solid var(--border);
+}
+.case-pillar {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-900);
+  padding-top: 14px;
+  border-top: 2px solid var(--accent);
+}
 .case-stat { display: flex; flex-direction: column; gap: 8px; }
 .case-stat-num {
   font-family: var(--font-sans);
@@ -1531,6 +1554,7 @@ img, svg { display: block; max-width: 100%; }
   .case-meta-strip { grid-template-columns: repeat(2, 1fr); gap: 24px 24px; }
   .case-intro-grid { grid-template-columns: 1fr; gap: 48px; }
   .case-stats { grid-template-columns: 1fr; gap: 32px; }
+  .case-pillars { grid-template-columns: 1fr; gap: 24px; }
   .case-show-contained .case-show-frame {
     padding-left: var(--container-pad);
     padding-right: var(--container-pad);
