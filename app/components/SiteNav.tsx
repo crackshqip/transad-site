@@ -42,7 +42,6 @@ export default function SiteNav() {
       </ul>
       <div className="nav-right">
         <LangSwitcher />
-        <span className="loc-meta">{t("locations")}</span>
         <MobileMenu
           links={links}
           cta={{ href: `${home}#contact`, label: t("cta") }}

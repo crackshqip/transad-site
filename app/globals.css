@@ -271,14 +271,6 @@ img, svg { display: block; max-width: 100%; }
   align-items: center;
   gap: 18px;
 }
-.loc-meta {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--ink-500);
-}
-
 /* ---------- Mobile nav hamburger ---------- */
 .nav-hamburger {
   display: none;
@@ -2056,7 +2048,6 @@ img, svg { display: block; max-width: 100%; }
 
 @media (max-width: 768px) {
   .nav-links { display: none; }
-  .nav-right .loc-meta { display: none; }
   .nav-right .nav-cta { display: none; }
   .nav-right { gap: 20px; }
   .nav-hamburger { display: inline-flex; }
