@@ -1320,6 +1320,17 @@ img, svg { display: block; max-width: 100%; }
   text-wrap: pretty;
 }
 
+.case-stats-note {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  margin-top: var(--space-8);
+  padding-top: var(--space-7);
+  border-top: 1px solid var(--border);
+}
 .case-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1327,6 +1338,13 @@ img, svg { display: block; max-width: 100%; }
   margin-top: var(--space-8);
   padding-top: var(--space-7);
   border-top: 1px solid var(--border);
+}
+/* When a stats note is present, it owns the section divider — the stats
+   sit closer below without a duplicate border. */
+.case-stats-note + .case-stats {
+  margin-top: var(--space-5);
+  padding-top: 0;
+  border-top: 0;
 }
 .case-stat { display: flex; flex-direction: column; gap: 8px; }
 .case-stat-num {

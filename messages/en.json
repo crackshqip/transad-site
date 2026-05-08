@@ -457,7 +457,7 @@
     "items": [
       { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "A modern direct-to-consumer baby brand built into a 5× revenue business.","tag": "E-commerce", "year": "2023 — Present", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "From regional retailer to recognized local manufacturer through three years of brand presence.","tag": "Branding & Manufacturing", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
-      { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Inherited a struggling skincare account and turned €8.6k of ad spend into €81.7k in revenue — a 9.5× return.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
+      { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Lifted ROAS from 4× to 9.5× while scaling ad spend 17× — more than double the industry benchmark for beauty e-commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
@@ -629,7 +629,8 @@
       "stem-skincare": {
         "eyebrow": "Work / 03 — Website · Social · Campaign · Performance",
         "title": "Stem Skincare",
-        "outcome": "Inherited a struggling skincare account and turned €8.6k of ad spend into €81.7k in revenue — a 9.5× return.",
+        "outcome": "Lifted ROAS from 4× to 9.5× while scaling ad spend 17× — more than double the industry benchmark for beauty e-commerce.",
+        "statsNote": "Industry benchmark: 4× ROAS",
         "meta": [
           { "label": "Client",   "value": "Stem Skincare" },
           { "label": "Industry", "value": "Beauty · Skincare · DTC" },

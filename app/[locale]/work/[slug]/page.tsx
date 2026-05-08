@@ -57,6 +57,7 @@ type CaseStudyContent = {
   brief: { eyebrow: string; body: string };
   approach: { eyebrow: string; body: string };
   stats: { num: string; lbl: string }[];
+  statsNote?: string;
   showcase: ShowcaseItem[];
   results: { eyebrow: string; headline: string; bullets: string[] };
   navigation: { back: string; next: string };
@@ -191,6 +192,9 @@ export default async function CaseStudyPage({
               </div>
             </div>
 
+            {study.statsNote && (
+              <div className="case-stats-note">{study.statsNote}</div>
+            )}
             <div className="case-stats">
               {study.stats.map((s, i) => (
                 <div className="case-stat" key={i}>
