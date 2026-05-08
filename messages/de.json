@@ -30,7 +30,7 @@
     "headline": "Minimalistisch im Anspruch. Strategisch in der Umsetzung.",
     "lede": "Wir gestalten für <em>Klarheit zuerst</em> — saubere Identitäten, strategische Kampagnen und reduzierte digitale Inhalte, getragen von Einfachheit, Sinn und klarer visueller Ausrichtung.",
     "body1": "Transad arbeitet mit Gründer:innen, Marketing- und In-house-Teams, denen wichtig ist, wie ihr Unternehmen in der Welt erscheint. Jeder Auftrag beginnt mit einer Frage — nicht mit einem Pitchdeck.",
-    "body2": "Wir sind sechs Personen in zwei Städten, eng am Werk — ohne Account-Manager, ohne Zwischenebenen. Das Ergebnis: professionell, elegant und konsistent über Web, Social, Präsentationen und Markenmaterial hinweg.",
+    "body2": "Stuttgart. Leeds. Prishtina. Vilnius. Vier Städte, ein Studio, ein Anspruch — für Web, Social, Kampagnen und Marke.",
     "stats": {
       "caseStudies":     "Fallstudien",
       "studioMembers":   "Studio-Mitglieder",
@@ -131,6 +131,7 @@
     "studioPricing":   "Preise",
     "contactHeading":  "Kontakt",
     "studiosHeading":  "Standorte",
+    "studiosList":     ["Stuttgart", "Leeds", "Prishtina", "Vilnius"],
     "legalHeading":    "Rechtliches",
     "legalImprint":    "Impressum",
     "legalPrivacy":    "Datenschutz",
@@ -390,7 +391,7 @@
     "headline": "Minimalistisch im Anspruch. Strategisch in der Umsetzung.",
     "lede": "Wir gestalten für <em>Klarheit zuerst</em> — saubere Identitäten, strategische Kampagnen und reduzierte digitale Inhalte, getragen von Einfachheit, Sinn und klarer visueller Ausrichtung.",
     "body1": "Transad arbeitet mit Gründer:innen, Marketing- und In-house-Teams, denen wichtig ist, wie ihr Unternehmen in der Welt erscheint. Jeder Auftrag beginnt mit einer Frage — nicht mit einem Pitchdeck.",
-    "body2": "Wir sind sechs Personen in zwei Städten, eng am Werk — ohne Account-Manager, ohne Zwischenebenen. Das Ergebnis: professionell, elegant und konsistent über Web, Social, Präsentationen und Markenmaterial hinweg.",
+    "body2": "Stuttgart. Leeds. Prishtina. Vilnius. Vier Städte, ein Studio, ein Anspruch — für Web, Social, Kampagnen und Marke.",
     "stats": {
       "caseStudies":     "Fallstudien",
       "studioMembers":   "Studio-Mitglieder",

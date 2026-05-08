@@ -20,7 +20,7 @@
     "ctaSecondary": "Read about the studio",
     "meta": {
       "founded":     { "label": "Founded",     "value": "2019, Stuttgart" },
-      "studios":     { "label": "Studios",     "value": "Stuttgart · Leeds · Prishtina · Vilnius" },
+      "studios":     { "label": "Studios",     "value": "Stuttgart · Leeds · Pristina · Vilnius" },
       "practice":    { "label": "Practice",    "value": "Identity, Campaign, Digital" },
       "engagements": { "label": "Engagements", "value": "Six per year" }
     }
@@ -30,7 +30,7 @@
     "headline": "Minimal by intent. Strategic by practice.",
     "lede": "We design for <em>clarity first</em> — clean identities, strategic campaigns, and refined digital content built around simplicity, purpose, and strong visual direction.",
     "body1": "Transad works with founders, marketers, and in-house teams who care how their company shows up in the world. Every engagement begins with a question, not a deck.",
-    "body2": "We are six people across two cities, working close to the work — no account managers, no layers. The output is professional, elegant, and consistent across web, social, presentations, and brand materials.",
+    "body2": "Stuttgart. Leeds. Pristina. Vilnius. Four cities, one studio, one standard of work — across web, social, campaigns, and brand.",
     "stats": {
       "caseStudies":     "Case studies",
       "studioMembers":   "Studio members",
@@ -85,7 +85,7 @@
       "emailLabel": "Email",
       "phoneLabel": "Phone",
       "studiosLabel": "Studios",
-      "studiosValue": "Stuttgart · Leeds · Prishtina · Vilnius"
+      "studiosValue": "Stuttgart · Leeds · Pristina · Vilnius"
     },
     "form": {
       "nameLabel":          "Name",
@@ -131,6 +131,7 @@
     "studioPricing":   "Pricing",
     "contactHeading":  "Contact",
     "studiosHeading":  "Studios",
+    "studiosList":     ["Stuttgart", "Leeds", "Pristina", "Vilnius"],
     "legalHeading":    "Legal",
     "legalImprint":    "Imprint",
     "legalPrivacy":    "Privacy",
@@ -390,7 +391,7 @@
     "headline": "Minimal by intent. Strategic by practice.",
     "lede": "We design for <em>clarity first</em> — clean identities, strategic campaigns, and refined digital content built around simplicity, purpose, and strong visual direction.",
     "body1": "Transad works with founders, marketers, and in-house teams who care how their company shows up in the world. Every engagement begins with a question, not a deck.",
-    "body2": "We are six people across two cities, working close to the work — no account managers, no layers. The output is professional, elegant, and consistent across web, social, presentations, and brand materials.",
+    "body2": "Stuttgart. Leeds. Pristina. Vilnius. Four cities, one studio, one standard of work — across web, social, campaigns, and brand.",
     "stats": {
       "caseStudies":     "Case studies",
       "studioMembers":   "Studio members",
@@ -434,7 +435,7 @@
         },
         {
           "slug": "prishtina",
-          "city": "Prishtina",
+          "city": "Pristina",
           "address": "Malush Kosova nr. 383\n10000 Prishtinë, Kosovo",
           "hours": "Mon – Fri · 09:00 – 18:00"
         },

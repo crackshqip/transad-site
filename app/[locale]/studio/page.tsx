@@ -14,12 +14,12 @@ const SEO_BY_LOCALE: Record<string, { title: string; description: string }> = {
   en: {
     title: "Studio — Transad",
     description:
-      "A small, deliberate practice with four offices across Europe. Six people, four principles, twelve case studies.",
+      "A deliberate practice across Stuttgart, Leeds, Pristina, and Vilnius — identity, campaigns, and digital systems built for clarity.",
   },
   de: {
     title: "Studio — Transad",
     description:
-      "Ein kleines, bewusstes Studio mit vier Standorten in Europa. Sechs Personen, vier Prinzipien, zwölf Fallstudien.",
+      "Ein bewusst geführtes Studio in Stuttgart, Leeds, Prishtina und Vilnius — Identität, Kampagnen und digitale Systeme mit Anspruch auf Klarheit.",
   },
 };
 
