@@ -457,6 +457,7 @@
     "items": [
       { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "Eine moderne Direct-to-Consumer-Babymarke — gewachsen zum Unternehmen mit fünffachem Umsatz.","tag": "E-Commerce", "year": "2023 — heute", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "Vom regionalen Händler zum anerkannten lokalen Hersteller — durch drei Jahre Markenpräsenz.","tag": "Branding & Herstellung", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
+      { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Ein strauchelndes Skincare-Konto übernommen und 8,6 Tsd. € Werbespend in 81,7 Tsd. € Umsatz verwandelt — eine 9,5-fache Rendite.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Verpackungssystem für eine Specialty-Rösterei.",              "tag": "Verpackung", "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
@@ -614,6 +615,79 @@
             "Markenpräsenz von einer Stadt auf sechs im Kosovo erweitert",
             "Erfolgreicher Wechsel der Erzählung — vom Händler zum lokalen Hersteller",
             "Kontinuierliche Social- und Anzeigen-Creatives über drei Jahre durchgehalten"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "stem-skincare": {
+        "eyebrow": "Arbeiten / 03 — Website · Social · Kampagne · Performance",
+        "title": "Stem Skincare",
+        "outcome": "Ein strauchelndes Skincare-Konto übernommen und 8,6 Tsd. € Werbespend in 81,7 Tsd. € Umsatz verwandelt — eine 9,5-fache Rendite.",
+        "meta": [
+          { "label": "Kunde",      "value": "Stem Skincare" },
+          { "label": "Branche",    "value": "Beauty · Hautpflege · DTC" },
+          { "label": "Jahre",      "value": "2024 — 2025" },
+          { "label": "Leistungen", "value": "Website, Social, Kampagnen, Performance-Werbung" }
+        ],
+        "hero": {
+          "src": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg",
+          "alt": "Eine Nahaufnahme einer Frau, mit den Markensäulen von Stem Skincare als drei sich überschneidende Kreise: pastro, trajto, hidrato (reinigen, behandeln, hydrieren)."
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "Stem Skincare kam einen Monat nach dem Launch zu uns — nachdem die vorherige Agentur es nicht geschafft hatte, ein starkes Produkt in kommerzielle Zugkraft zu übersetzen. Der Werbespend lag bei rund 400–500 € pro Monat und brachte etwa 2.000 € Umsatz — eine ROAS, die kein wachsendes Geschäft trägt. Es brauchte einen Partner, der den gesamten kommerziellen Motor neu aufsetzt: Positionierung, Creatives, Media-Steuerung und das Website-Erlebnis darunter."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Wir haben mit der visuellen Sprache begonnen — saubere Editorial-Fotografie, ruhige Typografie, inhaltsstoffgetriebenes Storytelling — und die Social-Präsenz rund um echte Haut, echte Inhaltsstoffe und eine klare Produkt-Erzählung neu aufgebaut. Darauf folgte der Umbau des Werbekontos: Advantage+ Shopping-Kampagnen, dedizierte Launch-Creatives und eine kontinuierliche Performance-Creative-Rotation bei Meta. Jeder ausgegebene Euro wurde gegen Umsatz gemessen, Creatives wöchentlich iteriert."
+        },
+        "stats": [
+          { "num": "9,5×",   "lbl": "Werbekostenrendite" },
+          { "num": "81,7 Tsd. €", "lbl": "Werbeumsatz" },
+          { "num": "2.779",  "lbl": "Website-Käufe" }
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/stem-skincare/01-packaging-vitamin-c.jpg",
+            "alt":     "Drei Verpackungen des Stem Skincare Vitamin C 15% Serums in weichem Tageslicht vor sauberem weißem Hintergrund.",
+            "caption": "Verpackung — Vitamin C 15% Serum-Reihe",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/stem-skincare/02-product-flatlay.jpg",
+            "alt":     "Editorial-Flatlay der Stem Skincare Vitamin-C-Serumflasche auf einem Steintablett mit aufgeschnittener Zitrone und Pipette.",
+            "caption": "Editorial-Produktfotografie",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/stem-skincare/03-social-grid-carousel.jpg",
+            "alt":     "Drei Instagram-Karussell-Slides mit Hautnahaufnahmen und Inhaltsstoff-Overlays auf Albanisch.",
+            "caption": "Social Content — inhaltsstoffgetriebenes Storytelling",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/stem-skincare/04-social-grid-campaigns.jpg",
+            "alt":     "Drei Instagram-Beiträge mit UVA/UVB-Schutz-Aufklärung, Geschenkkarten-Aktion und Inhaltsstoff-Kombinationen.",
+            "caption": "Social-Kampagnen — Aufklärung & Promotion",
+            "style":   "contained"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Ergebnisse",
+          "headline": "Von 2 Tsd. € Monatsumsatz zu einer 9,5-fachen ROAS in unter einem Jahr.",
+          "bullets": [
+            "9,5-fache Werbekostenrendite über zehn Monate (Apr. 2024 – Feb. 2025)",
+            "81.772 € erfasster Website-Umsatz aus 8.584 € Werbespend",
+            "2.779 Website-Käufe, Meta-Kampagnen zugeordnet",
+            "Über 66.000 Link-Klicks auf Facebook und Instagram generiert",
+            "Kontinuierliche Creative-Rotation: Launch-Kampagnen, Inhaltsstoff-Aufklärung, Geschenkkarten-Aktionen und saisonale Pushes"
           ]
         },
         "navigation": {

@@ -457,6 +457,7 @@
     "items": [
       { "slug": "hello-baby-box",   "title": "Hello Baby Box",  "outcome": "A modern direct-to-consumer baby brand built into a 5× revenue business.","tag": "E-commerce", "year": "2023 — Present", "cardImage": "/images/work/hello-baby-box/01-hero-portrait.jpg" },
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "From regional retailer to recognized local manufacturer through three years of brand presence.","tag": "Branding & Manufacturing", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
+      { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Inherited a struggling skincare account and turned €8.6k of ad spend into €81.7k in revenue — a 9.5× return.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
@@ -614,6 +615,79 @@
             "Brand presence extended from a single city to six across Kosovo",
             "Successful narrative shift from retailer to local manufacturer",
             "Continuous social and ad creative output sustained for three years"
+          ]
+        },
+        "navigation": {
+          "back": "Back to all work",
+          "next": "Next case study"
+        },
+        "cta": {
+          "title":  "Have a project in mind?",
+          "button": "Start a conversation"
+        }
+      },
+      "stem-skincare": {
+        "eyebrow": "Work / 03 — Website · Social · Campaign · Performance",
+        "title": "Stem Skincare",
+        "outcome": "Inherited a struggling skincare account and turned €8.6k of ad spend into €81.7k in revenue — a 9.5× return.",
+        "meta": [
+          { "label": "Client",   "value": "Stem Skincare" },
+          { "label": "Industry", "value": "Beauty · Skincare · DTC" },
+          { "label": "Years",    "value": "2024 — 2025" },
+          { "label": "Services", "value": "Website, Social, Campaigns, Performance Ads" }
+        ],
+        "hero": {
+          "src": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg",
+          "alt": "A close-up portrait of a woman with the Stem Skincare brand pillars overlaid as three intersecting circles: pastro, trajto, hidrato (cleanse, treat, hydrate)."
+        },
+        "brief": {
+          "eyebrow": "The brief",
+          "body":    "Stem Skincare came to us a month into launch, after their previous agency had failed to translate a strong product into commercial traction. Spend was sitting around €400–500 a month, generating roughly €2,000 in sales — ROAS that wouldn't sustain a growing brand. They needed a partner who could rebuild the entire commercial engine: positioning, creative, media, and the website experience underneath it all."
+        },
+        "approach": {
+          "eyebrow": "The approach",
+          "body":    "We started by tightening the visual language — clean editorial photography, calm typography, ingredient-led storytelling — and rebuilt the social presence around real skin, real ingredients, and a confident product narrative. From there we restructured the ad account: Advantage+ shopping campaigns, dedicated launch creative, and continuous performance creative rotation across Meta. Every euro of spend was tracked against revenue, and creative was iterated weekly."
+        },
+        "stats": [
+          { "num": "9.5×",   "lbl": "Return on ad spend" },
+          { "num": "€81.7K", "lbl": "Revenue from ads" },
+          { "num": "2,779",  "lbl": "Website purchases" }
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/stem-skincare/01-packaging-vitamin-c.jpg",
+            "alt":     "Three Stem Skincare Vitamin C 15% serum boxes photographed in soft natural light against a clean white background.",
+            "caption": "Packaging — Vitamin C 15% serum range",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/stem-skincare/02-product-flatlay.jpg",
+            "alt":     "Editorial flatlay of the Stem Skincare Vitamin C serum bottle on a stone tray with sliced lemon and dropper.",
+            "caption": "Editorial product photography",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/stem-skincare/03-social-grid-carousel.jpg",
+            "alt":     "Three Instagram carousel slides showing close-up skin photography with ingredient overlays in Albanian.",
+            "caption": "Social content — ingredient-led storytelling",
+            "style":   "contained"
+          },
+          {
+            "src":     "/images/work/stem-skincare/04-social-grid-campaigns.jpg",
+            "alt":     "Three Instagram posts showing UVA/UVB protection education, gift card promotion, and dual ingredient combinations.",
+            "caption": "Social campaigns — education & promotion",
+            "style":   "contained"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Results",
+          "headline": "From €2k a month in sales to a 9.5× ROAS in under a year.",
+          "bullets": [
+            "9.5× return on ad spend across a 10-month period (Apr 2024 – Feb 2025)",
+            "€81,772 in tracked website revenue from €8,584 in ad spend",
+            "2,779 website purchases attributed to Meta campaigns",
+            "66,000+ link clicks driven across Facebook and Instagram",
+            "Continuous creative rotation: launch campaigns, ingredient education, gift-card promotions, and seasonal pushes"
           ]
         },
         "navigation": {
