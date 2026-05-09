@@ -492,10 +492,6 @@
           { "label": "Jahre",       "value": "2023 — heute" },
           { "label": "Leistungen",  "value": "Shopify-Design, Content, Performance-Werbung" }
         ],
-        "hero": {
-          "src": "/images/work/hello-baby-box/01-hero-portrait.jpg",
-          "alt": "Eine Mutter hält ein Neugeborenes, eingewickelt in ein rosafarbenes Hello Baby Box-Tuch; das Marken-Badge ist sichtbar."
-        },
         "brief": {
           "eyebrow": "Das Briefing",
           "body":    "Hello Baby Box kam als junge Direct-to-Consumer-Babymarke zu uns: ein starkes Produkt, aber keine klare digitale Identität, ein einfacher Shopify-Store und uneinheitliches Marketing. Die Gründer suchten einen Partner, der die Marke in eine wiedererkennbare Präsenz verwandelt — nicht nur Werbung schaltet, sondern den gesamten kommerziellen Motor um sie herum aufbaut."
@@ -516,11 +512,6 @@
             "caption": "Marken-Porträt — Kampagnen-Hero"
           },
           {
-            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
-            "alt":     "Drei Social-Media-Beiträge von Hello Baby Box in Folge.",
-            "caption": "Social Content — monatlicher Redaktionskalender"
-          },
-          {
             "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
             "alt":     "Die Hello Baby Box-Homepage auf einem Laptop in weichem Tageslicht.",
             "caption": "Shopify-Store — Neugestaltung 2023"
@@ -529,6 +520,11 @@
             "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
             "alt":     "Die mobile Produktseite von Hello Baby Box auf einem iPhone.",
             "caption": "Mobile Commerce — 70 % des Traffics"
+          },
+          {
+            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
+            "alt":     "Drei Social-Media-Beiträge von Hello Baby Box in Folge.",
+            "caption": "Social Content — monatlicher Redaktionskalender"
           }
         ],
         "results": {
@@ -560,10 +556,6 @@
           { "label": "Jahre",      "value": "2022 — 2024" },
           { "label": "Leistungen", "value": "Markenbekanntheit, Website, Social, Kampagnen, Engagement" }
         ],
-        "hero": {
-          "src": "/images/work/treventi/04-laptop-hero.jpg",
-          "alt": "Die Treventi-Website auf einem Laptop, mit dem Marken-Claim „Crafting Quality. Building Possibilities.\" über einer Handwerksszene."
-        },
         "brief": {
           "eyebrow": "Das Briefing",
           "body":    "Treventi startete als regionaler Händler importierter Innentüren im Kosovo — mit fundiertem Produktwissen, aber begrenzter Markenbekanntheit außerhalb des direkten Einzugsgebiets. Mit dem Schritt der Gründer in die eigene Herstellung brauchte es eine Markenpräsenz, die diesem Anspruch entspricht — eine, die Treventi als qualitätsgetriebenen Namen positioniert, den Kund:innen aktiv wählen, nicht nur am Verkaufsort entdecken."
@@ -639,10 +631,6 @@
           { "label": "Jahre",      "value": "2024 — 2025" },
           { "label": "Leistungen", "value": "Website, Social, Kampagnen, Performance-Werbung" }
         ],
-        "hero": {
-          "src": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg",
-          "alt": "Eine Nahaufnahme einer Frau, mit den Markensäulen von Stem Skincare als drei sich überschneidende Kreise: pastro, trajto, hidrato (reinigen, behandeln, hydrieren)."
-        },
         "brief": {
           "eyebrow": "Das Briefing",
           "body":    "Stem Skincare kam einen Monat nach dem Launch zu uns — nachdem die vorherige Agentur es nicht geschafft hatte, ein starkes Produkt in kommerzielle Zugkraft zu übersetzen. Der Werbespend lag bei rund 400–500 € pro Monat und brachte etwa 2.000 € Umsatz — eine ROAS, die kein wachsendes Geschäft trägt. Es brauchte einen Partner, der den gesamten kommerziellen Motor neu aufsetzt: Positionierung, Creatives, Media-Steuerung und das Website-Erlebnis darunter."
@@ -708,10 +696,6 @@
           { "label": "Bereich",    "value": "SDC-Projekt umgesetzt durch Swiss TPH" },
           { "label": "Leistungen", "value": "Kampagne, Art Direction, OOH, Print" }
         ],
-        "hero": {
-          "src": "/images/work/aqh/01-billboard-underground.jpg",
-          "alt": "Ein großes U-Bahn-Plakat für AQH zeigt einen Jungen mit Sauerstoffmaske, mit der Headline „Hör auf zu rauchen, schütze die Gesundheit deiner Lieben.\""
-        },
         "brief": {
           "eyebrow": "Das Briefing",
           "body":    "AQH ist eine schweizfinanzierte Initiative für öffentliche Gesundheit — ein SDC-Projekt, umgesetzt durch Swiss TPH — mit Fokus auf besseren Zugang zu Gesundheitsversorgung und Prävention. Das Briefing: eine landesweite Aufklärungskampagne über mehrere Gesundheitsthemen — Passivrauch, Herz-Kreislauf-Erkrankungen, Bluthochdruck und Familienwohl — umgesetzt auf hochwirksamen OOH-Formaten und ergänzendem Print."
@@ -786,10 +770,6 @@
           { "label": "Projekt",    "value": "Markenidentität" },
           { "label": "Leistungen", "value": "Logodesign, Typografie, Markenanwendung" }
         ],
-        "hero": {
-          "src": "/images/work/asllani-dental/02-portrait-application.jpg",
-          "alt": "Eine Nahaufnahme eines lächelnden jungen Mädchens mit Sommersprossen, daneben das Logo-Lockup der Asllani Family Dental Clinic in der oberen Ecke — die Wärme der Marke in einem echten Lifestyle-Kontext."
-        },
         "brief": {
           "eyebrow": "Das Briefing",
           "body":    "Die Asllani Family Dental Clinic ist eine generationenübergreifende Zahnarztpraxis, geführt von den Drs. Jakup, Arta und Agon Asllani. Sie brauchten eine Identität, die der Realität ihrer Arbeit gerecht wird — denn ein Zahnarztbesuch ist selten nur eine Behandlung. Für die meisten Patient:innen, besonders für Familien und Kinder, geht es darum, sich sicher, gut versorgt und verstanden zu fühlen. Die alte Identität hat das nicht vermittelt. Die neue musste es."
@@ -850,10 +830,6 @@
           { "label": "Gegründet",  "value": "2024" },
           { "label": "Leistungen", "value": "Markenidentität, Strategie, Kampagne, Plattform-Design, Art Direction" }
         ],
-        "hero": {
-          "src": "/images/work/floovle/01-logo-pink-aura.jpg",
-          "alt": "Die Floovle-Wortmarke in einer leuchtenden rosa Aura — ein sanft schimmernder Gradient von tiefem Magenta zu hellem Rosé, der Wärme, Fokus und Klarheit transportiert."
-        },
         "brief": {
           "eyebrow": "Das Briefing",
           "body":    "Floovle wurde 2024 gegründet, um ein Problem anzugehen, das die ästhetische Medizin lange umgangen hat: das Fehlen eines vertrauenswürdigen, emotional intelligenten Raums, in dem Menschen informierte Entscheidungen über ihren Körper treffen können. Die Kategorie ist laut, kommerziell und oft bewusst verwirrend. Floovle kam vor dem Launch zu uns — mit einer klaren Vision: Klarheit, Vertrauen, Selbstbestimmung — aber ohne Identität, ohne Markensprache, ohne Kampagne. Das Briefing: alles davon aufzubauen."
