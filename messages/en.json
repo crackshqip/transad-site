@@ -813,7 +813,7 @@
         },
         "approach": {
           "eyebrow": "The approach",
-          "body":    "We designed the mark around a single idea: the heart and the tooth, joined. The tooth carries the clinical credibility — health, professionalism, expertise. The heart carries everything else — warmth, kindness, the human side of care. Together they form a continuous, interlocking shape that reads softly even at a glance, avoiding the cold, clinical feel that dental branding so often falls into. The wordmark sits in a humanist sans-serif — open, friendly, easy to read across signage, social, and patient-facing materials. The palette is built around a calm, restorative blue that feels reassuring rather than sterile. The system flexes from large-scale architectural signage down to small social applications without losing its character."
+          "body":    "We designed the mark as two interlocking forms held together as one — a continuous, symmetrical shape that reads as a soft seal of care rather than a clinical icon. The geometry is precise but the silhouette stays gentle, avoiding the cold feel that dental branding so often falls into. The wordmark sits in a humanist sans-serif — open, friendly, easy to read across signage, social, and patient-facing materials. The palette is built around a calm, restorative blue that feels reassuring rather than sterile. The system flexes from large-scale architectural signage down to small social applications without losing its character."
         },
         "pillars": [
           "Trust — a mark that reads professional first, friendly always",
@@ -823,28 +823,36 @@
         "showcase": [
           {
             "src":     "/images/work/asllani-dental/01-logo-on-blue.jpg",
-            "alt":     "The Asllani Family Dental Clinic logo presented in white on the brand's signature soft blue, with a lighter monochromatic version shown below for context.",
-            "caption": "Primary logo — two-tone application",
-            "style":   "fullbleed"
+            "alt":     "The Asllani Family Dental Clinic primary logo lockup in white on the brand's signature soft blue.",
+            "caption": "Logo on brand blue",
+            "style":   "contained",
+            "pair":    true
+          },
+          {
+            "src":     "/images/work/asllani-dental/01-logo-on-white.jpg",
+            "alt":     "The same logo lockup rendered in soft blue on a clean white ground — the inverse colorway used for light surfaces.",
+            "caption": "Inverse — for light surfaces",
+            "style":   "contained",
+            "pair":    true
           },
           {
             "src":     "/images/work/asllani-dental/02-portrait-application.jpg",
-            "alt":     "Brand portrait application showing the logo paired with a warm, human image and credit line for Drs. Jakup, Arta, and Agon Asllani.",
+            "alt":     "Brand applied in a real lifestyle context — a close-up portrait of a smiling young woman with freckles, with the Asllani Family Dental Clinic logo lockup placed in the upper area of the frame.",
             "caption": "Brand applied in context — lifestyle portrait",
             "style":   "fullbleed"
           },
           {
             "src":     "/images/work/asllani-dental/03-building-signage.jpg",
-            "alt":     "The Asllani Family Dental Clinic logo rendered as architectural signage on the upper facade of a modern medical building, photographed from below against a soft sky.",
+            "alt":     "The Asllani Family Dental Clinic logo rendered as white architectural signage on the dark fascia of a modern building, with glass facade below.",
             "caption": "Architectural signage — building application",
-            "style":   "fullbleed"
+            "style":   "contained"
           }
         ],
         "results": {
           "eyebrow":  "About the project",
           "headline": "A dental identity that puts the patient before the procedure.",
           "bullets": [
-            "A custom symbol uniting the heart and the tooth into a single continuous shape",
+            "A custom symbol formed of two interlocking shapes — a continuous seal of care rather than a clinical icon",
             "Humanist wordmark designed for clarity at every scale",
             "A calm, restorative blue palette chosen to reassure rather than clinical-white",
             "A flexible system designed to live across signage, print, social, and digital",

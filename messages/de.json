@@ -813,7 +813,7 @@
         },
         "approach": {
           "eyebrow": "Der Ansatz",
-          "body":    "Die Bildmarke entstand aus einer einzigen Idee: Herz und Zahn, miteinander verbunden. Der Zahn trägt die fachliche Glaubwürdigkeit — Gesundheit, Professionalität, Expertise. Das Herz trägt alles andere — Wärme, Zuwendung, die menschliche Seite der Versorgung. Zusammen bilden sie eine durchgehende, ineinandergreifende Form, die schon im flüchtigen Blick weich wirkt — und der kalten, klinischen Anmutung entgeht, in die Dental-Branding so oft verfällt. Die Wortmarke steht in einer humanistischen Grotesk — offen, freundlich, gut lesbar auf Beschilderung, in Social und auf allen patientenseitigen Materialien. Die Palette baut auf einem ruhigen, regenerierenden Blau, das Sicherheit gibt statt zu sterilisieren. Das System trägt von großformatiger Architekturbeschilderung bis zu kleinen Social-Anwendungen — ohne seinen Charakter zu verlieren."
+          "body":    "Die Bildmarke entstand aus zwei ineinandergreifenden Formen — eine durchgehende, symmetrische Gestalt, die wie ein weiches Siegel der Fürsorge wirkt, nicht wie ein klinisches Symbol. Die Geometrie ist präzise, doch die Silhouette bleibt sanft — und entgeht der kalten Anmutung, in die Dental-Branding so oft verfällt. Die Wortmarke steht in einer humanistischen Grotesk — offen, freundlich, gut lesbar auf Beschilderung, in Social und auf allen patientenseitigen Materialien. Die Palette baut auf einem ruhigen, regenerierenden Blau, das Sicherheit gibt statt zu sterilisieren. Das System trägt von großformatiger Architekturbeschilderung bis zu kleinen Social-Anwendungen — ohne seinen Charakter zu verlieren."
         },
         "pillars": [
           "Vertrauen — eine Marke, die zuerst professionell und immer freundlich liest",
@@ -823,28 +823,36 @@
         "showcase": [
           {
             "src":     "/images/work/asllani-dental/01-logo-on-blue.jpg",
-            "alt":     "Das Logo der Asllani Family Dental Clinic in Weiß auf dem markentypischen weichen Blau, darunter eine hellere monochrome Variante zum Vergleich.",
-            "caption": "Primärlogo — zweifarbige Anwendung",
-            "style":   "fullbleed"
+            "alt":     "Das primäre Logo-Lockup der Asllani Family Dental Clinic in Weiß auf dem markentypischen weichen Blau.",
+            "caption": "Logo auf Markenblau",
+            "style":   "contained",
+            "pair":    true
+          },
+          {
+            "src":     "/images/work/asllani-dental/01-logo-on-white.jpg",
+            "alt":     "Dasselbe Logo-Lockup in Weichblau auf reinem Weiß — die invertierte Farbgebung für helle Flächen.",
+            "caption": "Invers — für helle Flächen",
+            "style":   "contained",
+            "pair":    true
           },
           {
             "src":     "/images/work/asllani-dental/02-portrait-application.jpg",
-            "alt":     "Markenanwendung im Porträt: das Logo paart sich mit einem warmen, menschlichen Bild und der Nennung der Drs. Jakup, Arta und Agon Asllani.",
+            "alt":     "Markenanwendung in einem echten Lifestyle-Kontext — eine Nahaufnahme einer lächelnden jungen Frau mit Sommersprossen, mit dem Asllani Family Dental Clinic Logo-Lockup im oberen Bildbereich.",
             "caption": "Marke im Kontext — Lifestyle-Porträt",
             "style":   "fullbleed"
           },
           {
             "src":     "/images/work/asllani-dental/03-building-signage.jpg",
-            "alt":     "Das Logo der Asllani Family Dental Clinic als Architekturbeschilderung an der oberen Fassade eines modernen Gesundheitsgebäudes, von unten gegen einen weichen Himmel fotografiert.",
+            "alt":     "Das Logo der Asllani Family Dental Clinic als weiße Architekturbeschilderung auf der dunklen Fassadenleiste eines modernen Gebäudes, mit Glasfassade darunter.",
             "caption": "Architekturbeschilderung — Gebäudeanwendung",
-            "style":   "fullbleed"
+            "style":   "contained"
           }
         ],
         "results": {
           "eyebrow":  "Über das Projekt",
           "headline": "Eine zahnmedizinische Identität, die den Menschen vor die Behandlung stellt.",
           "bullets": [
-            "Ein eigens entwickeltes Symbol, das Herz und Zahn zu einer durchgehenden Form verbindet",
+            "Ein eigens entwickeltes Symbol aus zwei ineinandergreifenden Formen — ein durchgehendes Siegel der Fürsorge statt eines klinischen Icons",
             "Humanistische Wortmarke, gestaltet für Klarheit auf jeder Größe",
             "Ein ruhiges, regenerierendes Blau — beruhigend statt klinisch-weiß",
             "Ein flexibles System für Beschilderung, Print, Social und Digital",
