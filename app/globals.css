@@ -1413,17 +1413,44 @@ img, svg { display: block; max-width: 100%; }
   max-width: 240px;
 }
 
+/* ---------- Showcase ----------
+   Every showcase image renders inside a 2-column pair grid. The renderer
+   chunks the showcase array into rows of 2; if the count is odd, the last
+   row carries a single image in column 1 with column 2 left empty.
+   Desktop (768px+): 2-up. Mobile: stacks. */
 .case-showcase {
   display: flex;
   flex-direction: column;
-  gap: var(--space-9);
+  gap: 40px;
   padding-block: var(--space-8) var(--space-9);
 }
+@media (min-width: 768px) {
+  .case-showcase { gap: 64px; }
+}
+
+.case-show-pair {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  width: 100%;
+  padding-left: var(--container-pad);
+  padding-right: var(--container-pad);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .case-show-pair {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
 .case-show {
   margin: 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  min-width: 0;
 }
 .case-show-frame {
   background: var(--neutral-100);
@@ -1435,58 +1462,6 @@ img, svg { display: block; max-width: 100%; }
   height: auto;
   display: block;
 }
-.case-show-contained .case-show-frame {
-  max-width: var(--container-max);
-  margin: 0 auto;
-  padding-left: var(--container-pad);
-  padding-right: var(--container-pad);
-  background: transparent;
-}
-.case-show-contained .case-show-frame img {
-  background: var(--neutral-100);
-}
-.case-show-full .case-show-frame { max-width: 100%; }
-
-/* ---------- Pair group ----------
-   Two consecutive showcase images tagged pair: true render here.
-   Mobile: stacked single column with the same rhythm as single blocks.
-   Tablet/desktop: side-by-side grid, top-aligned, tighter inner gap. */
-.case-show-pair {
-  max-width: var(--container-max);
-  margin: 0 auto;
-  width: 100%;
-  padding-left: var(--container-pad);
-  padding-right: var(--container-pad);
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--space-9);
-}
-@media (min-width: 768px) {
-  .case-show-pair {
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-    align-items: start;
-  }
-}
-.case-show-paired {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  min-width: 0;
-}
-.case-show-paired .case-show-frame {
-  background: var(--neutral-100);
-  overflow: hidden;
-  width: 100%;
-}
-.case-show-paired .case-show-frame img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-/* Caption already sits inside the padded pair wrapper — no extra inset. */
-.case-show-paired .case-show-caption { padding: 0; }
 .case-show-caption {
   font-family: var(--font-mono);
   font-size: 10px;
@@ -1496,7 +1471,6 @@ img, svg { display: block; max-width: 100%; }
   color: var(--ink-500);
   text-align: center;
   margin-top: 8px;
-  padding: 0 var(--container-pad);
 }
 
 .case-results {
@@ -1580,10 +1554,6 @@ img, svg { display: block; max-width: 100%; }
   .case-intro-grid { grid-template-columns: 1fr; gap: 48px; }
   .case-stats { grid-template-columns: 1fr; gap: 32px; }
   .case-pillars { grid-template-columns: 1fr; gap: 24px; }
-  .case-show-contained .case-show-frame {
-    padding-left: var(--container-pad);
-    padding-right: var(--container-pad);
-  }
 }
 @media (max-width: 640px) {
   .case-hero { padding-block: var(--space-7) var(--space-6); }

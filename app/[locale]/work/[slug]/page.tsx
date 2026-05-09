@@ -23,29 +23,17 @@ type ShowcaseItem = {
   src: string;
   alt: string;
   caption: string;
-  style?: "contained" | "fullbleed";
-  pair?: boolean;
 };
 
-type ShowcaseGroup =
-  | { type: "single"; img: ShowcaseItem }
-  | { type: "pair"; images: [ShowcaseItem, ShowcaseItem] };
-
-function groupShowcase(items: ShowcaseItem[]): ShowcaseGroup[] {
-  const groups: ShowcaseGroup[] = [];
-  let i = 0;
-  while (i < items.length) {
-    const img = items[i];
-    const next = items[i + 1];
-    if (img.pair && next?.pair) {
-      groups.push({ type: "pair", images: [img, next] });
-      i += 2;
-    } else {
-      groups.push({ type: "single", img });
-      i += 1;
-    }
+/** Chunk the showcase array into pairs of two. The last row carries a single
+ *  item if the count is odd — CSS leaves column 2 empty so the lone image
+ *  sits at 50% width on the left. */
+function chunkPairs(items: ShowcaseItem[]): ShowcaseItem[][] {
+  const pairs: ShowcaseItem[][] = [];
+  for (let i = 0; i < items.length; i += 2) {
+    pairs.push(items.slice(i, i + 2));
   }
-  return groups;
+  return pairs;
 }
 
 type CaseStudyContent = {
@@ -222,55 +210,28 @@ export default async function CaseStudyPage({
           </section>
 
           <section className="case-showcase">
-            {groupShowcase(study.showcase).map((group, i) => {
-              if (group.type === "pair") {
-                return (
-                  <div className="case-show-pair" key={i}>
-                    {group.images.map((img, j) => (
-                      <figure className="case-show case-show-paired" key={j}>
-                        <div className="case-show-frame">
-                          <Image
-                            src={img.src}
-                            alt={img.alt}
-                            width={2400}
-                            height={1600}
-                            sizes="(max-width: 768px) 92vw, (max-width: 1200px) 46vw, 540px"
-                          />
-                        </div>
-                        {img.caption && (
-                          <figcaption className="case-show-caption">
-                            {img.caption}
-                          </figcaption>
-                        )}
-                      </figure>
-                    ))}
-                  </div>
-                );
-              }
-              const img = group.img;
-              const isFull = img.style === "fullbleed";
-              return (
-                <figure
-                  className={`case-show ${isFull ? "case-show-full" : "case-show-contained"}`}
-                  key={i}
-                >
-                  <div className="case-show-frame">
-                    <Image
-                      src={img.src}
-                      alt={img.alt}
-                      width={2400}
-                      height={1600}
-                      sizes={isFull ? "100vw" : "(max-width: 1200px) 92vw, 1080px"}
-                    />
-                  </div>
-                  {img.caption && (
-                    <figcaption className="case-show-caption">
-                      {img.caption}
-                    </figcaption>
-                  )}
-                </figure>
-              );
-            })}
+            {chunkPairs(study.showcase).map((pair, i) => (
+              <div className="case-show-pair" key={i}>
+                {pair.map((img, j) => (
+                  <figure className="case-show" key={j}>
+                    <div className="case-show-frame">
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={2400}
+                        height={1600}
+                        sizes="(max-width: 768px) 92vw, (max-width: 1200px) 46vw, 540px"
+                      />
+                    </div>
+                    {img.caption && (
+                      <figcaption className="case-show-caption">
+                        {img.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            ))}
           </section>
 
           <section className="case-results container">

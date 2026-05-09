@@ -511,24 +511,24 @@
         ],
         "showcase": [
           {
-            "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
-            "alt":     "Hello Baby Box homepage shown on a laptop in a soft natural-lit setting.",
-            "caption": "Shopify storefront — redesigned 2023",
-            "style":   "contained",
-            "pair":    true
-          },
-          {
-            "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
-            "alt":     "Hello Baby Box mobile product listing page on iPhone.",
-            "caption": "Mobile commerce — 70% of traffic",
-            "style":   "contained",
-            "pair":    true
+            "src":     "/images/work/hello-baby-box/01-hero-portrait.jpg",
+            "alt":     "A mother holding a newborn wrapped in a pink Hello Baby Box wrap, with the brand badge visible.",
+            "caption": "Brand portrait — campaign hero"
           },
           {
             "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
             "alt":     "Three Hello Baby Box social media posts in sequence.",
-            "caption": "Social content — monthly editorial calendar",
-            "style":   "fullbleed"
+            "caption": "Social content — monthly editorial calendar"
+          },
+          {
+            "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
+            "alt":     "Hello Baby Box homepage shown on a laptop in a soft natural-lit setting.",
+            "caption": "Shopify storefront — redesigned 2023"
+          },
+          {
+            "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
+            "alt":     "Hello Baby Box mobile product listing page on iPhone.",
+            "caption": "Mobile commerce — 70% of traffic"
           }
         ],
         "results": {
@@ -581,40 +581,32 @@
           {
             "src":     "/images/work/treventi/01-map-expansion.jpg",
             "alt":     "A map of Kosovo showing Treventi's growth from a single Pristina location to a network across Prizren, Peja, Drenas, Ferizaj and a manufacturing facility.",
-            "caption": "Growth across Kosovo — from one store to a local manufacturer",
-            "style":   "fullbleed"
+            "caption": "Growth across Kosovo — from one store to a local manufacturer"
           },
           {
             "src":     "/images/work/treventi/04-laptop-hero.jpg",
             "alt":     "Treventi homepage hero on desktop with the manufacturing story.",
-            "caption": "Website — desktop experience",
-            "style":   "contained",
-            "pair":    true
+            "caption": "Website — desktop experience"
           },
           {
             "src":     "/images/work/treventi/02-laptop-process.jpg",
             "alt":     "Editorial section of the Treventi website showing the door manufacturing process.",
-            "caption": "Production story — editorial content",
-            "style":   "contained",
-            "pair":    true
+            "caption": "Production story — editorial content"
           },
           {
             "src":     "/images/work/treventi/03-mobile-trio.jpg",
             "alt":     "Treventi mobile experience — homepage, founders page, and red navigation menu.",
-            "caption": "Mobile experience — responsive from launch",
-            "style":   "contained"
+            "caption": "Mobile experience — responsive from launch"
           },
           {
             "src":     "/images/work/treventi/05-social-grid.jpg",
             "alt":     "A grid of Treventi social media posts in red and white, mixing lifestyle photography with product imagery.",
-            "caption": "Social content — continuous editorial output",
-            "style":   "fullbleed"
+            "caption": "Social content — continuous editorial output"
           },
           {
             "src":     "/images/work/treventi/06-facebook-ads.jpg",
             "alt":     "Three Facebook ad creatives for Treventi shown on iPhones.",
-            "caption": "Performance campaigns — Meta ads across Kosovo",
-            "style":   "contained"
+            "caption": "Performance campaigns — Meta ads across Kosovo"
           }
         ],
         "results": {
@@ -668,26 +660,22 @@
           {
             "src":     "/images/work/stem-skincare/01-packaging-vitamin-c.jpg",
             "alt":     "Three Stem Skincare Vitamin C 15% serum boxes photographed in soft natural light against a clean white background.",
-            "caption": "Packaging — Vitamin C 15% serum range",
-            "style":   "fullbleed"
+            "caption": "Packaging — Vitamin C 15% serum range"
           },
           {
             "src":     "/images/work/stem-skincare/02-product-flatlay.jpg",
             "alt":     "Editorial flatlay of the Stem Skincare Vitamin C serum bottle on a stone tray with sliced lemon and dropper.",
-            "caption": "Editorial product photography",
-            "style":   "contained"
+            "caption": "Editorial product photography"
           },
           {
             "src":     "/images/work/stem-skincare/03-social-grid-carousel.jpg",
             "alt":     "Three Instagram carousel slides showing close-up skin photography with ingredient overlays in Albanian.",
-            "caption": "Social content — ingredient-led storytelling",
-            "style":   "contained"
+            "caption": "Social content — ingredient-led storytelling"
           },
           {
             "src":     "/images/work/stem-skincare/04-social-grid-campaigns.jpg",
             "alt":     "Three Instagram posts showing UVA/UVB protection education, gift card promotion, and dual ingredient combinations.",
-            "caption": "Social campaigns — education & promotion",
-            "style":   "contained"
+            "caption": "Social campaigns — education & promotion"
           }
         ],
         "results": {
@@ -741,38 +729,32 @@
           {
             "src":     "/images/work/aqh/01-billboard-underground.jpg",
             "alt":     "AQH underground station billboard photographed in situ — a child in an oxygen mask with the headline 'Stop smoking, protect the health of your loved ones.'",
-            "caption": "Underground billboard — stop smoking campaign",
-            "style":   "fullbleed"
+            "caption": "Underground billboard — stop smoking campaign"
           },
           {
             "src":     "/images/work/aqh/02-bus-shelter-night.jpg",
             "alt":     "AQH bus shelter poster at night — the same secondhand smoke campaign placed at street level.",
-            "caption": "Bus shelter — night placement",
-            "style":   "fullbleed"
+            "caption": "Bus shelter — night placement"
           },
           {
             "src":     "/images/work/aqh/03-poster-pair.jpg",
             "alt":     "Two paired campaign posters — one with the boy in the oxygen mask, one in solid red with the headline 'Take care of your family.'",
-            "caption": "Paired posters — image & type executions",
-            "style":   "contained"
+            "caption": "Paired posters — image & type executions"
           },
           {
             "src":     "/images/work/aqh/04-hipertension-billboard.jpg",
             "alt":     "A street-level building billboard showing a grandfather and grandchild gardening together, with the headline 'Eating healthy and spending time with your loved ones helps hypertension.'",
-            "caption": "Hypertension campaign — street placement",
-            "style":   "fullbleed"
+            "caption": "Hypertension campaign — street placement"
           },
           {
             "src":     "/images/work/aqh/05-poster-grid.jpg",
             "alt":     "Multiple AQH campaign posters in red, purple, blue and green — each addressing a different health theme.",
-            "caption": "Colour-coded campaign system across health pillars",
-            "style":   "fullbleed"
+            "caption": "Colour-coded campaign system across health pillars"
           },
           {
             "src":     "/images/work/aqh/06-pillar-icons.jpg",
             "alt":     "Eight coloured circular icons representing the AQH health pillars — heart rate, heart, walking, cycling, strength, nutrition, swimming, hiking.",
-            "caption": "Health pillar icon system",
-            "style":   "contained"
+            "caption": "Health pillar icon system"
           }
         ],
         "results": {
@@ -825,28 +807,17 @@
           {
             "src":     "/images/work/asllani-dental/01-logo-on-blue.jpg",
             "alt":     "The Asllani Family Dental Clinic primary logo lockup in white on the brand's signature soft blue.",
-            "caption": "Logo on brand blue",
-            "style":   "contained",
-            "pair":    true
-          },
-          {
-            "src":     "/images/work/asllani-dental/01-logo-on-white.jpg",
-            "alt":     "The same logo lockup rendered in soft blue on a clean white ground — the inverse colorway used for light surfaces.",
-            "caption": "Inverse — for light surfaces",
-            "style":   "contained",
-            "pair":    true
+            "caption": "Primary logo — brand blue"
           },
           {
             "src":     "/images/work/asllani-dental/02-portrait-application.jpg",
             "alt":     "Brand applied in a real lifestyle context — a close-up portrait of a smiling young woman with freckles, with the Asllani Family Dental Clinic logo lockup placed in the upper area of the frame.",
-            "caption": "Brand applied in context — lifestyle portrait",
-            "style":   "fullbleed"
+            "caption": "Brand applied in context — lifestyle portrait"
           },
           {
             "src":     "/images/work/asllani-dental/03-building-signage.jpg",
             "alt":     "The Asllani Family Dental Clinic logo rendered as white architectural signage on the dark fascia of a modern building, with glass facade below.",
-            "caption": "Architectural signage — building application",
-            "style":   "contained"
+            "caption": "Architectural signage — building application"
           }
         ],
         "results": {
@@ -900,48 +871,37 @@
           {
             "src":     "/images/work/floovle/01-logo-pink-aura.jpg",
             "alt":     "The Floovle wordmark centered inside a luminous pink-to-magenta aura, the brand's signature visual device.",
-            "caption": "Primary mark — the aura system",
-            "style":   "fullbleed"
-          },
-          {
-            "src":     "/images/work/floovle/02-tshirt-application.jpg",
-            "alt":     "A white t-shirt printed with the Floovle aura — a soft pink glow surrounding the wordmark — worn by a person in soft daylight.",
-            "caption": "Brand applied — apparel",
-            "style":   "contained",
-            "pair":    true
-          },
-          {
-            "src":     "/images/work/floovle/03-business-card.jpg",
-            "alt":     "The Floovle business card system — a pink gradient card paired with a clean white reverse showing contact details and a QR code.",
-            "caption": "Stationery — two-sided system",
-            "style":   "contained",
-            "pair":    true
+            "caption": "Primary mark — the aura system"
           },
           {
             "src":     "/images/work/floovle/04-connect-experts.jpg",
             "alt":     "A campaign card in soft lavender with the Floovle headline 'Connect with beauty experts' and the supporting line 'Made for you.'",
-            "caption": "Campaign — connect with beauty experts",
-            "style":   "fullbleed"
+            "caption": "Campaign — connect with beauty experts"
+          },
+          {
+            "src":     "/images/work/floovle/02-tshirt-application.jpg",
+            "alt":     "A white t-shirt printed with the Floovle aura — a soft pink glow surrounding the wordmark — worn by a person in soft daylight.",
+            "caption": "Brand applied — apparel"
+          },
+          {
+            "src":     "/images/work/floovle/03-business-card.jpg",
+            "alt":     "The Floovle business card system — a pink gradient card paired with a clean white reverse showing contact details and a QR code.",
+            "caption": "Stationery — two-sided system"
           },
           {
             "src":     "/images/work/floovle/05-subway-billboard.jpg",
             "alt":     "The Floovle 'Discover. Learn. Connect.' subway poster placed inside a metro car — a soft-focus portrait of a young woman framed by hands.",
-            "caption": "Subway OOH — discover. learn. connect.",
-            "style":   "contained",
-            "pair":    true
+            "caption": "Subway OOH — discover. learn. connect."
           },
           {
             "src":     "/images/work/floovle/06-billboard-synonym.jpg",
             "alt":     "A street-level billboard with the Floovle headline 'Synonym for trusted aesthetic decisions' overlaid on a confident close-up portrait.",
-            "caption": "Street billboard — trusted aesthetic decisions",
-            "style":   "contained",
-            "pair":    true
+            "caption": "Street billboard — trusted aesthetic decisions"
           },
           {
             "src":     "/images/work/floovle/07-platform-screens.jpg",
             "alt":     "The Floovle digital platform shown across multiple desktop screens — doctor profiles, search and filter, an editorial blog, account settings, and a detailed practitioner page.",
-            "caption": "Digital platform — doctor discovery, editorial, accounts",
-            "style":   "fullbleed"
+            "caption": "Digital platform — doctor discovery, editorial, accounts"
           }
         ],
         "results": {
