@@ -467,6 +467,7 @@
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "ROAS von 4× auf 9,5× gehoben, bei 17-facher Skalierung des Werbespend — mehr als das Doppelte des Branchen-Benchmarks für Beauty-E-Commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.","tag": "Identität · Gesundheitswesen", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
+      { "slug": "floovle",          "title": "Floovle",         "outcome": "Eine neue Digitalplattform für die globale ästhetische Medizin — gebaut auf Klarheit, Vertrauen und emotionaler Intelligenz in einer Kategorie, die lange von Lärm geprägt war.","tag": "HealthTech · Identität & Plattform", "year": "2024 — heute", "cardImage": "/images/work/floovle/01-logo-pink-aura.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Verpackungssystem für eine Specialty-Rösterei.",              "tag": "Verpackung", "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
@@ -857,6 +858,101 @@
             "Ein ruhiges, regenerierendes Blau — beruhigend statt klinisch-weiß",
             "Ein flexibles System für Beschilderung, Print, Social und Digital",
             "Entwickelt für eine generationenübergreifende Familienpraxis — Drs. Jakup, Arta und Agon Asllani"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "floovle": {
+        "eyebrow": "Arbeiten / 06 — Identität · Markenstrategie · Kampagne · Digitalplattform",
+        "title": "Floovle",
+        "outcome": "Eine neue Digitalplattform für die globale ästhetische Medizin — gebaut auf Klarheit, Vertrauen und emotionaler Intelligenz in einer Kategorie, die lange von Lärm geprägt war.",
+        "meta": [
+          { "label": "Kunde",      "value": "Floovle" },
+          { "label": "Branche",    "value": "Ästhetische Medizin · HealthTech · Digitalplattform" },
+          { "label": "Gegründet",  "value": "2024" },
+          { "label": "Leistungen", "value": "Markenidentität, Strategie, Kampagne, Plattform-Design, Art Direction" }
+        ],
+        "hero": {
+          "src": "/images/work/floovle/01-logo-pink-aura.jpg",
+          "alt": "Die Floovle-Wortmarke in einer leuchtenden rosa Aura — ein sanft schimmernder Gradient von tiefem Magenta zu hellem Rosé, der Wärme, Fokus und Klarheit transportiert."
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "Floovle wurde 2024 gegründet, um ein Problem anzugehen, das die ästhetische Medizin lange umgangen hat: das Fehlen eines vertrauenswürdigen, emotional intelligenten Raums, in dem Menschen informierte Entscheidungen über ihren Körper treffen können. Die Kategorie ist laut, kommerziell und oft bewusst verwirrend. Floovle kam vor dem Launch zu uns — mit einer klaren Vision: Klarheit, Vertrauen, Selbstbestimmung — aber ohne Identität, ohne Markensprache, ohne Kampagne. Das Briefing: alles davon aufzubauen."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Wir haben die Marke um eine einzige visuelle Idee verankert: die Aura. Ein sanfter, atmender Gradient aus Rosa und Magenta, der die Menschen, die Typografie und die Plattform umfängt — und nie überlagert. Ein Rahmen für Fokus inmitten von Unendlichkeit. Die Wortmarke ist offen, gerundet, bewusst ruhig; das Typografie-System liest sich eher wie eine Wellness-App als ein medizinisches Produkt. Die Kampagne behandelt das Publikum als Erwachsene — direkte Aussagen wie „Synonym for trusted aesthetic decisions\" und „Connect with beauty experts\" ersetzen das übliche Vorher-Nachher-Marketing. Über OOH, Social, die Digitalplattform und alle Markenmaterialien hinweg verstärkt jeder Touchpoint dasselbe Versprechen: Ordnung in einer überwältigenden Kategorie."
+        },
+        "pillars": [
+          "Klarheit — ein Rahmen für Fokus inmitten von Unendlichkeit",
+          "Vertrauen — geprüfte Anbieter, verifizierte Inhalte, kein Lärm",
+          "Selbstbestimmung — von der Neugier zur sicheren Entscheidung"
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/floovle/01-logo-pink-aura.jpg",
+            "alt":     "Die Floovle-Wortmarke zentriert in einer leuchtenden Rosa-zu-Magenta-Aura, dem signaturhaften Visual der Marke.",
+            "caption": "Primärmarke — das Aura-System",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/floovle/02-tshirt-application.jpg",
+            "alt":     "Ein weißes T-Shirt mit aufgedruckter Floovle-Aura — ein sanfter rosa Schein um die Wortmarke — getragen in weichem Tageslicht.",
+            "caption": "Marke angewendet — Apparel",
+            "style":   "contained",
+            "pair":    true
+          },
+          {
+            "src":     "/images/work/floovle/03-business-card.jpg",
+            "alt":     "Das Floovle-Visitenkarten-System — eine Karte mit rosa Verlauf, gepaart mit einer klaren weißen Rückseite, auf der Kontaktdaten und ein QR-Code zu sehen sind.",
+            "caption": "Drucksorten — zweiseitiges System",
+            "style":   "contained",
+            "pair":    true
+          },
+          {
+            "src":     "/images/work/floovle/04-connect-experts.jpg",
+            "alt":     "Eine Kampagnenkarte in zartem Lavendel mit der Floovle-Headline „Connect with beauty experts\" und der Subline „Made for you.\"",
+            "caption": "Kampagne — Connect with beauty experts",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/floovle/05-subway-billboard.jpg",
+            "alt":     "Das Floovle-„Discover. Learn. Connect.\"-Plakat in einer U-Bahn — ein weichgezeichnetes Porträt einer jungen Frau, gerahmt von Händen.",
+            "caption": "U-Bahn-OOH — Discover. Learn. Connect.",
+            "style":   "contained",
+            "pair":    true
+          },
+          {
+            "src":     "/images/work/floovle/06-billboard-synonym.jpg",
+            "alt":     "Ein Straßen-Billboard mit der Floovle-Headline „Synonym for trusted aesthetic decisions\" über einer selbstbewussten Porträt-Nahaufnahme.",
+            "caption": "Straßen-Billboard — Trusted aesthetic decisions",
+            "style":   "contained",
+            "pair":    true
+          },
+          {
+            "src":     "/images/work/floovle/07-platform-screens.jpg",
+            "alt":     "Die digitale Floovle-Plattform auf mehreren Desktop-Screens — Arztprofile, Suche und Filter, ein Editorial-Blog, Konto-Einstellungen und eine detaillierte Praktiker-Seite.",
+            "caption": "Digitalplattform — Arztsuche, Editorial, Konten",
+            "style":   "fullbleed"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Über das Projekt",
+          "headline": "Den weltweiten Standard für vertrauenswürdige ästhetische Beratung aufbauen.",
+          "bullets": [
+            "Vollständige Markenidentität rund um ein einziges wiedererkennbares Visual — die Aura",
+            "Kampagnensystem über OOH, U-Bahn, Social und Digital — vereint durch Ton und Palette",
+            "Plattform-Design für Arztsuche, redaktionelle Inhalte, Suche und Account-Flows",
+            "Strategische Positionierung um drei Kernwerte: Klarheit, Vertrauen, Selbstbestimmung",
+            "Eine kategorie-prägende Marke, vorbereitet für globalen Maßstab — gestaltet, um emotional zu tragen statt kommerziell zu wirken"
           ]
         },
         "navigation": {
