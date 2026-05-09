@@ -466,6 +466,7 @@
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "From regional retailer to recognized local manufacturer through three years of brand presence.","tag": "Branding & Manufacturing", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Lifted ROAS from 4× to 9.5× while scaling ad spend 17× — more than double the industry benchmark for beauty e-commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "A nationwide public health campaign on smoking, nutrition, and cardiovascular care — placed across underground stations, bus shelters, and street-level OOH.","tag": "Public Health · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
+      { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "An identity for a family-run dental practice — built around warmth, trust, and the quiet confidence patients want from their clinic.","tag": "Identity · Healthcare", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
@@ -781,6 +782,73 @@
             "Executed across underground billboards, bus shelters, building-side posters, and supporting print",
             "Unified by a colour-coded pillar system that links each message to its health theme",
             "Delivered for AQH, an SDC-funded project implemented by Swiss TPH"
+          ]
+        },
+        "navigation": {
+          "back": "Back to all work",
+          "next": "Next case study"
+        },
+        "cta": {
+          "title":  "Have a project in mind?",
+          "button": "Start a conversation"
+        }
+      },
+      "asllani-dental": {
+        "eyebrow": "Work / 05 — Identity · Brand Development",
+        "title": "Asllani Family Dental Clinic",
+        "outcome": "An identity for a family-run dental practice — built around warmth, trust, and the quiet confidence patients want from their clinic.",
+        "meta": [
+          { "label": "Client",   "value": "Asllani Family Dental Clinic" },
+          { "label": "Industry", "value": "Healthcare · Dental" },
+          { "label": "Project",  "value": "Brand Identity" },
+          { "label": "Services", "value": "Logo Design, Typography, Brand Application" }
+        ],
+        "hero": {
+          "src": "/images/work/asllani-dental/02-portrait-application.jpg",
+          "alt": "A close-up portrait of a smiling young girl with freckles, with the Asllani Family Dental Clinic logo lockup applied in the upper corner — showing the brand's warmth in a real lifestyle context."
+        },
+        "brief": {
+          "eyebrow": "The brief",
+          "body":    "Asllani Family Dental Clinic is a multi-generational dental practice run by Drs. Jakup, Arta, and Agon Asllani. They needed an identity that reflected the reality of their work — that a dental visit is rarely just about treatment. For most patients, especially families and children, it's about feeling safe, cared for, and understood. The previous identity didn't communicate that. The new one had to."
+        },
+        "approach": {
+          "eyebrow": "The approach",
+          "body":    "We designed the mark around a single idea: the heart and the tooth, joined. The tooth carries the clinical credibility — health, professionalism, expertise. The heart carries everything else — warmth, kindness, the human side of care. Together they form a continuous, interlocking shape that reads softly even at a glance, avoiding the cold, clinical feel that dental branding so often falls into. The wordmark sits in a humanist sans-serif — open, friendly, easy to read across signage, social, and patient-facing materials. The palette is built around a calm, restorative blue that feels reassuring rather than sterile. The system flexes from large-scale architectural signage down to small social applications without losing its character."
+        },
+        "pillars": [
+          "Trust — a mark that reads professional first, friendly always",
+          "Warmth — designed for the people most nervous about the dentist",
+          "Longevity — a system built to flex from clinic signage to social"
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/asllani-dental/01-logo-on-blue.jpg",
+            "alt":     "The Asllani Family Dental Clinic logo presented in white on the brand's signature soft blue, with a lighter monochromatic version shown below for context.",
+            "caption": "Primary logo — two-tone application",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/asllani-dental/02-portrait-application.jpg",
+            "alt":     "Brand portrait application showing the logo paired with a warm, human image and credit line for Drs. Jakup, Arta, and Agon Asllani.",
+            "caption": "Brand applied in context — lifestyle portrait",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/asllani-dental/03-building-signage.jpg",
+            "alt":     "The Asllani Family Dental Clinic logo rendered as architectural signage on the upper facade of a modern medical building, photographed from below against a soft sky.",
+            "caption": "Architectural signage — building application",
+            "style":   "fullbleed"
+          }
+        ],
+        "results": {
+          "eyebrow":  "About the project",
+          "headline": "A dental identity that puts the patient before the procedure.",
+          "bullets": [
+            "A custom symbol uniting the heart and the tooth into a single continuous shape",
+            "Humanist wordmark designed for clarity at every scale",
+            "A calm, restorative blue palette chosen to reassure rather than clinical-white",
+            "A flexible system designed to live across signage, print, social, and digital",
+            "Built for a multi-generational family practice — Drs. Jakup, Arta, and Agon Asllani"
           ]
         },
         "navigation": {

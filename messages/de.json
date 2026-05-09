@@ -466,6 +466,7 @@
       { "slug": "treventi",         "title": "Treventi Doors",  "outcome": "Vom regionalen Händler zum anerkannten lokalen Hersteller — durch drei Jahre Markenpräsenz.","tag": "Branding & Herstellung", "year": "2022 — 2024", "cardImage": "/images/work/treventi/04-laptop-hero.jpg" },
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "ROAS von 4× auf 9,5× gehoben, bei 17-facher Skalierung des Werbespend — mehr als das Doppelte des Branchen-Benchmarks für Beauty-E-Commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
+      { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.","tag": "Identität · Gesundheitswesen", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Verpackungssystem für eine Specialty-Rösterei.",              "tag": "Verpackung", "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
@@ -781,6 +782,73 @@
             "Umgesetzt auf U-Bahn-Plakaten, Wartehäuschen, Gebäudeplakaten und ergänzendem Print",
             "Vereint durch ein farbcodiertes Säulen-System, das jede Botschaft mit ihrem Gesundheitsthema verknüpft",
             "Umgesetzt für AQH, ein von SDC gefördertes Projekt der Swiss TPH"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "asllani-dental": {
+        "eyebrow": "Arbeiten / 05 — Identität · Markenentwicklung",
+        "title": "Asllani Family Dental Clinic",
+        "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.",
+        "meta": [
+          { "label": "Kunde",      "value": "Asllani Family Dental Clinic" },
+          { "label": "Branche",    "value": "Gesundheitswesen · Zahnmedizin" },
+          { "label": "Projekt",    "value": "Markenidentität" },
+          { "label": "Leistungen", "value": "Logodesign, Typografie, Markenanwendung" }
+        ],
+        "hero": {
+          "src": "/images/work/asllani-dental/02-portrait-application.jpg",
+          "alt": "Eine Nahaufnahme eines lächelnden jungen Mädchens mit Sommersprossen, daneben das Logo-Lockup der Asllani Family Dental Clinic in der oberen Ecke — die Wärme der Marke in einem echten Lifestyle-Kontext."
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "Die Asllani Family Dental Clinic ist eine generationenübergreifende Zahnarztpraxis, geführt von den Drs. Jakup, Arta und Agon Asllani. Sie brauchten eine Identität, die der Realität ihrer Arbeit gerecht wird — denn ein Zahnarztbesuch ist selten nur eine Behandlung. Für die meisten Patient:innen, besonders für Familien und Kinder, geht es darum, sich sicher, gut versorgt und verstanden zu fühlen. Die alte Identität hat das nicht vermittelt. Die neue musste es."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Die Bildmarke entstand aus einer einzigen Idee: Herz und Zahn, miteinander verbunden. Der Zahn trägt die fachliche Glaubwürdigkeit — Gesundheit, Professionalität, Expertise. Das Herz trägt alles andere — Wärme, Zuwendung, die menschliche Seite der Versorgung. Zusammen bilden sie eine durchgehende, ineinandergreifende Form, die schon im flüchtigen Blick weich wirkt — und der kalten, klinischen Anmutung entgeht, in die Dental-Branding so oft verfällt. Die Wortmarke steht in einer humanistischen Grotesk — offen, freundlich, gut lesbar auf Beschilderung, in Social und auf allen patientenseitigen Materialien. Die Palette baut auf einem ruhigen, regenerierenden Blau, das Sicherheit gibt statt zu sterilisieren. Das System trägt von großformatiger Architekturbeschilderung bis zu kleinen Social-Anwendungen — ohne seinen Charakter zu verlieren."
+        },
+        "pillars": [
+          "Vertrauen — eine Marke, die zuerst professionell und immer freundlich liest",
+          "Wärme — gestaltet für jene, die am meisten Respekt vor dem Zahnarzt haben",
+          "Langlebigkeit — ein System, das von Klinikbeschilderung bis Social trägt"
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/asllani-dental/01-logo-on-blue.jpg",
+            "alt":     "Das Logo der Asllani Family Dental Clinic in Weiß auf dem markentypischen weichen Blau, darunter eine hellere monochrome Variante zum Vergleich.",
+            "caption": "Primärlogo — zweifarbige Anwendung",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/asllani-dental/02-portrait-application.jpg",
+            "alt":     "Markenanwendung im Porträt: das Logo paart sich mit einem warmen, menschlichen Bild und der Nennung der Drs. Jakup, Arta und Agon Asllani.",
+            "caption": "Marke im Kontext — Lifestyle-Porträt",
+            "style":   "fullbleed"
+          },
+          {
+            "src":     "/images/work/asllani-dental/03-building-signage.jpg",
+            "alt":     "Das Logo der Asllani Family Dental Clinic als Architekturbeschilderung an der oberen Fassade eines modernen Gesundheitsgebäudes, von unten gegen einen weichen Himmel fotografiert.",
+            "caption": "Architekturbeschilderung — Gebäudeanwendung",
+            "style":   "fullbleed"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Über das Projekt",
+          "headline": "Eine zahnmedizinische Identität, die den Menschen vor die Behandlung stellt.",
+          "bullets": [
+            "Ein eigens entwickeltes Symbol, das Herz und Zahn zu einer durchgehenden Form verbindet",
+            "Humanistische Wortmarke, gestaltet für Klarheit auf jeder Größe",
+            "Ein ruhiges, regenerierendes Blau — beruhigend statt klinisch-weiß",
+            "Ein flexibles System für Beschilderung, Print, Social und Digital",
+            "Entwickelt für eine generationenübergreifende Familienpraxis — Drs. Jakup, Arta und Agon Asllani"
           ]
         },
         "navigation": {
