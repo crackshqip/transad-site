@@ -20,7 +20,7 @@
     "ctaSecondary": "Read about the studio",
     "meta": {
       "founded":     { "label": "Founded",     "value": "2019, Stuttgart" },
-      "studios":     { "label": "Studios",     "value": "Stuttgart · Leeds · Pristina · Vilnius" },
+      "studios":     { "label": "Studios",     "value": "Vilnius · Pristina · Stuttgart · Leeds" },
       "practice":    { "label": "Practice",    "value": "Identity, Campaign, Digital" },
       "engagements": { "label": "Engagements", "value": "Six per year" }
     }
@@ -30,7 +30,7 @@
     "headline": "Minimal by intent. Strategic by practice.",
     "lede": "We design for <em>clarity first</em> — clean identities, strategic campaigns, and refined digital content built around simplicity, purpose, and strong visual direction.",
     "body1": "Transad works with founders, marketers, and in-house teams who care how their company shows up in the world. Every engagement begins with a question, not a deck.",
-    "body2": "Stuttgart. Leeds. Pristina. Vilnius. Four cities, one studio, one standard of work — across web, social, campaigns, and brand.",
+    "body2": "Vilnius. Pristina. Stuttgart. Leeds. Four cities, one studio, one standard of work — across web, social, campaigns, and brand.",
     "stats": {
       "caseStudies":     "Case studies",
       "studioMembers":   "Studio members",
@@ -86,13 +86,13 @@
       "emailValue": "info@transadgroup.com",
       "phonesLabel": "Phones",
       "phones": [
-        { "city": "Stuttgart", "number": "+49 711 0000000" },
-        { "city": "Leeds",     "number": "+44 113 0000000" },
+        { "city": "Vilnius",   "number": "+370 5 0000000"  },
         { "city": "Pristina",  "number": "+383 38 000000"  },
-        { "city": "Vilnius",   "number": "+370 5 0000000"  }
+        { "city": "Stuttgart", "number": "+49 711 0000000" },
+        { "city": "Leeds",     "number": "+44 113 0000000" }
       ],
       "studiosLabel": "Studios",
-      "studiosValue": "Stuttgart · Leeds · Pristina · Vilnius"
+      "studiosValue": "Vilnius · Pristina · Stuttgart · Leeds"
     },
     "form": {
       "nameLabel":          "Name",
@@ -138,7 +138,7 @@
     "studioPricing":   "Pricing",
     "contactHeading":  "Contact",
     "studiosHeading":  "Studios",
-    "studiosList":     ["Stuttgart", "Leeds", "Pristina", "Vilnius"],
+    "studiosList":     ["Vilnius", "Pristina", "Stuttgart", "Leeds"],
     "legalHeading":    "Legal",
     "legalImprint":    "Imprint",
     "legalPrivacy":    "Privacy",
@@ -398,7 +398,7 @@
     "headline": "Minimal by intent. Strategic by practice.",
     "lede": "We design for <em>clarity first</em> — clean identities, strategic campaigns, and refined digital content built around simplicity, purpose, and strong visual direction.",
     "body1": "Transad works with founders, marketers, and in-house teams who care how their company shows up in the world. Every engagement begins with a question, not a deck.",
-    "body2": "Stuttgart. Leeds. Pristina. Vilnius. Four cities, one studio, one standard of work — across web, social, campaigns, and brand.",
+    "body2": "Vilnius. Pristina. Stuttgart. Leeds. Four cities, one studio, one standard of work — across web, social, campaigns, and brand.",
     "stats": {
       "caseStudies":     "Case studies",
       "studioMembers":   "Studio members",
@@ -429,15 +429,9 @@
       "eyebrow": "Studios",
       "list": [
         {
-          "slug": "stuttgart",
-          "city": "Stuttgart",
-          "address": "Rotenbühlpl. 49/8\n70178 Stuttgart",
-          "hours": "Mon – Fri · 09:00 – 18:00"
-        },
-        {
-          "slug": "leeds",
-          "city": "Leeds",
-          "address": "Branch Office – 4 The Boulevard\nLeeds LS10 1PZ, UK",
+          "slug": "vilnius",
+          "city": "Vilnius",
+          "address": "Head Office – Konstitucijos Prospektas 12\nVilnius, Lithuania",
           "hours": "Mon – Fri · 09:00 – 18:00"
         },
         {
@@ -447,9 +441,15 @@
           "hours": "Mon – Fri · 09:00 – 18:00"
         },
         {
-          "slug": "vilnius",
-          "city": "Vilnius",
-          "address": "Head Office – Konstitucijos Prospektas 12\nVilnius, Lithuania",
+          "slug": "stuttgart",
+          "city": "Stuttgart",
+          "address": "Rotenbühlpl. 49/8\n70178 Stuttgart",
+          "hours": "Mon – Fri · 09:00 – 18:00"
+        },
+        {
+          "slug": "leeds",
+          "city": "Leeds",
+          "address": "Branch Office – 4 The Boulevard\nLeeds LS10 1PZ, UK",
           "hours": "Mon – Fri · 09:00 – 18:00"
         }
       ]
