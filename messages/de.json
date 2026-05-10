@@ -408,8 +408,8 @@
     "team": {
       "eyebrow": "Das Team",
       "members": [
+        { "slug": "malsor",        "name": "Malsor Buzuku",  "role": "Gründer · CEO" },
         { "slug": "shqipron",      "name": "Shqipron Nuhiu", "role": "Gründer · Geschäftsführer" },
-        { "slug": "malsor",        "name": "Malsor",         "role": "Gründer" },
         { "slug": "lea-behrens",   "name": "Lea Behrens",   "role": "Senior Designerin" },
         { "slug": "tobias-kaul",   "name": "Tobias Kaul",   "role": "Brand Designer" },
         { "slug": "anna-weber",    "name": "Anna Weber",    "role": "Account Lead" },
