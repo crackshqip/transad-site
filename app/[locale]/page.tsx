@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -163,6 +164,17 @@ export default async function LocaleHome({
                 <span className={`wr-num${i === 0 ? " accent" : ""}`}>
                   {String(i + 1).padStart(2, "0")}
                 </span>
+                <div className="wr-thumb">
+                  {item.cardImage && (
+                    <Image
+                      src={item.cardImage}
+                      alt={item.title}
+                      width={560}
+                      height={420}
+                      sizes="(max-width: 768px) 92vw, 140px"
+                    />
+                  )}
+                </div>
                 <span className="wr-title">{item.title}</span>
                 <span className="wr-meta">{item.tag}</span>
                 <span className="wr-year">{item.year ?? ""}</span>

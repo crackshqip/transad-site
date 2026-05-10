@@ -251,8 +251,9 @@ img, svg { display: block; max-width: 100%; }
               border-color var(--dur-fast) var(--ease-standard);
 }
 .btn-caps:hover {
-  color: var(--accent);
-  border-color: var(--accent);
+  color: #fff;
+  background: var(--ink-900);
+  border-color: var(--ink-900);
 }
 .btn-caps .arrow {
   transition: transform var(--dur-base) var(--ease-emphasis);
@@ -693,18 +694,35 @@ img, svg { display: block; max-width: 100%; }
   justify-content: center;
   margin-top: var(--space-7);
 }
+/* Featured work row — mobile-first grid using template-areas.
+   Mobile: thumbnail spans full width on top, then num/title/arrow on
+   one row, then meta/year. Desktop (>=768px): single horizontal row
+   with the thumbnail inline between num and title. */
 .work-row {
   display: grid;
-  grid-template-columns: 56px 1fr 220px 80px 24px;
-  gap: 24px;
-  align-items: center;
-  padding: 28px 0;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "thumb thumb thumb"
+    "num   title arrow"
+    "meta  meta  year";
+  gap: 12px 16px;
+  padding: 20px 0;
   border-top: 1px solid var(--border);
-  transition: padding-left var(--dur-base) var(--ease-emphasis);
+  align-items: center;
+  transition: padding-left var(--dur-base) var(--ease-emphasis),
+              background var(--dur-fast) var(--ease-standard);
 }
 .work-row:last-child { border-bottom: 1px solid var(--border); }
 .work-row:hover { padding-left: 12px; }
 .work-row:hover .wr-arrow { color: var(--accent); transform: translateX(4px); }
+
+.wr-num    { grid-area: num; }
+.wr-thumb  { grid-area: thumb; }
+.wr-title  { grid-area: title; }
+.wr-meta   { grid-area: meta; }
+.wr-year   { grid-area: year; text-align: right; }
+.wr-arrow  { grid-area: arrow; text-align: right; }
+
 .wr-num {
   font-family: var(--font-mono);
   font-size: 12px;
@@ -712,12 +730,26 @@ img, svg { display: block; max-width: 100%; }
   color: var(--ink-500);
 }
 .wr-num.accent { color: var(--accent); }
+.wr-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--neutral-100);
+  border-radius: 0;
+}
+.wr-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .wr-title {
   font-family: var(--font-sans);
   font-weight: var(--fw-semibold);
-  font-size: var(--fs-3xl);
-  line-height: var(--lh-3xl);
-  letter-spacing: var(--tr-3xl);
+  font-size: var(--fs-2xl);
+  line-height: var(--lh-2xl);
+  letter-spacing: var(--tr-2xl);
   color: var(--ink-900);
 }
 .wr-meta, .wr-year {
@@ -732,7 +764,25 @@ img, svg { display: block; max-width: 100%; }
   font-size: 18px;
   color: var(--ink-500);
   transition: color var(--dur-base) var(--ease-emphasis), transform var(--dur-base) var(--ease-emphasis);
-  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .work-row {
+    grid-template-columns: 40px 140px 1fr auto auto 24px;
+    grid-template-areas: "num thumb title meta year arrow";
+    gap: 24px;
+    padding: 24px 0;
+  }
+  .wr-thumb {
+    width: 140px;
+    height: 105px;
+    aspect-ratio: auto;
+  }
+  .wr-title {
+    font-size: var(--fs-3xl);
+    line-height: var(--lh-3xl);
+    letter-spacing: var(--tr-3xl);
+  }
 }
 
 /* ---------- Contact ---------- */
@@ -2117,9 +2167,6 @@ img, svg { display: block; max-width: 100%; }
   .service:nth-child(odd) { border-right: 0; padding-right: 0; }
   .service:nth-child(even) { padding-left: 0; }
   .ft-grid { grid-template-columns: 1fr 1fr; }
-  .work-row { grid-template-columns: 40px 1fr 24px; gap: 16px; }
-  .wr-meta, .wr-year { display: none; }
-  .wr-title { font-size: var(--fs-2xl); line-height: var(--lh-2xl); }
   .service-block { grid-template-columns: 1fr; gap: 32px; }
   .cta-strip { flex-direction: column; align-items: flex-start; }
   .studio-hero-grid { grid-template-columns: 1fr; gap: 48px; }
