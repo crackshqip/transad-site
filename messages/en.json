@@ -467,7 +467,6 @@
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "Lifted ROAS from 4× to 9.5× while scaling ad spend 17× — more than double the industry benchmark for beauty e-commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "A nationwide public health campaign on smoking, nutrition, and cardiovascular care — placed across underground stations, bus shelters, and street-level OOH.","tag": "Public Health · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "An identity for a family-run dental practice — built around warmth, trust, and the quiet confidence patients want from their clinic.","tag": "Identity · Healthcare", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
-      { "slug": "floovle",          "title": "Floovle",         "outcome": "A new digital platform for the global aesthetic medicine industry — built on clarity, trust, and emotional intelligence in a category long defined by noise.","tag": "HealthTech · Identity & Platform", "year": "2024 — Present", "cardImage": "/images/work/floovle/01-logo-pink-aura.jpg" },
       { "slug": "norwood-coffee",   "title": "Norwood Coffee",  "outcome": "Packaging system for a specialty roastery.",           "tag": "Packaging",  "year": 2025 },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
@@ -829,90 +828,6 @@
             "A calm, restorative blue palette chosen to reassure rather than clinical-white",
             "A flexible system designed to live across signage, print, social, and digital",
             "Built for a multi-generational family practice — Drs. Jakup, Arta, and Agon Asllani"
-          ]
-        },
-        "navigation": {
-          "back": "Back to all work",
-          "next": "Next case study"
-        },
-        "cta": {
-          "title":  "Have a project in mind?",
-          "button": "Start a conversation"
-        }
-      },
-      "floovle": {
-        "eyebrow": "Work / 06 — Identity · Brand Strategy · Campaign · Digital Platform",
-        "title": "Floovle",
-        "outcome": "A new digital platform for the global aesthetic medicine industry — built on clarity, trust, and emotional intelligence in a category long defined by noise.",
-        "meta": [
-          { "label": "Client",   "value": "Floovle" },
-          { "label": "Industry", "value": "Aesthetic Medicine · HealthTech · Digital Platform" },
-          { "label": "Founded",  "value": "2024" },
-          { "label": "Services", "value": "Brand Identity, Strategy, Campaign, Platform Design, Art Direction" }
-        ],
-        "hero": {
-          "src": "/images/work/floovle/01-logo-pink-aura.jpg",
-          "alt": "The Floovle wordmark set in a luminous pink aura — a soft glowing gradient from deep magenta to lighter rose, evoking warmth, focus, and clarity."
-        },
-        "brief": {
-          "eyebrow": "The brief",
-          "body":    "Floovle was founded in 2024 to address a problem the aesthetic medicine industry has long avoided: the absence of a trustworthy, emotionally intelligent space where people can make informed decisions about their bodies. The category is loud, commercial, and often deliberately confusing. Floovle came to us pre-launch with a clear vision — Clarity, Trust, Empowerment — but no identity, no brand language, no campaign. The brief was to build all of it."
-        },
-        "approach": {
-          "eyebrow": "The approach",
-          "body":    "We anchored the brand around a single visual idea: the aura. A soft, breathing gradient of pink and magenta that surrounds — never overwhelms — the people, the type, and the platform itself. It's a frame for focus inside infinity. The wordmark is open, rounded, and intentionally calm; the typography system reads more like a wellness app than a medical product. The campaign treats the audience as adults — direct propositions like 'Synonym for trusted aesthetic decisions' and 'Connect with beauty experts' replace the usual before-and-after marketing. Across OOH, social, the digital platform, and brand collateral, every touchpoint reinforces the same promise: order brought to an overwhelming category."
-        },
-        "pillars": [
-          "Clarity — a frame for focus inside infinity",
-          "Trust — vetted providers, verified content, no noise",
-          "Empowerment — from curiosity to confident decision"
-        ],
-        "showcase": [
-          {
-            "src":     "/images/work/floovle/01-logo-pink-aura.jpg",
-            "alt":     "The Floovle wordmark centered inside a luminous pink-to-magenta aura, the brand's signature visual device.",
-            "caption": "Primary mark — the aura system"
-          },
-          {
-            "src":     "/images/work/floovle/04-connect-experts.jpg",
-            "alt":     "A campaign card in soft lavender with the Floovle headline 'Connect with beauty experts' and the supporting line 'Made for you.'",
-            "caption": "Campaign — connect with beauty experts"
-          },
-          {
-            "src":     "/images/work/floovle/02-tshirt-application.jpg",
-            "alt":     "A white t-shirt printed with the Floovle aura — a soft pink glow surrounding the wordmark — worn by a person in soft daylight.",
-            "caption": "Brand applied — apparel"
-          },
-          {
-            "src":     "/images/work/floovle/03-business-card.jpg",
-            "alt":     "The Floovle business card system — a pink gradient card paired with a clean white reverse showing contact details and a QR code.",
-            "caption": "Stationery — two-sided system"
-          },
-          {
-            "src":     "/images/work/floovle/05-subway-billboard.jpg",
-            "alt":     "The Floovle 'Discover. Learn. Connect.' subway poster placed inside a metro car — a soft-focus portrait of a young woman framed by hands.",
-            "caption": "Subway OOH — discover. learn. connect."
-          },
-          {
-            "src":     "/images/work/floovle/06-billboard-synonym.jpg",
-            "alt":     "A street-level billboard with the Floovle headline 'Synonym for trusted aesthetic decisions' overlaid on a confident close-up portrait.",
-            "caption": "Street billboard — trusted aesthetic decisions"
-          },
-          {
-            "src":     "/images/work/floovle/07-platform-screens.jpg",
-            "alt":     "The Floovle digital platform shown across multiple desktop screens — doctor profiles, search and filter, an editorial blog, account settings, and a detailed practitioner page.",
-            "caption": "Digital platform — doctor discovery, editorial, accounts"
-          }
-        ],
-        "results": {
-          "eyebrow":  "About the project",
-          "headline": "Building the global standard for trusted aesthetic guidance.",
-          "bullets": [
-            "Full brand identity built around a single recognizable visual device — the aura",
-            "Campaign system spanning OOH, subway, social, and digital, unified by tone and palette",
-            "Digital platform design covering doctor discovery, editorial content, search, and account flows",
-            "Strategic positioning anchored in three core values: Clarity, Trust, Empowerment",
-            "A category-redefining brand prepared for global scale, designed to feel emotionally resonant rather than commercial"
           ]
         },
         "navigation": {
