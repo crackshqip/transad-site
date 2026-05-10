@@ -67,15 +67,8 @@
   "work": {
     "eyebrow": "Ausgewählte Arbeiten",
     "headline": "Aktuelle Identitäten und Kampagnen.",
-    "indexCta": "Vollständigen Index anfragen",
     "openLabel": "Fallstudie öffnen: {title}",
-    "projects": {
-      "voss":       { "title": "Voss & Co.",            "kind": "Identität · Markensystem" },
-      "fieldnotes": { "title": "Field Notes, Vol. III", "kind": "Kampagne · Print & Digital" },
-      "luma":       { "title": "Luma Diagnostics",      "kind": "Identität · Healthcare" },
-      "meridian":   { "title": "Meridian Coffee",       "kind": "Verpackung · Retail" },
-      "obverse":    { "title": "Obverse Magazine",      "kind": "Editorial · Art Direction" }
-    }
+    "viewAllCta": "Alle Arbeiten ansehen"
   },
   "contact": {
     "eyebrow": "Kontakt",

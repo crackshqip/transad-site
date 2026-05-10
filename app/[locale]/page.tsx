@@ -33,13 +33,15 @@ export async function generateMetadata({
   return buildMetadata({ locale, path: "", ...SEO_BY_LOCALE[locale] });
 }
 
-const PROJECT_IDS = ["voss", "fieldnotes", "luma", "meridian", "obverse"] as const;
-const PROJECT_YEARS: Record<(typeof PROJECT_IDS)[number], number> = {
-  voss: 2026,
-  fieldnotes: 2025,
-  luma: 2025,
-  meridian: 2024,
-  obverse: 2024,
+const FEATURED_SLUGS = ["hello-baby-box", "treventi"] as const;
+
+type WorkItem = {
+  slug: string;
+  title: string;
+  outcome: string;
+  tag: string;
+  year?: number | string;
+  cardImage?: string;
 };
 
 const SERVICE_IDS = ["identity", "campaigns", "digital", "direction"] as const;
@@ -58,6 +60,11 @@ export default async function LocaleHome({
   const tStudioPage = await getTranslations("studioPage");
   const tServices = await getTranslations("services");
   const tWork = await getTranslations("work");
+  const tWorkPage = await getTranslations("workPage");
+  const allItems = tWorkPage.raw("items") as WorkItem[];
+  const featuredItems = FEATURED_SLUGS
+    .map((slug) => allItems.find((i) => i.slug === slug))
+    .filter((i): i is WorkItem => Boolean(i));
   const tContact = await getTranslations("contact");
 
   return (
@@ -144,31 +151,30 @@ export default async function LocaleHome({
               <Eyebrow number={4}>{tWork("eyebrow")}</Eyebrow>
               <h2>{tWork("headline")}</h2>
             </div>
-            <a className="btn btn-text" href="#contact">
-              <span>{tWork("indexCta")}</span>
-              <span className="arrow" aria-hidden="true">→</span>
-            </a>
           </div>
           <div className="work-list">
-            {PROJECT_IDS.map((id, i) => {
-              const title = tWork(`projects.${id}.title`);
-              return (
-                <a
-                  className="work-row"
-                  key={id}
-                  href="#contact"
-                  aria-label={tWork("openLabel", { title })}
-                >
-                  <span className={`wr-num${i === 0 ? " accent" : ""}`}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="wr-title">{title}</span>
-                  <span className="wr-meta">{tWork(`projects.${id}.kind`)}</span>
-                  <span className="wr-year">{PROJECT_YEARS[id]}</span>
-                  <span className="wr-arrow" aria-hidden="true">→</span>
-                </a>
-              );
-            })}
+            {featuredItems.map((item, i) => (
+              <Link
+                className="work-row"
+                key={item.slug}
+                href={`/${locale}/work/${item.slug}`}
+                aria-label={tWork("openLabel", { title: item.title })}
+              >
+                <span className={`wr-num${i === 0 ? " accent" : ""}`}>
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="wr-title">{item.title}</span>
+                <span className="wr-meta">{item.tag}</span>
+                <span className="wr-year">{item.year ?? ""}</span>
+                <span className="wr-arrow" aria-hidden="true">→</span>
+              </Link>
+            ))}
+          </div>
+          <div className="work-cta">
+            <Link className="btn-caps" href={`/${locale}/work`}>
+              <span>{tWork("viewAllCta")}</span>
+              <span className="arrow" aria-hidden="true">→</span>
+            </Link>
           </div>
         </section>
 

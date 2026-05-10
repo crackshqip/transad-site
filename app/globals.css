@@ -228,6 +228,38 @@ img, svg { display: block; max-width: 100%; }
 }
 .btn-text-inverse:hover { color: var(--accent); }
 
+/* Outlined caps button — used on the homepage 'View all work' CTA.
+   Inter SemiBold rendered as mono-caps (uppercase + letter-spacing),
+   square corners, accent on hover. */
+.btn-caps {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-sans);
+  font-weight: var(--fw-semibold);
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-900);
+  background: transparent;
+  border: 1px solid var(--ink-900);
+  border-radius: 0;
+  padding: 16px 28px;
+  text-decoration: none;
+  transition: color var(--dur-fast) var(--ease-standard),
+              border-color var(--dur-fast) var(--ease-standard);
+}
+.btn-caps:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.btn-caps .arrow {
+  transition: transform var(--dur-base) var(--ease-emphasis);
+  display: inline-block;
+}
+.btn-caps:hover .arrow { transform: translateX(3px); }
+
 /* ---------- Site nav ---------- */
 .site-nav {
   display: flex;
@@ -656,6 +688,11 @@ img, svg { display: block; max-width: 100%; }
 
 /* ---------- Work showcase ---------- */
 .work-list { display: flex; flex-direction: column; }
+.work-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-7);
+}
 .work-row {
   display: grid;
   grid-template-columns: 56px 1fr 220px 80px 24px;
