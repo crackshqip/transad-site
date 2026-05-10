@@ -73,7 +73,7 @@ export default async function LocaleHome({
       <SiteNav />
       <main id="top">
         <section className="hero container">
-          <Eyebrow number={1} accent>
+          <Eyebrow number={1}>
             {tHero("eyebrow")}
           </Eyebrow>
           <h1 className="display">
@@ -192,7 +192,7 @@ export default async function LocaleHome({
 
         <section id="contact" className="contact">
           <div className="container">
-            <Eyebrow number={5} accent>
+            <Eyebrow number={5}>
               {tContact("eyebrow")}
             </Eyebrow>
             <h2 className="contact-headline">{tContact("headline")}</h2>

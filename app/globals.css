@@ -649,7 +649,9 @@ img, svg { display: block; max-width: 100%; }
   letter-spacing: 0.08em;
   color: var(--ink-500);
   padding-top: 8px;
+  transition: color var(--dur-base) var(--ease-emphasis);
 }
+.service:hover .num { color: var(--accent); }
 .service h3 {
   font-family: var(--font-sans);
   font-weight: var(--fw-semibold);
