@@ -83,14 +83,12 @@
     "intro": "We take on a small number of projects each year. The shorter and more specific your note, the faster we can reply.",
     "channels": {
       "emailLabel": "Email",
-      "emailValue": "info@transadgroup.com",
-      "phonesLabel": "Phones",
-      "phones": [
-        { "city": "Vilnius",   "number": "+370 5 0000000"  },
-        { "city": "Pristina",  "number": "+383 38 000000"  },
-        { "city": "Stuttgart", "number": "+49 711 0000000" },
-        { "city": "Leeds",     "number": "+44 113 0000000" }
+      "emails": [
+        "marketing@transadgroup.com",
+        "info@transadgroup.com"
       ],
+      "phoneLabel": "Phone",
+      "phone": "+383 485 588 22",
       "studiosLabel": "Studios",
       "studiosValue": "Vilnius · Pristina · Stuttgart · Leeds"
     },
@@ -107,7 +105,7 @@
       "submitting":         "Sending…",
       "disclaimer":         "We reply within two working days.",
       "confirmation":       "Note received. We'll reply within two working days.",
-      "errorGeneric":       "Something went wrong. Please try again, or email info@transadgroup.com directly.",
+      "errorGeneric":       "Something went wrong. Please try again, or email marketing@transadgroup.com or info@transadgroup.com directly.",
       "errorValidation":    "Please check the fields and try again."
     }
   },
@@ -161,7 +159,7 @@
       {
         "title": "Contact",
         "paragraphs": [
-          "Phone: [+49 ...]\nEmail: info@transadgroup.com"
+          "Phone: +383 485 588 22\nEmail: marketing@transadgroup.com / info@transadgroup.com"
         ]
       },
       {
@@ -226,7 +224,7 @@
       {
         "title": "Controller",
         "paragraphs": [
-          "Controller within the meaning of Art. 4 (7) GDPR is:\n[Company Name]\n[Address]\nEmail: info@transadgroup.com"
+          "Controller within the meaning of Art. 4 (7) GDPR is:\n[Company Name]\n[Address]\nEmail: marketing@transadgroup.com / info@transadgroup.com"
         ]
       },
       {

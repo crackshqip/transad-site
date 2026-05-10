@@ -184,34 +184,21 @@ export default async function LocaleHome({
                 <div className="channels">
                   <div className="channel">
                     <span className="lbl">{tContact("channels.emailLabel")}</span>
+                    {(tContact.raw("channels.emails") as string[]).map((e) => (
+                      <span className="val" key={e}>
+                        <a href={`mailto:${e}`}>{e}</a>
+                      </span>
+                    ))}
+                  </div>
+                  <div className="channel">
+                    <span className="lbl">{tContact("channels.phoneLabel")}</span>
                     <span className="val">
-                      <a href={`mailto:${tContact("channels.emailValue")}`}>
-                        {tContact("channels.emailValue")}
+                      <a
+                        href={`tel:${tContact("channels.phone").replace(/\s/g, "")}`}
+                      >
+                        {tContact("channels.phone")}
                       </a>
                     </span>
-                  </div>
-                  <div className="channel channel-phones">
-                    <span className="lbl">
-                      {tContact("channels.phonesLabel")}
-                    </span>
-                    <div className="phones-grid">
-                      {(
-                        tContact.raw("channels.phones") as Array<{
-                          city: string;
-                          number: string;
-                        }>
-                      ).map((p) => (
-                        <div className="phone-cell" key={p.city}>
-                          <span className="phone-cell-city">{p.city}</span>
-                          <a
-                            className="phone-cell-num"
-                            href={`tel:${p.number.replace(/\s/g, "")}`}
-                          >
-                            {p.number}
-                          </a>
-                        </div>
-                      ))}
-                    </div>
                   </div>
                   <div className="channel">
                     <span className="lbl">{tContact("channels.studiosLabel")}</span>

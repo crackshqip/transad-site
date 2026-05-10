@@ -83,14 +83,12 @@
     "intro": "Wir nehmen pro Jahr nur wenige Projekte an. Je kürzer und konkreter Ihre Nachricht, desto schneller können wir antworten.",
     "channels": {
       "emailLabel":   "E-Mail",
-      "emailValue":   "info@transadgroup.com",
-      "phonesLabel":  "Telefone",
-      "phones": [
-        { "city": "Vilnius",   "number": "+370 5 0000000"  },
-        { "city": "Prishtina", "number": "+383 38 000000"  },
-        { "city": "Stuttgart", "number": "+49 711 0000000" },
-        { "city": "Leeds",     "number": "+44 113 0000000" }
+      "emails": [
+        "marketing@transadgroup.com",
+        "info@transadgroup.com"
       ],
+      "phoneLabel":   "Telefon",
+      "phone":        "+383 485 588 22",
       "studiosLabel": "Standorte",
       "studiosValue": "Vilnius · Prishtina · Stuttgart · Leeds"
     },
@@ -107,7 +105,7 @@
       "submitting":         "Wird gesendet…",
       "disclaimer":         "Wir antworten innerhalb von zwei Werktagen.",
       "confirmation":       "Nachricht erhalten. Wir melden uns innerhalb von zwei Werktagen.",
-      "errorGeneric":       "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@transadgroup.com.",
+      "errorGeneric":       "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie direkt an marketing@transadgroup.com oder info@transadgroup.com.",
       "errorValidation":    "Bitte prüfen Sie die Eingaben und versuchen Sie es erneut."
     }
   },
@@ -161,7 +159,7 @@
       {
         "title": "Kontakt",
         "paragraphs": [
-          "Telefon: [+49 …]\nE-Mail: info@transadgroup.com"
+          "Telefon: +383 485 588 22\nE-Mail: marketing@transadgroup.com / info@transadgroup.com"
         ]
       },
       {
@@ -226,7 +224,7 @@
       {
         "title": "Verantwortlicher",
         "paragraphs": [
-          "Verantwortlicher im Sinne des Art. 4 Abs. 7 DSGVO ist:\n[Firmenname]\n[Adresse]\nE-Mail: info@transadgroup.com"
+          "Verantwortlicher im Sinne des Art. 4 Abs. 7 DSGVO ist:\n[Firmenname]\n[Adresse]\nE-Mail: marketing@transadgroup.com / info@transadgroup.com"
         ]
       },
       {
