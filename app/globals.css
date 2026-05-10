@@ -1468,15 +1468,17 @@ img, svg { display: block; max-width: 100%; }
   display: block;
 }
 
-/* Square showcase frames — currently used by Treventi and Stem Skincare.
+/* Square showcase frames — currently used by Treventi, Stem Skincare, AQH.
    Every paired image is cropped to a 1:1 square via object-fit: cover.
    The hero figure (.case-hero-image) is unaffected and stays at 3:2. */
 .case-treventi .case-show-frame,
-.case-stem-skincare .case-show-frame {
+.case-stem-skincare .case-show-frame,
+.case-aqh .case-show-frame {
   aspect-ratio: 1 / 1;
 }
 .case-treventi .case-show-frame img,
-.case-stem-skincare .case-show-frame img {
+.case-stem-skincare .case-show-frame img,
+.case-aqh .case-show-frame img {
   height: 100%;
   object-fit: cover;
   object-position: center;
