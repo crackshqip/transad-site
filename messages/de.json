@@ -467,6 +467,7 @@
       { "slug": "stem-skincare",    "title": "Stem Skincare",   "outcome": "ROAS von 4× auf 9,5× gehoben, bei 17-facher Skalierung des Werbespend — mehr als das Doppelte des Branchen-Benchmarks für Beauty-E-Commerce.","tag": "Beauty & DTC", "year": "2024 — 2025", "cardImage": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg" },
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.","tag": "Identität · Gesundheitswesen", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
+      { "slug": "prishtina-books",  "title": "Prishtina Books", "outcome": "Zwei Bücher für eine Stadt im Umbruch — eine literarische Anthologie, geschrieben während der Quarantäne, und ein Ausmalbuch für Kinder mit den Wahrzeichen der Hauptstadt.","tag": "Editorial · Stadt", "year": 2020, "cardImage": "/images/work/prishtina-books/05-coloring-museum.jpg" },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
       { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social-Media-System für ein Lichtdesign-Studio.",             "tag": "Social",     "year": 2024 },
@@ -827,6 +828,75 @@
             "Ein ruhiges, regenerierendes Blau — beruhigend statt klinisch-weiß",
             "Ein flexibles System für Beschilderung, Print, Social und Digital",
             "Entwickelt für eine generationenübergreifende Familienpraxis — Drs. Jakup, Arta und Agon Asllani"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "prishtina-books": {
+        "eyebrow": "Arbeiten / 07 — Editorial Design · Verlag · Stadt",
+        "title": "Prishtina Books",
+        "outcome": "Zwei Bücher für eine Stadt im Umbruch — eine literarische Anthologie, geschrieben während der Quarantäne, und ein Ausmalbuch für Kinder mit den Wahrzeichen der Hauptstadt.",
+        "meta": [
+          { "label": "Kunde",      "value": "Stadt Prishtina" },
+          { "label": "Branche",    "value": "Stadt · Verlag · Kulturprojekt" },
+          { "label": "Jahr",       "value": "2020" },
+          { "label": "Leistungen", "value": "Editorial Design, Verlag, Art Direction" }
+        ],
+        "hero": {
+          "src": "/images/work/prishtina-books/05-coloring-museum.jpg",
+          "alt": "Zwei aufgeschlagene Doppelseiten aus „Coloring Prishtina\" nebeneinander — eine Innenseite mit dem Nationalmuseum des Kosovo als detaillierte Linienillustration und zweisprachigem albanisch-englischem Text, daneben das Cover mit dem Newborn-Monument."
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "2020 hat die Stadt Prishtina zwei Publikationen in Auftrag gegeben, die gemeinsam eine Stadt im Umbruch dokumentieren sollten. Die erste, „Prishtinë, muza ime!\", war eine literarische Anthologie — Erzählungen und Gedichte, geschrieben während der COVID-19-Quarantäne, beigesteuert von 40 Autorinnen und Autoren und ausgewählt von einer Fachjury. Sie war als kollektive Erinnerung an einen Moment gedacht, den die Stadt schriftlich bewahren wollte. Das zweite Buch, „Coloring Prishtina\", übersetzte dieselbe städtische Erinnerung für Kinder — und verwandelte die Wahrzeichen, Gebäude und das Straßenleben der Stadt in illustrierte Seiten zum Ausmalen."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Wir haben jedes Buch nach seinen eigenen Bedingungen behandelt. Die Anthologie ist ruhig, zurückhaltend, literarisch — ein tiefblaues Cover mit einer einzelnen illustrierten Möwe, die in ihrer Silhouette die Skyline der Stadt trägt, eine leise Metapher für Perspektive in der Beengung. Im Inneren geben großzügige Ränder, klassische Typografie und Schwarz-Weiß-Fotografie dem Text Raum zum Atmen. Das Ausmalbuch ist sein Gegenstück: leuchtend, handgelettert, verspielt — ein anderes kulturelles Dokument, gemacht für die Kinder, die jene Stadt erben werden, über die diese Geschichten geschrieben wurden. Beide Bücher entstanden in Kooperation mit der Dukagjini-Buchhandlung und wurden über lokale Kanäle vertrieben."
+        },
+        "stats": [
+          { "num": "40", "lbl": "Autorinnen und Autoren der Anthologie" },
+          { "num": "2",  "lbl": "Bücher für die Stadt" },
+          { "num": "1",  "lbl": "Dokumentiertes Jahr der Quarantäne" }
+        ],
+        "showcase": [
+          {
+            "src":     "/images/work/prishtina-books/02-anthology-stack.jpg",
+            "alt":     "Stapel der Anthologie „Prishtinë, muza ime!\" vor einer tiefblauen Wand — das Cover zeigt eine illustrierte Möwe, deren Silhouette die Skyline von Prishtina enthält.",
+            "caption": "Prishtinë, muza ime! — literarische Anthologie, 2020"
+          },
+          {
+            "src":     "/images/work/prishtina-books/03-anthology-spread.jpg",
+            "alt":     "Eine aufgeschlagene Doppelseite der Anthologie mit literarischem Text auf der linken und einer Schwarz-Weiß-Fotografie eines Kindes auf einem Ledersofa auf der rechten Seite.",
+            "caption": "Editorial-Doppelseite — Text trifft auf dokumentarische Fotografie"
+          },
+          {
+            "src":     "/images/work/prishtina-books/04-coloring-cover.jpg",
+            "alt":     "Das Cover von „Coloring Prishtina\" — ein Kinderbuch mit einer handgezeichneten Darstellung des ikonischen Y-förmigen Newborn-Monuments, umgeben von Wolken, Sonne und einem Weihnachtsbaum.",
+            "caption": "Coloring Prishtina — Ausmalbuch für Kinder"
+          },
+          {
+            "src":     "/images/work/prishtina-books/01-coloring-spread.jpg",
+            "alt":     "Beide Exemplare von Coloring Prishtina — eine aufgeschlagene Doppelseite neben zwei Cover-Varianten — auf weichem violettem Hintergrund fotografiert.",
+            "caption": "Coloring Prishtina — Cover- und Innenseiten-System"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Über das Projekt",
+          "headline": "Ein literarisches Zeitdokument und ein Erinnerungsstück für Kinder — für dieselbe Stadt, im selben Jahr.",
+          "bullets": [
+            "Literarische Anthologie für die Stadt Prishtina, mit 40 ausgewählten Autorinnen und Autoren, die während der Quarantäne 2020 geschrieben haben",
+            "Ausmalbuch für Kinder, basierend auf den bekanntesten Wahrzeichen Prishtinas — dem Newborn-Monument, dem Nationalmuseum und dem städtischen Straßenleben",
+            "Zwei eigenständige Editorial-Systeme, gestaltet als unabhängige Werke, die sich eine Stadt als Gegenstand teilen",
+            "Hergestellt und vertrieben in Kooperation mit der Dukagjini-Buchhandlung",
+            "Beworben über lokale Kulturmedien, darunter KultPlus und Gjirafa"
           ]
         },
         "navigation": {
