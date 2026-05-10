@@ -492,6 +492,10 @@
           { "label": "Years",    "value": "2023 — Present" },
           { "label": "Services", "value": "Shopify Design, Content, Performance Ads" }
         ],
+        "hero": {
+          "src": "/images/work/hello-baby-box/01-hero-portrait.jpg",
+          "alt": "A mother holding a newborn wrapped in a pink Hello Baby Box wrap, with the brand badge visible."
+        },
         "brief": {
           "eyebrow": "The brief",
           "body":    "Hello Baby Box came to us as a young direct-to-consumer baby brand with a strong product but no clear digital identity, a basic Shopify store, and inconsistent marketing. The founders needed a partner who could turn the brand into a recognizable presence — not just run ads, but build the entire commercial engine around it."
@@ -512,6 +516,11 @@
             "caption": "Brand portrait — campaign hero"
           },
           {
+            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
+            "alt":     "Three Hello Baby Box social media posts in sequence.",
+            "caption": "Social content — monthly editorial calendar"
+          },
+          {
             "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
             "alt":     "Hello Baby Box homepage shown on a laptop in a soft natural-lit setting.",
             "caption": "Shopify storefront — redesigned 2023"
@@ -520,11 +529,6 @@
             "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
             "alt":     "Hello Baby Box mobile product listing page on iPhone.",
             "caption": "Mobile commerce — 70% of traffic"
-          },
-          {
-            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
-            "alt":     "Three Hello Baby Box social media posts in sequence.",
-            "caption": "Social content — monthly editorial calendar"
           }
         ],
         "results": {
@@ -556,6 +560,10 @@
           { "label": "Years",    "value": "2022 — 2024" },
           { "label": "Services", "value": "Brand Awareness, Website, Social, Campaigns, Engagement" }
         ],
+        "hero": {
+          "src": "/images/work/treventi/04-laptop-hero.jpg",
+          "alt": "The Treventi website on a laptop showing the brand tagline 'Crafting Quality. Building Possibilities.' over a craftsman at work."
+        },
         "brief": {
           "eyebrow": "The brief",
           "body":    "Treventi began as a regional retailer of imported interior doors in Kosovo, with strong product knowledge but limited brand recognition outside their immediate market. As the founders prepared to transition into local manufacturing, they needed a brand presence that matched the ambition — one that positioned Treventi as a quality-led name people would actively choose, not just discover at point of sale."
@@ -631,6 +639,10 @@
           { "label": "Years",    "value": "2024 — 2025" },
           { "label": "Services", "value": "Website, Social, Campaigns, Performance Ads" }
         ],
+        "hero": {
+          "src": "/images/work/stem-skincare/05-pastro-trajto-hidrato.jpg",
+          "alt": "A close-up portrait of a woman with the Stem Skincare brand pillars overlaid as three intersecting circles: pastro, trajto, hidrato (cleanse, treat, hydrate)."
+        },
         "brief": {
           "eyebrow": "The brief",
           "body":    "Stem Skincare came to us a month into launch, after their previous agency had failed to translate a strong product into commercial traction. Spend was sitting around €400–500 a month, generating roughly €2,000 in sales — ROAS that wouldn't sustain a growing brand. They needed a partner who could rebuild the entire commercial engine: positioning, creative, media, and the website experience underneath it all."
@@ -696,6 +708,10 @@
           { "label": "Sector",   "value": "SDC project implemented by Swiss TPH" },
           { "label": "Services", "value": "Campaign, Art Direction, OOH, Print" }
         ],
+        "hero": {
+          "src": "/images/work/aqh/01-billboard-underground.jpg",
+          "alt": "A large underground station billboard for AQH showing a young boy wearing an oxygen mask, with the headline 'Stop smoking, protect the health of your loved ones.'"
+        },
         "brief": {
           "eyebrow": "The brief",
           "body":    "AQH is a Swiss-funded public health initiative — an SDC project implemented by Swiss TPH — focused on improving access to quality healthcare and prevention. The brief was to develop a nationwide awareness campaign across multiple public health themes: secondhand smoke, cardiovascular disease, hypertension, and family wellbeing, executed across high-impact OOH formats and supporting print."
@@ -770,6 +786,10 @@
           { "label": "Project",  "value": "Brand Identity" },
           { "label": "Services", "value": "Logo Design, Typography, Brand Application" }
         ],
+        "hero": {
+          "src": "/images/work/asllani-dental/02-portrait-application.jpg",
+          "alt": "A close-up portrait of a smiling young girl with freckles, with the Asllani Family Dental Clinic logo lockup applied in the upper corner — showing the brand's warmth in a real lifestyle context."
+        },
         "brief": {
           "eyebrow": "The brief",
           "body":    "Asllani Family Dental Clinic is a multi-generational dental practice run by Drs. Jakup, Arta, and Agon Asllani. They needed an identity that reflected the reality of their work — that a dental visit is rarely just about treatment. For most patients, especially families and children, it's about feeling safe, cared for, and understood. The previous identity didn't communicate that. The new one had to."
@@ -830,6 +850,10 @@
           { "label": "Founded",  "value": "2024" },
           { "label": "Services", "value": "Brand Identity, Strategy, Campaign, Platform Design, Art Direction" }
         ],
+        "hero": {
+          "src": "/images/work/floovle/01-logo-pink-aura.jpg",
+          "alt": "The Floovle wordmark set in a luminous pink aura — a soft glowing gradient from deep magenta to lighter rose, evoking warmth, focus, and clarity."
+        },
         "brief": {
           "eyebrow": "The brief",
           "body":    "Floovle was founded in 2024 to address a problem the aesthetic medicine industry has long avoided: the absence of a trustworthy, emotionally intelligent space where people can make informed decisions about their bodies. The category is loud, commercial, and often deliberately confusing. Floovle came to us pre-launch with a clear vision — Clarity, Trust, Empowerment — but no identity, no brand language, no campaign. The brief was to build all of it."

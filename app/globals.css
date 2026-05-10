@@ -1272,15 +1272,11 @@ img, svg { display: block; max-width: 100%; }
   max-width: 880px;
   text-wrap: balance;
 }
-/* Wrapper around the meta strip — provides space below the establishing
-   image. The meta strip itself keeps its top border as the section rule. */
-.case-meta-section {
-  padding-top: var(--space-8);
-}
 .case-meta-strip {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+  margin: var(--space-7) 0 0;
   padding-top: 32px;
   border-top: 1px solid var(--border);
 }
@@ -1307,38 +1303,19 @@ img, svg { display: block; max-width: 100%; }
   margin: 0;
 }
 
-/* Establishing image — full-viewport, edge-to-edge "opening shot" that
-   replaces the old aspect-ratio hero. dvh tracks dynamic mobile chrome
-   (URL bar showing/hiding); vh fallback for browsers without dvh support. */
-.case-establishing {
+.case-hero-image {
   margin: var(--space-7) 0 0;
-}
-.case-establishing-frame {
-  width: 100%;
-  height: 100vh;
-  height: 100dvh;
-  overflow: hidden;
   background: var(--neutral-100);
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
   position: relative;
 }
-.case-establishing-frame img {
+.case-hero-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
   display: block;
-}
-.case-establishing-caption {
-  margin: 32px auto 0;
-  max-width: var(--container-max);
-  padding: 0 var(--container-pad);
-  text-align: center;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink-500);
 }
 
 .case-intro {

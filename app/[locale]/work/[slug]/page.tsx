@@ -41,6 +41,7 @@ type CaseStudyContent = {
   title: string;
   outcome: string;
   meta: { label: string; value: string }[];
+  hero: { src: string; alt: string };
   brief: { eyebrow: string; body: string };
   approach: { eyebrow: string; body: string };
   stats?: { num: string; lbl: string }[];
@@ -149,29 +150,7 @@ export default async function CaseStudyPage({
             <div className="case-hero-eyebrow">{study.eyebrow}</div>
             <h1 className="case-hero-title">{study.title}</h1>
             <p className="case-hero-outcome">{study.outcome}</p>
-          </header>
 
-          {study.showcase[0] && (
-            <figure className="case-establishing">
-              <div className="case-establishing-frame">
-                <Image
-                  src={study.showcase[0].src}
-                  alt={study.showcase[0].alt}
-                  width={2400}
-                  height={1600}
-                  priority
-                  sizes="100vw"
-                />
-              </div>
-              {study.showcase[0].caption && (
-                <figcaption className="case-establishing-caption">
-                  {study.showcase[0].caption}
-                </figcaption>
-              )}
-            </figure>
-          )}
-
-          <section className="case-meta-section container">
             <dl className="case-meta-strip">
               {study.meta.map((m) => (
                 <div className="case-meta-cell" key={m.label}>
@@ -180,7 +159,18 @@ export default async function CaseStudyPage({
                 </div>
               ))}
             </dl>
-          </section>
+          </header>
+
+          <figure className="case-hero-image">
+            <Image
+              src={study.hero.src}
+              alt={study.hero.alt}
+              width={2400}
+              height={1600}
+              priority
+              sizes="100vw"
+            />
+          </figure>
 
           <section className="case-intro container">
             <div className="case-intro-grid">
@@ -220,7 +210,7 @@ export default async function CaseStudyPage({
           </section>
 
           <section className="case-showcase">
-            {chunkPairs(study.showcase.slice(1)).map((pair, i) => (
+            {chunkPairs(study.showcase).map((pair, i) => (
               <div className="case-show-pair" key={i}>
                 {pair.map((img, j) => (
                   <figure className="case-show" key={j}>
