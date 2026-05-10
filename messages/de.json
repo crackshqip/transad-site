@@ -459,7 +459,8 @@
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.","tag": "Identität · Gesundheitswesen", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "prishtina-books",  "title": "Prishtina Books", "outcome": "Zwei Bücher für eine Stadt im Umbruch — eine literarische Anthologie, geschrieben während der Quarantäne, und ein Ausmalbuch für Kinder mit den Wahrzeichen der Hauptstadt.","tag": "Editorial · Stadt", "year": 2020, "cardImage": "/images/work/prishtina-books/05-coloring-museum.jpg" },
-      { "slug": "zog",              "title": "ZOG",             "outcome": "Zeitlose Räume, definiert durch leise Details.","tag": "Identität · Markensystem", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" }
+      { "slug": "zog",              "title": "ZOG",             "outcome": "Zeitlose Räume, definiert durch leise Details.","tag": "Identität · Markensystem", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" },
+      { "slug": "taxi-dallas",      "title": "Taxi Dallas",     "outcome": "Markenbekanntheit, mit jedem gefahrenen Kilometer.","tag": "Kampagne · Social Media", "year": "2018 — 2025", "cardImage": "/images/work/taxi-dallas/01-red.jpg" }
     ],
     "cta": { "title": "Ein Projekt im Sinn?", "button": "Gespräch beginnen" },
     "casePlaceholder": {
@@ -937,6 +938,65 @@
             "Ein signaturhaftes Vogel-und-Bogen-Monogramm als kompakte Bildmarke",
             "Ein ruhiges, materialorientiertes Farbsystem, abgeleitet aus Innenflächen und natürlichen Oberflächen",
             "Ein vollständiges Identitätspaket: Marken, Typografie, Farbe und Anwendungsempfehlungen"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "taxi-dallas": {
+        "eyebrow": "Arbeiten / 08 — Kampagne · Social Media",
+        "title": "Taxi Dallas",
+        "outcome": "Markenbekanntheit, mit jedem gefahrenen Kilometer.",
+        "meta": [
+          { "label": "Kunde",      "value": "Taxi Dallas" },
+          { "label": "Jahr",       "value": "2018 — 2025" },
+          { "label": "Bereich",    "value": "Taxi / Mobilität" },
+          { "label": "Leistungen", "value": "Kampagne, Social Media" }
+        ],
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "Taxi Dallas ist einer der bekanntesten Taxidienste in Prishtina."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Über sieben Jahre hinweg betreute Transad die Marke bei der visuellen Identität, laufenden Werbekampagnen, der Fahrzeugbeklebung und einem konsistenten Social-Media-System — und schuf so die tägliche Sichtbarkeit, die einen lokalen Dienst zu einem Begriff im Alltag macht."
+        },
+        "showcase": [
+          {
+            "src":     "/images/work/taxi-dallas/01-red.jpg",
+            "alt":     "Taxi-Dallas-Launch-Kampagne — eine rote BYD-Limousine im Profil vor flachem rotem Hintergrund.",
+            "caption": "Launch-Kampagne — rote BYD"
+          },
+          {
+            "src":     "/images/work/taxi-dallas/02-purple.jpg",
+            "alt":     "Taxi-Dallas-Kampagnenmotiv — Seitenansicht der Marken-Limousine auf tiefviolettem Untergrund.",
+            "caption": "Kampagne — violette Seitenansicht"
+          },
+          {
+            "src":     "/images/work/taxi-dallas/03-blue.jpg",
+            "alt":     "Taxi-Dallas-Kampagnenmotiv — das Marken-Fahrzeug in weichem Tageslicht vor flachem blauem Hintergrund fotografiert.",
+            "caption": "Kampagne — blaues Tageslicht-Motiv"
+          },
+          {
+            "src":     "/images/work/taxi-dallas/04-vehicle-wrap.jpg",
+            "alt":     "Eine Taxi-Dallas-Fahrzeugbeklebung in der Produktion — die Marken-Livree wird in einer Werkstatt auf eine Limousine aufgebracht.",
+            "caption": "Fahrzeugbeklebung — in Produktion"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Über das Projekt",
+          "headline": "Sieben Jahre Partnerschaft — von einem lokalen Taxidienst zu einer Marke, die täglich sichtbar ist.",
+          "bullets": [
+            "Langjährige Kampagnen-Partnerschaft über Identität, Paid Creative und Out-of-Home hinweg",
+            "Kontinuierliche Social-Media-Produktion über sieben Jahre hinweg",
+            "Fahrzeugbeklebung, die die Flotte selbst zur meistgesehenen Markenfläche macht",
+            "Gebaut für tägliche Wiedererkennung — jene wiederholte Sichtbarkeit, die einen Dienst zu einem Begriff im Alltag macht"
           ]
         },
         "navigation": {

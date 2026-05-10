@@ -459,7 +459,8 @@
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "A nationwide public health campaign on smoking, nutrition, and cardiovascular care — placed across underground stations, bus shelters, and street-level OOH.","tag": "Public Health · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "An identity for a family-run dental practice — built around warmth, trust, and the quiet confidence patients want from their clinic.","tag": "Identity · Healthcare", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "prishtina-books",  "title": "Prishtina Books", "outcome": "Two books for a city in transition — a literary anthology written during quarantine, and a children's coloring book of the capital's landmarks.","tag": "Editorial · Civic", "year": 2020, "cardImage": "/images/work/prishtina-books/05-coloring-museum.jpg" },
-      { "slug": "zog",              "title": "ZOG",             "outcome": "Timeless interiors, defined by quiet detail.","tag": "Identity · Brand System", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" }
+      { "slug": "zog",              "title": "ZOG",             "outcome": "Timeless interiors, defined by quiet detail.","tag": "Identity · Brand System", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" },
+      { "slug": "taxi-dallas",      "title": "Taxi Dallas",     "outcome": "Driving brand awareness, every street they cross.","tag": "Campaign · Social Media", "year": "2018 — 2025", "cardImage": "/images/work/taxi-dallas/01-red.jpg" }
     ],
     "cta": { "title": "Have a project in mind?", "button": "Start a conversation" },
     "casePlaceholder": {
@@ -937,6 +938,65 @@
             "A signature bird-and-arch monogram serving as the brand's compact mark",
             "A calm, material-first colour system derived from interior surfaces and natural finishes",
             "A complete identity package: marks, typography, colour, and application guidance"
+          ]
+        },
+        "navigation": {
+          "back": "Back to all work",
+          "next": "Next case study"
+        },
+        "cta": {
+          "title":  "Have a project in mind?",
+          "button": "Start a conversation"
+        }
+      },
+      "taxi-dallas": {
+        "eyebrow": "Work / 08 — Campaign · Social Media",
+        "title": "Taxi Dallas",
+        "outcome": "Driving brand awareness, every street they cross.",
+        "meta": [
+          { "label": "Client",   "value": "Taxi Dallas" },
+          { "label": "Year",     "value": "2018 — 2025" },
+          { "label": "Sector",   "value": "Taxi / Mobility" },
+          { "label": "Services", "value": "Campaign, Social Media" }
+        ],
+        "brief": {
+          "eyebrow": "The brief",
+          "body":    "Taxi Dallas is one of Prishtina's most recognizable taxi services."
+        },
+        "approach": {
+          "eyebrow": "The approach",
+          "body":    "Over seven years, Transad partnered with the brand on its visual identity, ongoing ad campaigns, vehicle wrap design, and a consistent social media system — building the kind of repeated daily exposure that turns a local service into a household name."
+        },
+        "showcase": [
+          {
+            "src":     "/images/work/taxi-dallas/01-red.jpg",
+            "alt":     "Taxi Dallas launch campaign visual — a red BYD sedan in profile against a flat red background.",
+            "caption": "Launch campaign — red BYD"
+          },
+          {
+            "src":     "/images/work/taxi-dallas/02-purple.jpg",
+            "alt":     "Taxi Dallas campaign visual — side silhouette of the brand vehicle on a deep purple ground.",
+            "caption": "Campaign — purple side silhouette"
+          },
+          {
+            "src":     "/images/work/taxi-dallas/03-blue.jpg",
+            "alt":     "Taxi Dallas campaign visual — the brand vehicle photographed in soft daylight on a flat blue background.",
+            "caption": "Campaign — blue daylight visual"
+          },
+          {
+            "src":     "/images/work/taxi-dallas/04-vehicle-wrap.jpg",
+            "alt":     "A Taxi Dallas vehicle wrap in production — the branded livery applied on a sedan in a workshop environment.",
+            "caption": "Vehicle wrap — in production"
+          }
+        ],
+        "results": {
+          "eyebrow":  "About the project",
+          "headline": "Seven years of partnership — turning a local taxi service into a daily-visible brand.",
+          "bullets": [
+            "Long-running campaign partnership spanning identity, paid creative, and out-of-home application",
+            "Continuous social media production sustained across seven years",
+            "Vehicle-wrap design that turns the fleet itself into the most-seen brand surface",
+            "Built for everyday recognition — the kind of repeated daily exposure that turns a service into a household name"
           ]
         },
         "navigation": {

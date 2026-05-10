@@ -41,7 +41,7 @@ type CaseStudyContent = {
   title: string;
   outcome: string;
   meta: { label: string; value: string }[];
-  hero: { src: string; alt: string };
+  hero?: { src: string; alt: string };
   brief: { eyebrow: string; body: string };
   approach: { eyebrow: string; body: string };
   stats?: { num: string; lbl: string }[];
@@ -163,16 +163,18 @@ export default async function CaseStudyPage({
             </div>
           </header>
 
-          <figure className="case-hero-image">
-            <Image
-              src={study.hero.src}
-              alt={study.hero.alt}
-              width={2400}
-              height={1600}
-              priority
-              sizes="100vw"
-            />
-          </figure>
+          {study.hero && (
+            <figure className="case-hero-image">
+              <Image
+                src={study.hero.src}
+                alt={study.hero.alt}
+                width={2400}
+                height={1600}
+                priority
+                sizes="100vw"
+              />
+            </figure>
+          )}
 
           <section className="case-intro container">
             <div className="case-intro-grid">
