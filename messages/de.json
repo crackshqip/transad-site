@@ -459,12 +459,7 @@
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.","tag": "Identität · Gesundheitswesen", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "prishtina-books",  "title": "Prishtina Books", "outcome": "Zwei Bücher für eine Stadt im Umbruch — eine literarische Anthologie, geschrieben während der Quarantäne, und ein Ausmalbuch für Kinder mit den Wahrzeichen der Hauptstadt.","tag": "Editorial · Stadt", "year": 2020, "cardImage": "/images/work/prishtina-books/05-coloring-museum.jpg" },
-      { "slug": "zog",              "title": "ZOG",             "outcome": "Zeitlose Räume, definiert durch leise Details.","tag": "Identität · Markensystem", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" },
-      { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
-      { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
-      { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social-Media-System für ein Lichtdesign-Studio.",             "tag": "Social",     "year": 2024 },
-      { "slug": "heim-atelier",     "title": "Heim Atelier",    "outcome": "Editorial-Broschüre für ein Interieur-Atelier.",              "tag": "Editorial",  "year": 2023 },
-      { "slug": "aria-studio",      "title": "Aria Studio",     "outcome": "Identität für ein zeitgenössisches Architekturbüro.",         "tag": "Identität",  "year": 2025 }
+      { "slug": "zog",              "title": "ZOG",             "outcome": "Zeitlose Räume, definiert durch leise Details.","tag": "Identität · Markensystem", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" }
     ],
     "cta": { "title": "Ein Projekt im Sinn?", "button": "Gespräch beginnen" },
     "casePlaceholder": {
