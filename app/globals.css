@@ -1237,7 +1237,12 @@ img, svg { display: block; max-width: 100%; }
 /* ---------- Case study (full template) ---------- */
 .case { display: block; }
 
+/* Hero block — full-bleed grey wrapper. Padding (not margin) on every
+   internal element keeps the grey extending to the next visual boundary
+   without leaving body-color stripes between the meta strip and the
+   image figure below. */
 .case-hero {
+  background: rgba(0, 5, 29, 0.04);
   padding-block: var(--space-9) var(--space-7);
 }
 .case-hero-eyebrow {
@@ -1304,8 +1309,8 @@ img, svg { display: block; max-width: 100%; }
 }
 
 .case-hero-image {
-  margin: var(--space-7) 0 0;
-  background: var(--neutral-100);
+  margin: 0;
+  background: rgba(0, 5, 29, 0.04);
   width: 100%;
   aspect-ratio: 3 / 2;
   overflow: hidden;

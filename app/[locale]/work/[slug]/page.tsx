@@ -146,19 +146,21 @@ export default async function CaseStudyPage({
       <SiteNav />
       <main>
         <article className={`case case-${slug}`}>
-          <header className="case-hero container">
-            <div className="case-hero-eyebrow">{study.eyebrow}</div>
-            <h1 className="case-hero-title">{study.title}</h1>
-            <p className="case-hero-outcome">{study.outcome}</p>
+          <header className="case-hero">
+            <div className="case-hero-inner container">
+              <div className="case-hero-eyebrow">{study.eyebrow}</div>
+              <h1 className="case-hero-title">{study.title}</h1>
+              <p className="case-hero-outcome">{study.outcome}</p>
 
-            <dl className="case-meta-strip">
-              {study.meta.map((m) => (
-                <div className="case-meta-cell" key={m.label}>
-                  <dt className="case-meta-label">{m.label}</dt>
-                  <dd className="case-meta-value">{m.value}</dd>
-                </div>
-              ))}
-            </dl>
+              <dl className="case-meta-strip">
+                {study.meta.map((m) => (
+                  <div className="case-meta-cell" key={m.label}>
+                    <dt className="case-meta-label">{m.label}</dt>
+                    <dd className="case-meta-value">{m.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
           </header>
 
           <figure className="case-hero-image">
