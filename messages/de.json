@@ -510,23 +510,23 @@
         ],
         "showcase": [
           {
-            "src":     "/images/work/hello-baby-box/01-hero-portrait.jpg",
-            "alt":     "Eine Mutter hält ein Neugeborenes, eingewickelt in ein rosafarbenes Hello Baby Box-Tuch; das Marken-Badge ist sichtbar.",
-            "caption": "Marken-Porträt — Kampagnen-Hero"
+            "src":     "/images/work/hello-baby-box/02-mobile-screens-mockup.jpg",
+            "alt":     "Drei Hello Baby Box-Mobilscreens nebeneinander — ein Baby-Porträt, eine gelbe Produktseite mit der Wortmarke und ein schlafendes Neugeborenes in rosafarbenem Tuch.",
+            "caption": "Mobile Screens Mockup"
           },
           {
-            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
-            "alt":     "Drei Social-Media-Beiträge von Hello Baby Box in Folge.",
+            "src":     "/images/work/hello-baby-box/05-social-content.png",
+            "alt":     "Das Hello Baby Box-Instagram-Profil-Grid — ein 3×3-Layout aus Baby-Fotografie, farbcodierten Text-Beiträgen und Produktaufnahmen.",
             "caption": "Social Content — monatlicher Redaktionskalender"
           },
           {
-            "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
-            "alt":     "Die Hello Baby Box-Homepage auf einem Laptop in weichem Tageslicht.",
+            "src":     "/images/work/hello-baby-box/03-shopify-storefront.png",
+            "alt":     "Die Hello Baby Box-Homepage auf einem Laptop in weichem Tageslicht mit hängender Begrünung — mit Produktbildern und Kundenstimmen.",
             "caption": "Shopify-Store — Neugestaltung 2023"
           },
           {
-            "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
-            "alt":     "Die mobile Produktseite von Hello Baby Box auf einem iPhone.",
+            "src":     "/images/work/hello-baby-box/04-mobile-commerce.jpg",
+            "alt":     "Ein iPhone zeigt eine Hello Baby Box-Produktdetailseite auf der mobilen Website — „100% Pambuk Organik\" (Bio-Baumwoll-Sortiment).",
             "caption": "Mobile Commerce — 70 % des Traffics"
           }
         ],

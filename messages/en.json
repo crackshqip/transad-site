@@ -510,23 +510,23 @@
         ],
         "showcase": [
           {
-            "src":     "/images/work/hello-baby-box/01-hero-portrait.jpg",
-            "alt":     "A mother holding a newborn wrapped in a pink Hello Baby Box wrap, with the brand badge visible.",
-            "caption": "Brand portrait — campaign hero"
+            "src":     "/images/work/hello-baby-box/02-mobile-screens-mockup.jpg",
+            "alt":     "A trio of Hello Baby Box mobile screens shown side by side — a baby portrait, a yellow product page with the brand wordmark, and a sleeping newborn wrapped in pink.",
+            "caption": "Mobile screens mockup"
           },
           {
-            "src":     "/images/work/hello-baby-box/04-social-grid.jpg",
-            "alt":     "Three Hello Baby Box social media posts in sequence.",
+            "src":     "/images/work/hello-baby-box/05-social-content.png",
+            "alt":     "The Hello Baby Box Instagram profile grid — a 3×3 layout of baby photography, colour-blocked text posts, and product shots.",
             "caption": "Social content — monthly editorial calendar"
           },
           {
-            "src":     "/images/work/hello-baby-box/02-laptop-mockup.jpg",
-            "alt":     "Hello Baby Box homepage shown on a laptop in a soft natural-lit setting.",
+            "src":     "/images/work/hello-baby-box/03-shopify-storefront.png",
+            "alt":     "Hello Baby Box homepage on a laptop in a soft natural-lit setting with hanging greenery — showing product imagery and customer testimonials.",
             "caption": "Shopify storefront — redesigned 2023"
           },
           {
-            "src":     "/images/work/hello-baby-box/03-mobile-mockup.jpg",
-            "alt":     "Hello Baby Box mobile product listing page on iPhone.",
+            "src":     "/images/work/hello-baby-box/04-mobile-commerce.jpg",
+            "alt":     "An iPhone showing a Hello Baby Box product detail page on the brand's mobile site — '100% Pambuk Organik' organic cotton range.",
             "caption": "Mobile commerce — 70% of traffic"
           }
         ],
