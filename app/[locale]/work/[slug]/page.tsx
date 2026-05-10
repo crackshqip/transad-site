@@ -145,7 +145,7 @@ export default async function CaseStudyPage({
     <>
       <SiteNav />
       <main>
-        <article className="case">
+        <article className={`case case-${slug}`}>
           <header className="case-hero container">
             <div className="case-hero-eyebrow">{study.eyebrow}</div>
             <h1 className="case-hero-title">{study.title}</h1>

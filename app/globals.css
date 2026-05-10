@@ -1462,6 +1462,17 @@ img, svg { display: block; max-width: 100%; }
   height: auto;
   display: block;
 }
+
+/* Treventi showcase: every paired image is cropped to a 1:1 square. The
+   hero figure (.case-hero-image) is unaffected and stays at 3:2. */
+.case-treventi .case-show-frame {
+  aspect-ratio: 1 / 1;
+}
+.case-treventi .case-show-frame img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .case-show-caption {
   font-family: var(--font-mono);
   font-size: 10px;
