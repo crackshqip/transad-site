@@ -1318,6 +1318,10 @@ img, svg { display: block; max-width: 100%; }
 }
 @media (min-width: 768px) {
   .case-hero-image { aspect-ratio: 5 / 2; }
+  /* Portrait-subject heroes (mother+baby, face portrait) need a bit more
+     vertical space so heads/jawlines don't get cropped at desktop widths. */
+  .case-hello-baby-box .case-hero-image,
+  .case-stem-skincare .case-hero-image { aspect-ratio: 9 / 4; }
 }
 .case-hero-image img {
   width: 100%;
