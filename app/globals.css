@@ -1312,7 +1312,7 @@ img, svg { display: block; max-width: 100%; }
   margin: 0;
   background: rgba(0, 5, 29, 0.04);
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 2 / 1;
   overflow: hidden;
   position: relative;
 }
