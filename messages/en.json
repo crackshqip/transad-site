@@ -459,6 +459,7 @@
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "A nationwide public health campaign on smoking, nutrition, and cardiovascular care — placed across underground stations, bus shelters, and street-level OOH.","tag": "Public Health · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "An identity for a family-run dental practice — built around warmth, trust, and the quiet confidence patients want from their clinic.","tag": "Identity · Healthcare", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "prishtina-books",  "title": "Prishtina Books", "outcome": "Two books for a city in transition — a literary anthology written during quarantine, and a children's coloring book of the capital's landmarks.","tag": "Editorial · Civic", "year": 2020, "cardImage": "/images/work/prishtina-books/05-coloring-museum.jpg" },
+      { "slug": "zog",              "title": "ZOG",             "outcome": "Timeless interiors, defined by quiet detail.","tag": "Identity · Brand System", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Campaign launch for a heritage watchmaker.",           "tag": "Campaign",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website and editorial system for an outdoor lifestyle brand.","tag": "Website", "year": 2024 },
       { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social media system for a lighting design studio.",    "tag": "Social",     "year": 2024 },
@@ -831,7 +832,7 @@
         }
       },
       "prishtina-books": {
-        "eyebrow": "Work / 07 — Editorial Design · Publishing · Civic",
+        "eyebrow": "Work / 06 — Editorial Design · Publishing · Civic",
         "title": "Prishtina Books",
         "outcome": "Two books for a city in transition — a literary anthology written during quarantine, and a children's coloring book of the capital's landmarks.",
         "meta": [
@@ -888,6 +889,59 @@
             "Two distinct editorial systems, designed to live independently while sharing a city as their subject",
             "Produced and distributed in collaboration with Dukagjini bookstore",
             "Promoted across local cultural media including KultPlus and Gjirafa"
+          ]
+        },
+        "navigation": {
+          "back": "Back to all work",
+          "next": "Next case study"
+        },
+        "cta": {
+          "title":  "Have a project in mind?",
+          "button": "Start a conversation"
+        }
+      },
+      "zog": {
+        "eyebrow": "Work / 07 — Identity · Brand System",
+        "title": "ZOG",
+        "outcome": "Timeless interiors, defined by quiet detail.",
+        "meta": [
+          { "label": "Client",   "value": "ZOG" },
+          { "label": "Year",     "value": "2021" },
+          { "label": "Sector",   "value": "Interior Design" },
+          { "label": "Services", "value": "Identity, Brand System" }
+        ],
+        "hero": {
+          "src": "/images/work/zog/01-hero.jpg",
+          "alt": "A serene interior scene — beige walls, sheer curtains, a wooden cane chair, a stone-topped coffee table with books and a vase of bare branches — with the ZOG wordmark and bird-on-arch monogram set in white in the upper area."
+        },
+        "brief": {
+          "eyebrow": "The brief",
+          "body":    "Zog creates timeless interior spaces defined by simplicity, balance, and refined detail. Each design is thoughtfully shaped to feel elegant, functional, and naturally connected to the people who live in it."
+        },
+        "approach": {
+          "eyebrow": "The approach",
+          "body":    "Transad developed the full brand identity — including the wordmark, signature bird-and-arch mark, and a calm material-first colour system that mirrors the studio's design ethos."
+        },
+        "showcase": [
+          {
+            "src":     "/images/work/zog/02-logo-system.jpg",
+            "alt":     "Four colorway variations of the ZOG logo — a bird perched on an arch above the wordmark — laid out as a quadrant in dark navy, warm taupe, light gray, and charcoal.",
+            "caption": "Logo lockup variations"
+          },
+          {
+            "src":     "/images/work/zog/03-color-palette.jpg",
+            "alt":     "The ZOG colour system — a 'Main Palette' of three neutral tones (White, Crema, Almond Frost) above an 'Extended Palette' of six accent tones (Living Coral, Gray, Green, Forest, Nevada, Clay), each with CMYK, RGB and web values.",
+            "caption": "Main + extended palette"
+          }
+        ],
+        "results": {
+          "eyebrow":  "About the project",
+          "headline": "A timeless identity for a quiet, considered design studio.",
+          "bullets": [
+            "A wordmark designed for quiet legibility — restrained, balanced, distinctly the studio's",
+            "A signature bird-and-arch monogram serving as the brand's compact mark",
+            "A calm, material-first colour system derived from interior surfaces and natural finishes",
+            "A complete identity package: marks, typography, colour, and application guidance"
           ]
         },
         "navigation": {

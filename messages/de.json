@@ -459,6 +459,7 @@
       { "slug": "aqh",              "title": "AQH — Accessible Quality Healthcare", "outcome": "Eine landesweite Kampagne für öffentliche Gesundheit zu Rauchen, Ernährung und Herz-Kreislauf — platziert in U-Bahn-Stationen, Wartehäuschen und Straßen-OOH.","tag": "Öffentliche Gesundheit · OOH", "cardImage": "/images/work/aqh/01-billboard-underground.jpg" },
       { "slug": "asllani-dental",   "title": "Asllani Family Dental Clinic", "outcome": "Eine Identität für eine familiengeführte Zahnarztpraxis — getragen von Wärme, Vertrauen und der ruhigen Souveränität, die sich Patient:innen von ihrer Klinik wünschen.","tag": "Identität · Gesundheitswesen", "cardImage": "/images/work/asllani-dental/02-portrait-application.jpg" },
       { "slug": "prishtina-books",  "title": "Prishtina Books", "outcome": "Zwei Bücher für eine Stadt im Umbruch — eine literarische Anthologie, geschrieben während der Quarantäne, und ein Ausmalbuch für Kinder mit den Wahrzeichen der Hauptstadt.","tag": "Editorial · Stadt", "year": 2020, "cardImage": "/images/work/prishtina-books/05-coloring-museum.jpg" },
+      { "slug": "zog",              "title": "ZOG",             "outcome": "Zeitlose Räume, definiert durch leise Details.","tag": "Identität · Markensystem", "year": 2021, "cardImage": "/images/work/zog/01-hero.jpg" },
       { "slug": "kessler-watches",  "title": "Kessler Watches", "outcome": "Kampagnen-Launch für einen Traditions-Uhrmacher.",            "tag": "Kampagne",   "year": 2024 },
       { "slug": "field-and-forest", "title": "Field & Forest",  "outcome": "Website und Editorial-System für eine Outdoor-Lifestyle-Marke.","tag": "Website",  "year": 2024 },
       { "slug": "studio-lumen",     "title": "Studio Lumen",    "outcome": "Social-Media-System für ein Lichtdesign-Studio.",             "tag": "Social",     "year": 2024 },
@@ -831,7 +832,7 @@
         }
       },
       "prishtina-books": {
-        "eyebrow": "Arbeiten / 07 — Editorial Design · Verlag · Stadt",
+        "eyebrow": "Arbeiten / 06 — Editorial Design · Verlag · Stadt",
         "title": "Prishtina Books",
         "outcome": "Zwei Bücher für eine Stadt im Umbruch — eine literarische Anthologie, geschrieben während der Quarantäne, und ein Ausmalbuch für Kinder mit den Wahrzeichen der Hauptstadt.",
         "meta": [
@@ -888,6 +889,59 @@
             "Zwei eigenständige Editorial-Systeme, gestaltet als unabhängige Werke, die sich eine Stadt als Gegenstand teilen",
             "Hergestellt und vertrieben in Kooperation mit der Dukagjini-Buchhandlung",
             "Beworben über lokale Kulturmedien, darunter KultPlus und Gjirafa"
+          ]
+        },
+        "navigation": {
+          "back": "Zurück zu allen Arbeiten",
+          "next": "Nächste Fallstudie"
+        },
+        "cta": {
+          "title":  "Ein Projekt im Sinn?",
+          "button": "Gespräch beginnen"
+        }
+      },
+      "zog": {
+        "eyebrow": "Arbeiten / 07 — Identität · Markensystem",
+        "title": "ZOG",
+        "outcome": "Zeitlose Räume, definiert durch leise Details.",
+        "meta": [
+          { "label": "Kunde",      "value": "ZOG" },
+          { "label": "Jahr",       "value": "2021" },
+          { "label": "Bereich",    "value": "Interior Design" },
+          { "label": "Leistungen", "value": "Identität, Markensystem" }
+        ],
+        "hero": {
+          "src": "/images/work/zog/01-hero.jpg",
+          "alt": "Ein ruhiges Interieur — beige Wände, leichte Vorhänge, ein Korbstuhl aus Holz, ein Couchtisch aus Stein mit Büchern und einer Vase mit kahlen Zweigen — mit der ZOG-Wortmarke und dem Vogel-auf-Bogen-Monogramm in Weiß im oberen Bildbereich."
+        },
+        "brief": {
+          "eyebrow": "Das Briefing",
+          "body":    "Zog gestaltet zeitlose Innenräume, geprägt von Einfachheit, Balance und feinem Detail. Jedes Projekt entsteht so, dass es elegant, funktional und natürlich mit den Menschen verbunden ist, die darin leben."
+        },
+        "approach": {
+          "eyebrow": "Der Ansatz",
+          "body":    "Transad entwickelte die gesamte Markenidentität — Wortmarke, das markante Vogel-und-Bogen-Zeichen sowie ein ruhiges, materialorientiertes Farbsystem, das die Designhaltung des Studios widerspiegelt."
+        },
+        "showcase": [
+          {
+            "src":     "/images/work/zog/02-logo-system.jpg",
+            "alt":     "Vier Farbvarianten des ZOG-Logos — ein Vogel auf einem Bogen über der Wortmarke — als Quadrant in Marineblau, Taupe, Hellgrau und Anthrazit.",
+            "caption": "Logo-Varianten"
+          },
+          {
+            "src":     "/images/work/zog/03-color-palette.jpg",
+            "alt":     "Das ZOG-Farbsystem — Hauptpalette mit White, Crema und Almond Frost; erweiterte Palette mit Living Coral, Gray, Green, Forest, Nevada und Clay, jeweils mit CMYK-, RGB- und Web-Werten.",
+            "caption": "Haupt- und erweiterte Palette"
+          }
+        ],
+        "results": {
+          "eyebrow":  "Über das Projekt",
+          "headline": "Eine zeitlose Identität für ein ruhiges, durchdachtes Designstudio.",
+          "bullets": [
+            "Eine Wortmarke, gestaltet für ruhige Lesbarkeit — zurückhaltend, ausgewogen, unverkennbar das Studio",
+            "Ein signaturhaftes Vogel-und-Bogen-Monogramm als kompakte Bildmarke",
+            "Ein ruhiges, materialorientiertes Farbsystem, abgeleitet aus Innenflächen und natürlichen Oberflächen",
+            "Ein vollständiges Identitätspaket: Marken, Typografie, Farbe und Anwendungsempfehlungen"
           ]
         },
         "navigation": {
