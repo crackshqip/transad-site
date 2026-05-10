@@ -1312,9 +1312,12 @@ img, svg { display: block; max-width: 100%; }
   margin: 0;
   background: rgba(0, 5, 29, 0.04);
   width: 100%;
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   position: relative;
+}
+@media (min-width: 768px) {
+  .case-hero-image { aspect-ratio: 2 / 1; }
 }
 .case-hero-image img {
   width: 100%;
