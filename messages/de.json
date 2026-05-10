@@ -408,7 +408,7 @@
     "team": {
       "eyebrow": "Das Team",
       "members": [
-        { "slug": "mira-lang",     "name": "Mira Lang",     "role": "Gründerin · Strategie" },
+        { "slug": "shqipron",      "name": "Shqipron Nuhiu", "role": "Gründer · Geschäftsführer" },
         { "slug": "jonas-roth",    "name": "Jonas Roth",    "role": "Creative Director" },
         { "slug": "lea-behrens",   "name": "Lea Behrens",   "role": "Senior Designerin" },
         { "slug": "tobias-kaul",   "name": "Tobias Kaul",   "role": "Brand Designer" },
