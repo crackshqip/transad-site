@@ -161,7 +161,7 @@ export default async function LocaleHome({
                 href={`/${locale}/work/${item.slug}`}
                 aria-label={tWork("openLabel", { title: item.title })}
               >
-                <span className={`wr-num${i === 0 ? " accent" : ""}`}>
+                <span className="wr-num">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div className="wr-thumb">

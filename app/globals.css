@@ -715,6 +715,7 @@ img, svg { display: block; max-width: 100%; }
 .work-row:last-child { border-bottom: 1px solid var(--border); }
 .work-row:hover { padding-left: 12px; }
 .work-row:hover .wr-arrow { color: var(--accent); transform: translateX(4px); }
+.work-row:hover .wr-num { color: var(--accent); }
 
 .wr-num    { grid-area: num; }
 .wr-thumb  { grid-area: thumb; }
@@ -728,8 +729,8 @@ img, svg { display: block; max-width: 100%; }
   font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--ink-500);
+  transition: color var(--dur-base) var(--ease-emphasis);
 }
-.wr-num.accent { color: var(--accent); }
 .wr-thumb {
   position: relative;
   width: 100%;
