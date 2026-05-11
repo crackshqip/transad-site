@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://transad.studio"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://transadgroup.com"
 ).replace(/\/$/, "");
 
 export const SITE_NAME = "Transad";
