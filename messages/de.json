@@ -134,7 +134,56 @@
     "legalImprint":    "Impressum",
     "legalPrivacy":    "Datenschutz",
     "legalTerms":      "AGB",
-    "rights":          "© Transad 2026 · Alle Rechte vorbehalten"
+    "rights":          "© Transad 2026 · Alle Rechte vorbehalten",
+    "germanyLink":     "Für deutsche Unternehmen"
+  },
+  "germany": {
+    "eyebrow":  "Marketing für Deutschland",
+    "headline": "Digitales Marketing für deutsche Unternehmen.",
+    "subhead":  "Strategien, die deutsche Kunden erreichen — von Sichtbarkeit bis Verkauf.",
+    "intro":    "Transad arbeitet mit Unternehmen in Deutschland, Österreich und der Schweiz an digitalen Wachstumsstrategien. Wir kombinieren strategische Markenarbeit mit datenbasiertem Marketing — DSGVO-konform, lokal optimiert und auf den deutschsprachigen Markt zugeschnitten.",
+    "buckets": [
+      {
+        "title":       "Gefunden werden",
+        "description": "Sichtbarkeit dort, wo deutsche Kunden suchen.",
+        "services":    ["Local SEO", "Content Marketing", "Google Business Profile"]
+      },
+      {
+        "title":       "Klicks gewinnen",
+        "description": "Zielgerichtete Kampagnen, die Aufmerksamkeit in Engagement verwandeln.",
+        "services":    ["Google Ads", "Meta Ads", "Social Media", "E-Mail Marketing"]
+      },
+      {
+        "title":       "Verkäufe erzielen",
+        "description": "Conversion-Optimierung und messbares Wachstum.",
+        "services":    ["E-Commerce", "B2B Lead Gen", "CRO & A/B Testing", "Analytics & Reporting"]
+      }
+    ],
+    "detail": {
+      "eyebrow":  "Leistungen im Detail",
+      "headline": "Acht Kerndisziplinen, ein System.",
+      "rows": [
+        { "title": "Local SEO & Sichtbarkeit",   "body": "Google.de-Optimierung, Google Business Profile, lokale Citations (Gelbe Seiten, Das Örtliche), deutsche Keyword-Recherche." },
+        { "title": "Content Marketing",           "body": "Deutschsprachige Blog-Inhalte, Whitepapers, Case Studies und Thought-Leadership-Artikel." },
+        { "title": "Paid Advertising",            "body": "Google Ads (Search, Display, Shopping), Meta Ads (Facebook & Instagram), Retail Media (Amazon.de, Otto, Zalando)." },
+        { "title": "Social Media Management",     "body": "Instagram, Facebook, XING, LinkedIn — Content-Erstellung und Community Management." },
+        { "title": "E-Mail Marketing",            "body": "DSGVO-konforme Newsletter, automatisierte Sequenzen, Listen-Management." },
+        { "title": "E-Commerce Growth",           "body": "Produktfeed-Optimierung, Retargeting, CRO, A/B-Testing, ROAS-Reporting." },
+        { "title": "B2B Lead Generation",         "body": "LinkedIn- & XING-Kampagnen, CRM-Integration, Lead Nurturing." },
+        { "title": "Analytics & Reporting",       "body": "GA4-Setup, monatliche Performance-Reports, Strategie-Sessions." }
+      ]
+    },
+    "dsgvo": {
+      "eyebrow":  "DSGVO & Datenschutz",
+      "headline": "Konform. Sicher. Transparent.",
+      "body":     "Alle Marketing-Aktivitäten sind DSGVO-konform aufgesetzt — von Tracking und E-Mail-Marketing bis zu CRM-Integrationen. Datenschutz ist Teil der Strategie, nicht ein nachträglicher Gedanke."
+    },
+    "cta": {
+      "headline":      "Bereit für Wachstum im deutschen Markt?",
+      "subhead":       "Vereinbaren Sie ein unverbindliches Strategiegespräch.",
+      "buttonPrimary": "Kontakt aufnehmen",
+      "email":         "marketing@transadgroup.com"
+    }
   },
   "imprint": {
     "eyebrow":     "Impressum",

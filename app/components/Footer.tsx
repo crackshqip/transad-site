@@ -27,6 +27,9 @@ export default function Footer() {
           <Link href={`${home}/studio`}>{t("studioStudio")}</Link>
           <Link href={`${home}/services`}>{t("studioServices")}</Link>
           <Link href={`${home}/pricing`}>{t("studioPricing")}</Link>
+          {locale === "de" && (
+            <Link href={`${home}/germany`}>{t("germanyLink")} →</Link>
+          )}
         </div>
         <div className="ft-col">
           <h3>{t("contactHeading")}</h3>

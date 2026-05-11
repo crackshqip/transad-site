@@ -13,6 +13,13 @@ export default function LangSwitcher() {
   // Strip the leading "/<currentLocale>" so we can re-prefix with the target.
   const stripped = pathname.replace(new RegExp(`^/(${routing.locales.join("|")})`), "");
 
+  // Routes that only exist in one locale — toggling away from them
+  // would 404, so we send the user to that locale's homepage instead.
+  // Keyed by the locale where the route lives.
+  const LOCALE_ONLY_ROUTES: Record<string, string[]> = {
+    de: ["/germany"],
+  };
+
   return (
     <div
       className="lang-switcher"
@@ -21,7 +28,11 @@ export default function LangSwitcher() {
     >
       {routing.locales.map((l, i) => {
         const isActive = l === current;
-        const href = `/${l}${stripped}` || `/${l}`;
+        const ownedByOther = Object.entries(LOCALE_ONLY_ROUTES).some(
+          ([owner, paths]) =>
+            owner !== l && paths.some((p) => stripped === p || stripped.startsWith(`${p}/`)),
+        );
+        const href = ownedByOther ? `/${l}` : `/${l}${stripped}` || `/${l}`;
         return (
           <Fragment key={l}>
             {i > 0 && <span className="sep" aria-hidden="true">/</span>}

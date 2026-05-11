@@ -14,6 +14,12 @@ const PATHS = [
   "/terms",
 ] as const;
 
+// Routes that exist in only one locale — emitted once, without
+// cross-locale hreflang alternates.
+const LOCALE_ONLY_PATHS: { path: string; locale: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }[] = [
+  { path: "/germany", locale: "de", priority: 0.7, changeFrequency: "monthly" },
+];
+
 const PRIORITY: Record<string, number> = {
   "": 1.0,
   "/work": 0.9,
@@ -39,7 +45,7 @@ const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]["changeFrequency
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  return routing.locales.flatMap((locale) =>
+  const localized = routing.locales.flatMap((locale) =>
     PATHS.map((path) => {
       const languages: Record<string, string> = Object.fromEntries(
         routing.locales.map((l) => [l, `${SITE_URL}/${l}${path}`]),
@@ -55,4 +61,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       };
     }),
   );
+
+  const localeOnly = LOCALE_ONLY_PATHS.map(({ path, locale, priority, changeFrequency }) => {
+    const url = `${SITE_URL}/${locale}${path}`;
+    return {
+      url,
+      lastModified: now,
+      changeFrequency,
+      priority,
+      alternates: { languages: { [locale]: url, "x-default": url } },
+    };
+  });
+
+  return [...localized, ...localeOnly];
 }
